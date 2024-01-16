@@ -18,4 +18,4 @@
 
 ### Want to Contribute or Follow?
 
-All of my Social Handles [Linktree](linktree.com/asharibali).
+All of my Social Handles [Linktree](linktree.com/asharibali)!
