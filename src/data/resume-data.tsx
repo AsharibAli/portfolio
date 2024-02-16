@@ -263,6 +263,16 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Optimism AI",
+      techStack: ["Side Project", "Blockchain", "AI", "Layer2"],
+      description:
+        "Unleash the real power of Web3 & AI with Optimism AI natively for optimism blockchain.",
+      link: {
+        label: "op-ai.xyz",
+        href: "https://www.op-ai.xyz/",
+      },
+    },
+    {
       title: "AI Quizzes",
       techStack: ["Side Project", "AI", "Quizzes", "JavaScript"],
       description:
