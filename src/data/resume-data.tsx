@@ -1,4 +1,9 @@
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import {
+  GitHubIcon,
+  LinkedInIcon,
+  XIcon,
+  MediumIcon,
+} from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Asharib Ali",
@@ -32,12 +37,7 @@ export const RESUME_DATA = {
       {
         name: "Blogs",
         url: "https://asharibali.medium.com/",
-        icon: XIcon,
-      },
-      {
-        name: "Contact Me",
-        url: "https://www.asharib.xyz/#contact",
-        icon: XIcon,
+        icon: MediumIcon,
       },
     ],
   },
