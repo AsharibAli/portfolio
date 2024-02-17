@@ -25,8 +25,18 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
       },
       {
-        name: "X",
+        name: "X/Twitter",
         url: "https://x.com/0xAsharib",
+        icon: XIcon,
+      },
+      {
+        name: "Blogs",
+        url: "https://asharibali.medium.com/",
+        icon: XIcon,
+      },
+      {
+        name: "Contact Me",
+        url: "https://www.asharib.xyz/#contact",
         icon: XIcon,
       },
     ],
