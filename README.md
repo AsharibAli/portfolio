@@ -11,3 +11,5 @@ Built with Next.js and shadcn/ui.
 - Auto generated Layout
 - Responsive for different devices
 - Optimized for Next.js and Vercel
+
+# Creator [BartoszJarocki](https://github.com/BartoszJarocki/cv)
