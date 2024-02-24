@@ -124,7 +124,7 @@ export const RESUME_DATA = {
       start: "2024 Feb",
       end: "Continue",
       description:
-        "Teaching the students about the programming (Typescript, Python) latest technologies, and how to use them in real life & digital world.",
+        "Teaching 3000+ students about the programming (Typescript, Python) latest technologies, and how to use them in real life & digital world.",
     },
   ],
   skills: [
