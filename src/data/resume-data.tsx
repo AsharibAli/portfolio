@@ -10,9 +10,9 @@ export const RESUME_DATA = {
   initials: "AA",
   location: "Nawabshah, Sindh, Pakistan",
   locationLink: "https://www.google.com/maps/place/nawabshah",
-  about: "I help you to Learn and Earn through Cutting-Edge Technologies.",
+  about: "Passionate Developer. Designer. Manager. 🖤",
   summary:
-    "❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | Blockchain and AI ⚡ | Passionate Developer. Designer. Manager. 👨‍💻 | Talk about state-of-the-art🚀 | Contributing open-source 🌱",
+    "🙌 I help you to learn & earn through cutting-edge technologies | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | Blockchain and AI ⚡ | Talk about state-of-the-art🚀 | Contributing open-source 🌱",
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
   personalWebsiteUrl: "https://asharib.xyz",
   contact: {
