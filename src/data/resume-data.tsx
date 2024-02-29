@@ -313,6 +313,16 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Learn Prompting Urdu",
+      techStack: ["Translation", "Urdu Language", "PE", "AI"],
+      description:
+        "Complete Urdu Language Translation of Learn Prompting Official Documentation.",
+      link: {
+        label: "linkedin.com",
+        href: "https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop",
+      },
+    },
+    {
       title: "100 Days of Code",
       techStack: ["Side Projects", "HTML", "CSS", "JavaScript"],
       description:
@@ -334,12 +344,32 @@ export const RESUME_DATA = {
     },
     {
       title: "100 Days of Prompt Engineering",
-      techStack: ["Side Projects", "Prompt Engineering", "AI", "LLM"],
+      techStack: ["Community", "Prompt Engineering", "AI", "LLM"],
       description:
         "To become a better Prompt Engineer, I'm following my own strategy to understand the AI stuffs.",
       link: {
-        label: "https://learnprompting.org/",
+        label: "learnprompting.org/",
         href: "https://learnprompting.org/docs/intro",
+      },
+    },
+    {
+      title: "100 Days of TypeScript",
+      techStack: ["Community", "TS", "JS"],
+      description:
+        "Writing TypeScript articles for the next 100 days to teach TypeScript to my community.        ",
+      link: {
+        label: "linkedin.com",
+        href: "https://www.linkedin.com/posts/asharibali_100daysoftypescript-typescript-javascript-activity-7168557543525494784-Il1l?utm_source=share&utm_medium=member_desktop",
+      },
+    },
+    {
+      title: "100 Days of Blockchain",
+      techStack: ["Revision", "Blockchain", "Web3"],
+      description:
+        "Revision of Solidity Language, and Blockchain for the next 100 days, Advance Concepts.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/100_days_of_blockchain",
       },
     },
   ],
