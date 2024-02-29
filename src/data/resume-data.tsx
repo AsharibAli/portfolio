@@ -44,7 +44,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Goverment Boys Degree College",
-      degree: "Intermediate in Pre-Medical",
+      degree: "Intermediate in General Science/CS",
       start: "2020",
       end: "2022",
     },
