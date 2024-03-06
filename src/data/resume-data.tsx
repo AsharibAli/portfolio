@@ -74,7 +74,7 @@ export const RESUME_DATA = {
       start: "2022 Jan",
       end: "2023 Jan",
       description:
-        "Manage and write the latest content about Blockchain, Crypto, Market Analysis, and Latest technologies, ",
+        "I write about Blockchain, Crypto, Market Analysis, and Latest technologies on my platform.",
     },
     {
       company: "IVSpace",
@@ -84,7 +84,7 @@ export const RESUME_DATA = {
       start: "2022 Jan",
       end: "2022 June",
       description:
-        "Manage the community and help the community members to solve their problems and issues. Also, help the community to grow and make it more active and engaging.",
+        "I manage the community, helping members solve problems and grow engagement on IVS platform.",
     },
     {
       company: "Panaverse, PIAIC",
@@ -94,7 +94,7 @@ export const RESUME_DATA = {
       start: "2022 Sep",
       end: "Continue",
       description:
-        "Manage the line and help the students to solve their problems and issues. Also, help the students to understand the concepts and solve their problems.",
+        "I assist students in project management, problem-solving, and coding concepts.",
     },
     {
       company: "MicrosysX",
@@ -104,7 +104,7 @@ export const RESUME_DATA = {
       start: "2023 Aug",
       end: "2023 Aug",
       description:
-        "Worked with the frontend team to build and maintain the clients website and web applications.",
+        "I collaborated with the frontend team to develop and maintain the client's website and web applications.",
     },
     {
       company: "Tameer-E-Millat Institute",
@@ -114,7 +114,7 @@ export const RESUME_DATA = {
       start: "2023 Oct",
       end: "2023 Dec",
       description:
-        "Started a new initiative to teach Computer Basics, AI, and Blockchain, to the students, course name was (From computer basics to Cutting-Edge technologies).",
+        "I launched a new program called Computer Basics to Cutting Edge Technologies to teach students about computer basics, AI, and blockchain.",
     },
     {
       company: "Governer Initaive for IT",
@@ -124,12 +124,11 @@ export const RESUME_DATA = {
       start: "2024 Feb",
       end: "Continue",
       description:
-        "Teaching 3000+ students about the programming (Typescript, Python) latest technologies, and Managing the Official Discord Server as a Student Ambassador.",
+        "I am a Student Ambassador managing an official Discord server with over 30k members, while teaching programming and the latest technologies to 3000+ students.",
     },
   ],
   skills: [
-    "HTML/CSS",
-    "JavaScript",
+    "HTML/CSS/Javascript",
     "TypeScript",
     "React/Next.js",
     "Tailwind CSS",
@@ -139,6 +138,7 @@ export const RESUME_DATA = {
     "fastAPI",
     "SQLModel",
     "Solidity",
+    "Teaching",
     "Prompt Engineering",
     "API Development",
     "Frontend Development",
@@ -149,7 +149,6 @@ export const RESUME_DATA = {
     "Content Creation",
     "Community Management",
     "Project Management",
-    "Teaching",
   ],
   projects: [
     {
@@ -240,6 +239,26 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/shopify-nextjs-commerce2.0",
+      },
+    },
+    {
+      title: "Neghs Website",
+      techStack: ["Side Project", "HTML", "CSS", "JavaScript"],
+      description:
+        "A school website for Noman School, built with HTML, CSS, and JavaScript.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/noman-school-website",
+      },
+    },
+    {
+      title: "SCM Website",
+      techStack: ["Side Project", "HTML", "SCSS", "JavaScript"],
+      description:
+        "A school website for SCM School, built with HTML, SCSS, and JavaScript.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/scm-website",
       },
     },
     {
