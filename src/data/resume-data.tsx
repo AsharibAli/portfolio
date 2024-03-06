@@ -44,7 +44,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Goverment Boys Degree College",
-      degree: "Intermediate in General Science/CS",
+      degree: "Intermediate in General/Medical Science",
       start: "2020",
       end: "2022",
     },
@@ -62,9 +62,9 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Affiliate Content Creator",
       start: "2021 Oct",
-      end: "2022 June",
+      end: "2022 July",
       description:
-        "Created content for the Binance Affiliate Content Program. This includes articles, videos, and social media posts. The goal is to educate and inform about Binance Products, Services, and how to benefit from it.",
+        "As part of the Binance Affiliate Content Program, I created informative articles, videos, and social media posts to educate users about Binance products and services.",
     },
     {
       company: "B4Business",
