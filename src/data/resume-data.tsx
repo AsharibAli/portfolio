@@ -372,13 +372,12 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "100 Days of TypeScript",
-      techStack: ["Community", "TS", "JS"],
-      description:
-        "Writing TypeScript articles for the next 100 days to teach TypeScript to my community.        ",
+      title: "Discord-100-Days-Coding-Challenge",
+      techStack: ["GenAI Community", "Programming", "TS", "JS"],
+      description: "#100DaysOfCode Challenge on Discord",
       link: {
         label: "linkedin.com",
-        href: "https://www.linkedin.com/posts/asharibali_100daysoftypescript-typescript-javascript-activity-7168557543525494784-Il1l?utm_source=share&utm_medium=member_desktop",
+        href: "https://www.linkedin.com/posts/asharibali_100daysofcode-typescript-javascript-activity-7168557543525494784-29L6?utm_source=share&utm_medium=member_desktop",
       },
     },
     {
