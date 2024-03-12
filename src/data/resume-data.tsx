@@ -88,9 +88,9 @@ export const RESUME_DATA = {
     },
     {
       company: "Panaverse, PIAIC",
-      link: "https://www.piaic.org/",
+      link: "https://github.com/panaverse",
       badges: ["Onsite"],
-      title: "Line Manager & Teaching Assistant",
+      title: "Teaching Assistant",
       start: "2022 Sep",
       end: "Continue",
       description:
@@ -117,14 +117,14 @@ export const RESUME_DATA = {
         "I launched a new program called Computer Basics to Cutting Edge Technologies to teach students about computer basics, AI, and blockchain.",
     },
     {
-      company: "Governer Initaive for IT",
+      company: "GIAIC",
       link: "https://www.linkedin.com/posts/asharibali_piaic-giaic-ai-activity-7162920750088155136-VwIL?utm_source=share&utm_medium=member_desktop",
       badges: ["Onsite"],
-      title: "Teaching Faculty",
+      title: "Student Ambassador & Teaching Assistant",
       start: "2024 Feb",
       end: "Continue",
       description:
-        "I am a Student Ambassador managing an official Discord server with over 30k members, while teaching programming and the latest technologies to 3000+ students.",
+        "I am a Student Ambassador of GIAIC, and managing an official Discord server with over 20k+ members, while teaching programming and the latest technologies to 3000+ students onsite.",
     },
   ],
   skills: [
