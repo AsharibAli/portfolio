@@ -8,7 +8,7 @@ import {
 export const RESUME_DATA = {
   name: "Asharib Ali",
   initials: "AA",
-  location: "Nawabshah, Sindh, Pakistan",
+  location: "Based in Pakistan 🇵🇰",
   locationLink: "https://www.google.com/maps/place/nawabshah",
   about: "Passionate Developer. Designer. Manager. 🖤",
   summary:
@@ -55,6 +55,126 @@ export const RESUME_DATA = {
       end: "2022",
     },
   ],
+  achievements: [
+    {
+      title: "Binance Followed me on X/Twitter",
+      by: "By: Binance Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://twitter.com/binance",
+        },
+      ],
+    },
+    {
+      title: "CZ Binance Commented on my Tweet",
+      by: "By: Ex CEO of Binance",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://twitter.com/cz_binance/status/1582658179569442817?s=20",
+        },
+      ],
+    },
+    {
+      title: "EigenLayer Appreciated my Work & Active Contributor on Forum",
+      by: "By: EigenLayer Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://twitter.com/eigenlayer/status/1640449493526274049?s=20",
+        },
+      ],
+    },
+    {
+      title: "From Challenge to Change, Ramadan Good Deed Contest Winner",
+      by: "By: Binance Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://twitter.com/binance/status/1714321768368967735",
+        },
+        {
+          name: "👉 2nd Reference",
+          url: " https://twitter.com/binance/status/1646384359941832704?s=20",
+        },
+      ],
+    },
+    {
+      title: "Student Ambassador of 30k+ GIAIC Students ",
+      by: "By: Head of Faculty at GIAIC",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://www.linkedin.com/posts/ameen-alam_asharib-ali-governor-sindh-initiative-for-activity-7167880905192030208-x-Yp/?utm_source=share&utm_medium=member_desktop",
+        },
+      ],
+    },
+
+    {
+      title:
+        "Best Student of the Year award at GBD College out of 1200+ Students",
+      by: "By: GBD College Principal",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://www.instagram.com/p/CRTPa8Wt_cL/",
+        },
+      ],
+    },
+    {
+      title: "Get 10+ awards in winning multiple speech contests.",
+      by: "By: Multiple Organizations & Local Institutes",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://www.linkedin.com/posts/asharibali_speech-winnerchallenge-activity-7152583254942855168-VVJD?utm_source=share&utm_medium=member_desktop",
+        },
+      ],
+    },
+    {
+      title: "Honourable IT Instructor",
+      by: "By: Tameer-E-Millat Institute",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/0xAsharib/status/1741472460837421225?s=20",
+        },
+      ],
+    },
+    {
+      title: "Lava Blockchain Champion ",
+      by: "By: Lava Network Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/yaircleper/status/1768695964703822175?s=20",
+        },
+      ],
+    },
+    {
+      title:
+        "Win 20+ crypto-based contests, like meme contests, video contests, etc.",
+      by: "By: crypto projects and communities",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/0xasharib",
+        },
+      ],
+    },
+    {
+      title: "Learn Prompting Urdu Translation Contributor",
+      by: "By: Learn Prompting",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "  https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop          ",
+        },
+      ],
+    },
+  ],
+
   work: [
     {
       company: "GIAIC",
@@ -115,17 +235,6 @@ export const RESUME_DATA = {
       end: "2022 June",
       description:
         "I manage the community, helping members solve problems and grow engagement on IVS platform.",
-    },
-
-    {
-      company: "Binance",
-      link: "https://www.binance.com/en",
-      badges: ["Remote"],
-      title: "Affiliate Content Creator",
-      start: "2021 Oct",
-      end: "2022 July",
-      description:
-        "As part of the Binance Affiliate Content Program, I created informative articles, videos, and social media posts to educate users about Binance products and services.",
     },
   ],
   skills: [

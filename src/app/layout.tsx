@@ -6,8 +6,9 @@ import "./globals.css";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Asharib | CV / Resume",
-  description: "Software Engineer, Full Stack Developer, and Open Source Contributor.",
+  title: "Asharib Ali | Passionate Developer. Designer. Manager. 🖤",
+  description:
+    "🙌 I help you to learn & earn through cutting-edge technologies | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | Blockchain and AI ⚡ | Talk about state-of-the-art🚀 | Contributing open-source 🌱",
 };
 
 // If loading a variable font, you don't need to specify the font weight

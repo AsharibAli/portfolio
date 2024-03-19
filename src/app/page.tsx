@@ -1,3 +1,4 @@
+"use client";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -8,11 +9,6 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
-
-export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-  description: RESUME_DATA.summary,
-};
 
 export default function Page() {
   return (
@@ -158,6 +154,7 @@ export default function Page() {
             );
           })}
         </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
@@ -182,6 +179,39 @@ export default function Page() {
               );
             })}
           </div>
+        </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">
+            {" "}
+            Achievements & Honourable Mentions
+          </h2>
+          {RESUME_DATA.achievements.map((achievement) => {
+            return (
+              <Card key={achievement.title}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-semibold leading-none">
+                      {achievement.title}
+                      <span className="inline-flex gap-x-1">
+                        {achievement.reference.map((badge) => (
+                          <Badge
+                            variant="secondary"
+                            className="cursor-pointer align-middle text-xs"
+                            key={badge.name}
+                            onClick={() => window.open(badge.url, "_blank")}
+                          >
+                            {badge.name}
+                          </Badge>
+                        ))}
+                      </span>
+                    </h3>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2">{achievement.by}</CardContent>
+              </Card>
+            );
+          })}
         </Section>
       </section>
 
