@@ -43,28 +43,58 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Goverment Boys Degree College",
-      degree: "Intermediate in General/Medical Science",
-      start: "2020",
-      end: "2022",
-    },
-    {
       school: "Panaverse, PIAIC",
-      degree: "Certified Cloud Applied Generative AI(GenEng)",
+      degree: "Cloud Applied Generative AI (GenEng)",
       start: "2022",
       end: "continue",
+    },
+    {
+      school: "Goverment Boys Degree College",
+      degree: "Intermediate in General Science",
+      start: "2020",
+      end: "2022",
     },
   ],
   work: [
     {
-      company: "Binance",
-      link: "https://www.binance.com/en",
-      badges: ["Remote"],
-      title: "Affiliate Content Creator",
-      start: "2021 Oct",
-      end: "2022 July",
+      company: "GIAIC",
+      link: "https://www.linkedin.com/posts/asharibali_piaic-giaic-ai-activity-7162920750088155136-VwIL?utm_source=share&utm_medium=member_desktop",
+      badges: ["Onsite"],
+      title: "Teaching Assistant & Student Ambassador",
+      start: "2024 Feb",
+      end: "Continue",
       description:
-        "As part of the Binance Affiliate Content Program, I created informative articles, videos, and social media posts to educate users about Binance products and services.",
+        "I am a Student Ambassador of GIAIC, and managing an official Discord server with over 20k+ members, while teaching programming and the latest technologies to 3000+ students onsite.",
+    },
+    {
+      company: "Tameer-E-Millat Institute",
+      link: "https://twitter.com/0xAsharib/status/1712050364823048485",
+      badges: ["Onsite"],
+      title: "Head of IT Teaching",
+      start: "2023 Oct",
+      end: "2023 Dec",
+      description:
+        "I launched a new program called Computer Basics to Cutting Edge Technologies to teach students about computer basics, AI, and blockchain.",
+    },
+    {
+      company: "MicrosysX",
+      link: "https://www.linkedin.com/company/microsysx/",
+      badges: ["Remote"],
+      title: "Frontend Engineer",
+      start: "2023 Aug",
+      end: "2023 Aug",
+      description:
+        "I collaborated with the frontend team to develop and maintain the client's website and web applications.",
+    },
+    {
+      company: "Panaverse, PIAIC",
+      link: "https://github.com/panaverse",
+      badges: ["Onsite"],
+      title: "Teaching Assistant",
+      start: "2022 Sep",
+      end: "Continue",
+      description:
+        "I assist students in project management, problem-solving, and coding concepts.",
     },
     {
       company: "B4Business",
@@ -86,45 +116,16 @@ export const RESUME_DATA = {
       description:
         "I manage the community, helping members solve problems and grow engagement on IVS platform.",
     },
+
     {
-      company: "Panaverse, PIAIC",
-      link: "https://github.com/panaverse",
-      badges: ["Onsite"],
-      title: "Teaching Assistant",
-      start: "2022 Sep",
-      end: "Continue",
-      description:
-        "I assist students in project management, problem-solving, and coding concepts.",
-    },
-    {
-      company: "MicrosysX",
-      link: "https://www.linkedin.com/company/microsysx/",
+      company: "Binance",
+      link: "https://www.binance.com/en",
       badges: ["Remote"],
-      title: "Frontend Engineer",
-      start: "2023 Aug",
-      end: "2023 Aug",
+      title: "Affiliate Content Creator",
+      start: "2021 Oct",
+      end: "2022 July",
       description:
-        "I collaborated with the frontend team to develop and maintain the client's website and web applications.",
-    },
-    {
-      company: "Tameer-E-Millat Institute",
-      link: "https://twitter.com/0xAsharib/status/1712050364823048485",
-      badges: ["Onsite"],
-      title: "Head of IT Teaching",
-      start: "2023 Oct",
-      end: "2023 Dec",
-      description:
-        "I launched a new program called Computer Basics to Cutting Edge Technologies to teach students about computer basics, AI, and blockchain.",
-    },
-    {
-      company: "GIAIC",
-      link: "https://www.linkedin.com/posts/asharibali_piaic-giaic-ai-activity-7162920750088155136-VwIL?utm_source=share&utm_medium=member_desktop",
-      badges: ["Onsite"],
-      title: "Student Ambassador & Teaching Assistant",
-      start: "2024 Feb",
-      end: "Continue",
-      description:
-        "I am a Student Ambassador of GIAIC, and managing an official Discord server with over 20k+ members, while teaching programming and the latest technologies to 3000+ students onsite.",
+        "As part of the Binance Affiliate Content Program, I created informative articles, videos, and social media posts to educate users about Binance products and services.",
     },
   ],
   skills: [
@@ -381,13 +382,13 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "100 Days of Blockchain",
-      techStack: ["Revision", "Blockchain", "Web3"],
+      title: "30 Days of Blockchain",
+      techStack: ["Revision", "Blockchain", "Solidity", "Smart Contracts"],
       description:
-        "Revision of Solidity Language, and Blockchain for the next 100 days, Advance Concepts.",
+        "Revision of Solidity Language, and Smart Contracts Development.",
       link: {
         label: "github.com",
-        href: "https://github.com/AsharibAli/100_days_of_blockchain",
+        href: "https://github.com/AsharibAli/30_days_of_blockchain",
       },
     },
   ],
