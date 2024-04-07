@@ -101,7 +101,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Student Ambassador of 30k+ GIAIC Students ",
+      title: "Student Ambassador of 50k+ GIAIC Students ",
       by: "By: Head of Faculty at GIAIC",
       reference: [
         {
@@ -154,7 +154,7 @@ export const RESUME_DATA = {
     },
     {
       title:
-        "Win 20+ crypto-based contests, like meme contests, video contests, etc.",
+        "Win 10+ crypto-based contests, like meme contests, video contests, etc.",
       by: "By: crypto projects and communities",
       reference: [
         {
@@ -164,7 +164,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Learn Prompting Urdu Translation Contributor",
+      title: "Complete Tranlsation of Learn Prompting Guide in Urdu Language",
       by: "By: Learn Prompting",
       reference: [
         {
@@ -181,7 +181,7 @@ export const RESUME_DATA = {
       link: "https://www.linkedin.com/posts/asharibali_piaic-giaic-ai-activity-7162920750088155136-VwIL?utm_source=share&utm_medium=member_desktop",
       badges: ["Onsite"],
       title: "Teaching Assistant & Student Ambassador",
-      start: "2024 Feb",
+      start: "2024 Jan",
       end: "Continue",
       description:
         "I am a Student Ambassador of GIAIC, and managing an official Discord server with over 20k+ members, while teaching programming and the latest technologies to 3000+ students onsite.",
