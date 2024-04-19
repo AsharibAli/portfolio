@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/nawabshah",
   about: "Passionate Developer. Designer. Manager. 🖤",
   summary:
-    "🙌 I help you to learn & earn through cutting-edge technologies | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | Blockchain and AI ⚡ | Talk about state-of-the-art🚀 | Contributing open-source 🌱",
+    "🙌 I help you to learn & earn through cutting-edge technologies | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | Blockchain and AI ⚡ | Talk about state-of-the-art🚀 | Contributing as a Open-Source Developer 🌱",
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
   personalWebsiteUrl: "https://asharib.xyz",
   contact: {
@@ -432,7 +432,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Crypto Research Tools",
+      title: "Blockchain Research Tools",
       techStack: ["Side Project", "Crypto", "Tools", "Products"],
       description:
         "A curated list of great blockchain or crypto-based research tools, products, and services.",
@@ -442,13 +442,63 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Learn Prompting Urdu",
+      title: "Learn Prompting Guide",
       techStack: ["Translation", "Urdu Language", "PE", "AI"],
       description:
         "Complete Urdu Language Translation of Learn Prompting Official Documentation.",
       link: {
         label: "linkedin.com",
         href: "https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop",
+      },
+    },
+    {
+      title: "Figma Clone",
+      techStack: ["Clone", "Nextjs", "TypeScript", "Figma"],
+      description:
+        "A Figma Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/figma-clone",
+      },
+    },
+    {
+      title: "Threads Clone",
+      techStack: ["Clone", "Nextjs", "TypeScript", "Threads"],
+      description:
+        "A Threads Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/figma-clone",
+      },
+    },
+    {
+      title: "Threads Clone",
+      techStack: ["Clone", "Nextjs", "TypeScript", "Threads"],
+      description:
+        "A Threads Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/threads-clone",
+      },
+    },
+    {
+      title: "Next Auth V5",
+      techStack: ["Course", "Nextjs", "TypeScript", "NextAuth.js"],
+      description:
+        "The NextAuth.js advance project built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/next-authjs-v5",
+      },
+    },
+    {
+      title: "Sigma Web Development",
+      techStack: ["Course", "Web Development", "JavaScript"],
+      description:
+        "Complete Sigma Web Development Course followed by a Youtube Course.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/sigma-web-dev",
       },
     },
     {
@@ -482,22 +532,23 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Discord-100-Days-Coding-Challenge",
+      title: "Discord 100 Days Coding Challenge",
       techStack: ["GenAI Community", "Programming", "TS", "JS"],
-      description: "#100DaysOfCode Challenge on Discord",
+      description:
+        "100 Days of Coding Challenge | Starting from Very Basics to Advance Level | For 50k+ GIAIC Students | on Discord.",
       link: {
         label: "linkedin.com",
         href: "https://www.linkedin.com/posts/asharibali_100daysofcode-typescript-javascript-activity-7168557543525494784-29L6?utm_source=share&utm_medium=member_desktop",
       },
     },
     {
-      title: "30 Days of Blockchain",
+      title: "100 Days of Blockchain",
       techStack: ["Revision", "Blockchain", "Solidity", "Smart Contracts"],
       description:
-        "Revision of Solidity Language, and Smart Contracts Development.",
+        "Revision of Solidity Language, and Smart Contracts Development using latest tools and stack.",
       link: {
         label: "github.com",
-        href: "https://github.com/AsharibAli/30_days_of_blockchain",
+        href: "https://github.com/AsharibAli/100-days-of-blockchain",
       },
     },
   ],
