@@ -468,16 +468,6 @@ export const RESUME_DATA = {
         "A Threads Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       link: {
         label: "github.com",
-        href: "https://github.com/AsharibAli/figma-clone",
-      },
-    },
-    {
-      title: "Threads Clone",
-      techStack: ["Clone", "Nextjs", "TypeScript", "Threads"],
-      description:
-        "A Threads Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
-      link: {
-        label: "github.com",
         href: "https://github.com/AsharibAli/threads-clone",
       },
     },
