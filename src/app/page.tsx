@@ -197,7 +197,7 @@ export default function Page() {
                         {achievement.reference.map((badge) => (
                           <Badge
                             variant="secondary"
-                            className="cursor-pointer pl-4 align-middle"
+                            className="cursor-pointer  align-middle"
                             key={badge.name}
                             onClick={() => window.open(badge.url, "_blank")}
                           >

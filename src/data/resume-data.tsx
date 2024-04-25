@@ -63,12 +63,52 @@ export const RESUME_DATA = {
   ],
   achievements: [
     {
-      title: "Binance Followed me on X/Twitter",
+      title: "Binance Followed me on X",
       by: "By: Binance Official",
       reference: [
         {
           name: "👉 Reference",
           url: "https://twitter.com/binance",
+        },
+      ],
+    },
+    {
+      title: "Honourable IT Instructor",
+      by: "By: Tameer-E-Millat Institute",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/0xAsharib/status/1741472460837421225?s=20",
+        },
+      ],
+    },
+    {
+      title: "Lava Blockchain Champion ",
+      by: "By: Lava Network Official (Open-Source Contribution)",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/yaircleper/status/1768695964703822175?s=20",
+        },
+      ],
+    },
+    {
+      title: "Win 10+ Crypto-Based Contests",
+      by: "By: crypto projects and communities",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/0xasharib",
+        },
+      ],
+    },
+    {
+      title: "Top 1% in AI & Blockchain at Panaverse",
+      by: "By: COO of PIAIC, Sir Zia Khan",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://imgbb.com/GcrjcTw",
         },
       ],
     },
@@ -83,36 +123,23 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "EigenLayer Appreciated my Work & Active Contributor on Forum",
-      by: "By: EigenLayer Official",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://twitter.com/eigenlayer/status/1640449493526274049?s=20",
-        },
-      ],
-    },
-    {
-      title: "From Challenge to Change, Ramadan Good Deed Contest Winner",
-      by: "By: Binance Official",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://twitter.com/binance/status/1714321768368967735",
-        },
-        {
-          name: "👉 2nd Reference",
-          url: " https://twitter.com/binance/status/1646384359941832704?s=20",
-        },
-      ],
-    },
-    {
       title: "Student Ambassador of 50k+ GIAIC Students ",
       by: "By: Head of Faculty at GIAIC",
       reference: [
         {
           name: "👉 Reference",
           url: "https://www.linkedin.com/posts/ameen-alam_asharib-ali-governor-sindh-initiative-for-activity-7167880905192030208-x-Yp/?utm_source=share&utm_medium=member_desktop",
+        },
+      ],
+    },
+
+    {
+      title: "EigenLayer Appreciated my Work & Active Contributor on Forum",
+      by: "By: EigenLayer Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://twitter.com/eigenlayer/status/1640449493526274049?s=20",
         },
       ],
     },
@@ -139,43 +166,22 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Honourable IT Instructor",
-      by: "By: Tameer-E-Millat Institute",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/0xAsharib/status/1741472460837421225?s=20",
-        },
-      ],
-    },
-    {
-      title: "Lava Blockchain Champion ",
-      by: "By: Lava Network Official",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/yaircleper/status/1768695964703822175?s=20",
-        },
-      ],
-    },
-    {
-      title:
-        "Win 10+ crypto-based contests, like meme contests, video contests, etc.",
-      by: "By: crypto projects and communities",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/0xasharib",
-        },
-      ],
-    },
-    {
-      title: "Complete Tranlsation of Learn Prompting Guide in Urdu Language",
-      by: "By: Learn Prompting",
+      title: "Complete Tranlsation of Learn Prompting Guide into Urdu Language",
+      by: "By: Learn Prompting Organization (Open-Source Contribution)",
       reference: [
         {
           name: "👉 Reference",
           url: "  https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop          ",
+        },
+      ],
+    },
+    {
+      title: "From Challenge to Change, Ramadan Good Deed Contest Winner",
+      by: "By: Binance Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://twitter.com/binance/status/1714321768368967735",
         },
       ],
     },
