@@ -190,14 +190,14 @@ export default function Page() {
             return (
               <Card key={achievement.title}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
+                  <div className="flex items-center justify-between gap-x-2  text-base">
                     <h3 className="font-semibold leading-none">
                       {achievement.title}
-                      <span className="inline-flex gap-x-1">
+                      <span className="inline-flex gap-x-1 pl-1">
                         {achievement.reference.map((badge) => (
                           <Badge
                             variant="secondary"
-                            className="cursor-pointer align-middle text-xs"
+                            className="cursor-pointer pl-4 align-middle"
                             key={badge.name}
                             onClick={() => window.open(badge.url, "_blank")}
                           >
