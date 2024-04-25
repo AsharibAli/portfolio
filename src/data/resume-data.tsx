@@ -3,6 +3,7 @@ import {
   LinkedInIcon,
   XIcon,
   MediumIcon,
+  PhoneIcon,
 } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -17,8 +18,13 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://asharib.xyz",
   contact: {
     email: "asharibarain4@gmail.com",
-    tel: "https://t.me/AsharibAli",
+
     social: [
+      {
+        name: "Contact",
+        url: "https://t.me/AsharibAli",
+        icon: PhoneIcon,
+      },
       {
         name: "GitHub",
         url: "https://github.com/AsharibAli",

@@ -43,18 +43,18 @@ export default function Page() {
                   </a>
                 </Button>
               ) : null}
-              {RESUME_DATA.contact.tel ? (
+              {/* {RESUME_DATA.contact.tel ? (
                 <Button
                   className="h-8 w-8"
                   variant="outline"
                   size="icon"
                   asChild
                 >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                  <a href={`tel:${RESUME_DATA.contact.tel}`} target="_blank">
                     <PhoneIcon className="h-4 w-4" />
                   </a>
                 </Button>
-              ) : null}
+              ) : null} */}
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
@@ -63,7 +63,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={social.url}>
+                  <a href={social.url} target="_blank">
                     <social.icon className="h-4 w-4" />
                   </a>
                 </Button>
@@ -75,11 +75,11 @@ export default function Page() {
                   <span className="underline">{RESUME_DATA.contact.email}</span>
                 </a>
               ) : null}
-              {RESUME_DATA.contact.tel ? (
+              {/* {RESUME_DATA.contact.tel ? (
                 <a href={`tel:${RESUME_DATA.contact.tel}`}>
                   <span className="underline">{RESUME_DATA.contact.tel}</span>
                 </a>
-              ) : null}
+              ) : null} */}
             </div>
           </div>
 
