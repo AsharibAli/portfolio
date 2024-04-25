@@ -259,6 +259,7 @@ export const RESUME_DATA = {
     "Python",
     "fastAPI",
     "SQLModel",
+    "Docker",
     "Solidity",
     "Teaching",
     "Prompt Engineering",
