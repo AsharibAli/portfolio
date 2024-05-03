@@ -260,6 +260,8 @@ export const RESUME_DATA = {
     "fastAPI",
     "SQLModel",
     "Docker",
+    "Docker Compose",
+    "CI/CD Actions",
     "Solidity",
     "Teaching",
     "Prompt Engineering",
@@ -502,6 +504,16 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/sigma-web-dev",
+      },
+    },
+    {
+      title: "Next.js App Router Course",
+      techStack: ["Course", "TypeScript", "Next.js"],
+      description:
+        "This dashboard app has 16 chapters, each on a different topic, by the official Next.js course.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/nextjs-dashboard",
       },
     },
     {
