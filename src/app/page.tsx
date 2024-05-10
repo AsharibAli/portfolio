@@ -9,6 +9,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import FlowiseChatbot from "@/components/chatbot";
 
 export default function Page() {
   return (
@@ -227,6 +228,10 @@ export default function Page() {
           })),
         ]}
       />
+
+      <div>
+        <FlowiseChatbot />
+      </div>
     </main>
   );
 }
