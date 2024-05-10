@@ -59,6 +59,9 @@ const FlowiseChatbot = () => {
       document.body.removeChild(script);
     };
   }, []);
+
+  // Return an empty div to ensure it's a valid JSX component
+  return <div />;
 };
 
 export default FlowiseChatbot;
