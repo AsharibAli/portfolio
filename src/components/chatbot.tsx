@@ -23,6 +23,8 @@ const FlowiseChatbot = () => {
                 customIconSrc: "https://raw.githubusercontent.com/AsharibAli/project-images/main/logo.png",
             },
             chatWindow: {
+                showTitle: true, 
+                title: '🤖 Asharib Assistant AI 👈',
                 welcomeMessage: "Hey! I am Asharib Assistant AI, here to help you with any questions you have. What can I assist you with today?",
                 backgroundColor: "#ffffff",
                 height: 700,
