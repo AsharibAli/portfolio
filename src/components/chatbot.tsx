@@ -16,9 +16,9 @@ const FlowiseChatbot = () => {
         theme: {
             button: {
                 backgroundColor: "#000000",
-                right: 20,
-                bottom: 20,
-                size: "medium",
+                // right: 20,
+                // bottom: 20,
+                // size: "small",
                 iconColor: "white",
                 customIconSrc: "https://raw.githubusercontent.com/AsharibAli/project-images/main/logo.png",
             },
