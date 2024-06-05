@@ -93,6 +93,26 @@ export const RESUME_DATA = {
       ],
     },
     {
+      title: "Masa Finance Ambassador ",
+      by: "By: Masa AI Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "http://masa.ai/",
+        },
+      ],
+    },
+    {
+      title: "Celestia Hackathon Winner (Community-Track)",
+      by: "By: Celestia Blockchain Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/CelestiaOrg/status/1797710392992678345",
+        },
+      ],
+    },
+    {
       title: "Win 10+ Crypto-Based Contests",
       by: "By: crypto projects and communities",
       reference: [
@@ -103,7 +123,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Top 1% in AI & Blockchain at Panaverse",
+      title: "Top 10% in AI & Blockchain at Panaverse",
       by: "By: COO of PIAIC, Sir Zia Khan",
       reference: [
         {
