@@ -1,6 +1,6 @@
-# Asharib Minimalist CV
+# Asharib Minimalist CV/Portfolio
 
-Simple web app that renders minimalist CV with print-friendly layout.
+Simple web app that renders minimalist CV with print-friendly layout!
 
 Built with Next.js and shadcn/ui.
 
