@@ -1,4 +1,5 @@
 import Link from "next/link";
+import FlowiseChatbot from "@/components/chatbot";
 
 export default function NotFound() {
   return (
@@ -56,6 +57,9 @@ export default function NotFound() {
           Go to asharib.xyz →
         </a>
       </footer>
+      <div>
+        <FlowiseChatbot />
+      </div>
     </div>
   );
 }
