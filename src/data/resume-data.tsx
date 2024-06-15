@@ -113,6 +113,16 @@ export const RESUME_DATA = {
       ],
     },
     {
+      title: "Owl Hackathon (3rd) Winner (Bounty-Track)",
+      by: "By: Owl Protocol Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/owlprotocol_xyz/status/1798708978253509002?s=52",
+        },
+      ],
+    },
+    {
       title: "Win 10+ Crypto-Based Contests",
       by: "By: crypto projects and communities",
       reference: [
