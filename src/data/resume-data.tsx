@@ -226,7 +226,7 @@ export const RESUME_DATA = {
       start: "2024 Jan",
       end: "Continue",
       description:
-        "I am a Student Ambassador of GIAIC, and managing an official Discord server with over 20k+ members, while teaching programming and the latest technologies to 3000+ students onsite.",
+        "As a Student Ambassador at GIAIC, I led and managed the entire community on Discord, taught TypeScript and other programming languages to thousands of students, and delivered the Certified Cloud Native Applied Generative AI course. I also organized and managed the 100-days-of-coding challenge, engaging students daily in learning and coding, fostering a vibrant and collaborative learning community.",
     },
     {
       company: "Tameer-E-Millat Institute",
@@ -236,7 +236,7 @@ export const RESUME_DATA = {
       start: "2023 Oct",
       end: "2023 Dec",
       description:
-        "I launched a new program called Computer Basics to Cutting Edge Technologies to teach students about computer basics, AI, and blockchain.",
+        "Launched a new initiative to teach students about cutting-edge technologies, leading a 3-month course as Head of IT Teaching from January to December 2023. Delivered Nawabshah's first-ever Blockchain & AI course to Batch-01, covering general web technologies, fundamentals, technical aspects, and modern tech trends and practices.",
     },
     {
       company: "MicrosysX",
@@ -246,7 +246,7 @@ export const RESUME_DATA = {
       start: "2023 Aug",
       end: "2023 Aug",
       description:
-        "I collaborated with the frontend team to develop and maintain the client's website and web applications.",
+        "Collaborated with the frontend team to develop and maintain client business websites and web applications using the latest tech stack. Ensured modern, responsive, and efficient designs for seamless user experiences across various devices and browsers. Implemented best practices for performance optimization and code quality, contributing to the continuous improvement and innovation of frontend solutions.",
     },
     {
       company: "Panaverse, PIAIC",
@@ -256,7 +256,7 @@ export const RESUME_DATA = {
       start: "2022 Sep",
       end: "Continue",
       description:
-        "I assist students in project management, problem-solving, and coding concepts.",
+        "Initially assigned as a Line Manager overseeing a group of students, I was promoted to Teaching Assistant for the entire class, enhancing the learning experience. I assisted students with class assignments, learned and taught state-of-the-art technology, and fostered a collaborative and supportive learning environment.",
     },
     {
       company: "B4Business",
@@ -266,7 +266,7 @@ export const RESUME_DATA = {
       start: "2022 Jan",
       end: "2023 Jan",
       description:
-        "I write about Blockchain, Crypto, Market Analysis, and Latest technologies on my platform.",
+        "Managed and led the B4Business Platform, a comprehensive learning hub, using WordPress as a CMS to create and manage content. Authored articles on Blockchain, Crypto, Technical Analysis, and Fundamental News, delivering up-to-date news and in-depth analysis. Reviewed and provided insights on various crypto and blockchain topics, while engaging with the community to foster a space for learning and growth.",
     },
     {
       company: "IVSpace",
@@ -276,7 +276,17 @@ export const RESUME_DATA = {
       start: "2022 Jan",
       end: "2022 June",
       description:
-        "I manage the community, helping members solve problems and grow engagement on IVS platform.",
+        "Managed the IVS community, assisting members with problem-solving and fostering engagement. Administered and moderated interactions on Telegram and Discord, creating compelling content to inform and engage the community. Developed strategies to grow and enhance participation, facilitating a positive and supportive environment for all members",
+    },
+    {
+      company: "Binance",
+      link: "https://www.binance.com/en",
+      badges: ["Remote", "Seasonal"],
+      title: "Affiliate Content Creator",
+      start: "2021 Oct",
+      end: "2022 June",
+      description:
+        "Crafted engaging articles to educate users about Binance products and services, and produced informative videos to simplify complex crypto concepts. Developed eye-catching social media posts to drive user engagement and awareness, analyzed content performance to optimize strategies, and collaborated with the Binance Affiliate content team to ensure accuracy and relevance of content.",
     },
   ],
   skills: [
