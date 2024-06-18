@@ -52,7 +52,7 @@ export const RESUME_DATA = {
       school: "Panaverse, PIAIC",
       degree: "Cloud Applied Generative AI (GenEng)",
       start: "2022",
-      end: "continue",
+      end: "Present",
     },
     {
       school: "Goverment Boys Degree College",
@@ -224,7 +224,7 @@ export const RESUME_DATA = {
       badges: ["Onsite"],
       title: "Teaching Assistant & Student Ambassador",
       start: "2024 Jan",
-      end: "Continue",
+      end: "Present",
       description:
         "As a Student Ambassador at GIAIC, I led and managed the entire community on Discord, taught TypeScript and other programming languages to thousands of students, and delivered the Certified Cloud Native Applied Generative AI course. I also organized and managed the 100-days-of-coding challenge, engaging students daily in learning and coding, fostering a vibrant and collaborative learning community.",
     },
@@ -254,7 +254,7 @@ export const RESUME_DATA = {
       badges: ["Onsite"],
       title: "Teaching Assistant",
       start: "2022 Sep",
-      end: "Continue",
+      end: "Present",
       description:
         "Initially assigned as a Line Manager overseeing a group of students, I was promoted to Teaching Assistant for the entire class, enhancing the learning experience. I assisted students with class assignments, learned and taught state-of-the-art technology, and fostered a collaborative and supportive learning environment.",
     },
