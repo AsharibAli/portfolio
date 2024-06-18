@@ -50,7 +50,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Panaverse, PIAIC",
-      degree: "Cloud Applied Generative AI (GenEng)",
+      degree: "Cloud Native Applied Generative AI (GenEng)",
       start: "2022",
       end: "Present",
     },
