@@ -26,7 +26,7 @@ const AsharibChatbot = () => {
                 },
                 tooltip: {
                   showTooltip: true,
-                  tooltipMessage: "Try Assistant AI👋",
+                  tooltipMessage: "Try Asharib AI👋",
                   tooltipBackgroundColor: "black",
                   tooltipTextColor: "white",
                   tooltipFontSize: 16,
