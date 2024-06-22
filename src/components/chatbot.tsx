@@ -6,7 +6,7 @@ const AsharibChatbot = () => {
   return (
     <div className="m-0">
       <Script
-        src="https://cdn.jsdelivr.net/gh/AsharibAli/FlowiseChatEmbed@latest/dist/web.js"
+        src="https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
         type="module"
         strategy="lazyOnload"
         onLoad={() => {
