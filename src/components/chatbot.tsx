@@ -12,8 +12,8 @@ const AsharibChatbot = () => {
         onLoad={() => {
           if (window.Chatbot) {
             window.Chatbot.init({
-              chatflowid: "96c49997-4611-412a-ae98-089140a82435",
-              apiHost: "https://flowise-r1c3.onrender.com",
+              chatflowid: process.env.NEXT_PUBLIC_CHATFLOW_ID,
+              apiHost: process.env.NEXT_PUBLIC_API_HOST,
               theme: {
                 button: {
                   backgroundColor: "#000000",
