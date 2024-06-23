@@ -21,6 +21,7 @@ const AsharibChatbot = () => {
                   bottom: 20,
                   size: "medium",
                   iconColor: "white",
+                  dragAndDrop: true,
                   customIconSrc:
                     "https://raw.githubusercontent.com/AsharibAli/project-images/main/logo.png",
                 },
