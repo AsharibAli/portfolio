@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
 import React from "react";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Asharib Ali | Passionate Developer. Designer. Manager. 🖤",
@@ -24,8 +24,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-8CXGRC7T09"
+      ></Script>
+      <Script id="google-analytics">
+        {`
+   window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8CXGRC7T09');
+  `}
+      </Script>
       <body>{children}</body>
-      <Analytics />
     </html>
   );
 }
