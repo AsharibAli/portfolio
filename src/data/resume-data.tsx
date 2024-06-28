@@ -221,7 +221,7 @@ export const RESUME_DATA = {
     {
       company: "GIAIC",
       link: "https://www.linkedin.com/posts/asharibali_piaic-giaic-ai-activity-7162920750088155136-VwIL?utm_source=share&utm_medium=member_desktop",
-      badges: ["Onsite"],
+      badges: ["Onsite", "Apprenticeship"],
       title: "Teaching Assistant & Student Ambassador",
       start: "2024 Jan",
       end: "Present",
@@ -231,7 +231,7 @@ export const RESUME_DATA = {
     {
       company: "Tameer-E-Millat Institute",
       link: "https://twitter.com/0xAsharib/status/1712050364823048485",
-      badges: ["Onsite"],
+      badges: ["Onsite", "Contract"],
       title: "Head of IT Teaching",
       start: "2023 Oct",
       end: "2023 Dec",
@@ -241,7 +241,7 @@ export const RESUME_DATA = {
     {
       company: "MicrosysX",
       link: "https://www.linkedin.com/company/microsysx/",
-      badges: ["Remote"],
+      badges: ["Remote", "Full-Time"],
       title: "Frontend Engineer",
       start: "2023 Aug",
       end: "2023 Aug",
@@ -251,7 +251,7 @@ export const RESUME_DATA = {
     {
       company: "Panaverse, PIAIC",
       link: "https://github.com/panaverse",
-      badges: ["Onsite"],
+      badges: ["Onsite", "Apprenticeship"],
       title: "Teaching Assistant",
       start: "2022 Sep",
       end: "Present",
@@ -261,7 +261,7 @@ export const RESUME_DATA = {
     {
       company: "B4Business",
       link: "https://b4bussines.com/",
-      badges: ["Remote"],
+      badges: ["Remote", "Part-Time"],
       title: "Founder & Content Writer",
       start: "2022 Jan",
       end: "2023 Jan",
@@ -271,7 +271,7 @@ export const RESUME_DATA = {
     {
       company: "IVSpace",
       link: "https://www.ivspace.io/",
-      badges: ["Remote"],
+      badges: ["Remote", "Part-Time"],
       title: "Community Administator",
       start: "2022 Jan",
       end: "2022 June",
