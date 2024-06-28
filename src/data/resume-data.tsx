@@ -226,7 +226,7 @@ export const RESUME_DATA = {
       start: "2024 Jan",
       end: "Present",
       description:
-        "As a Student Ambassador at GIAIC, I led and managed the entire community on Discord, taught TypeScript and other programming languages to thousands of students, and delivered the Certified Cloud Native Applied Generative AI course. I also organized and managed the 100-days-of-coding challenge, engaging students daily in learning and coding, fostering a vibrant and collaborative learning community.",
+        "I am leading and managing the GIAIC community on Discord, engaging with thousands of students (Onsite as a faculty teacher & Online as a Student Ambassador) in learning TypeScript and other programming languages. I'm delivering the Certified Cloud Native Applied Generative AI course and organized a 100-days-of-coding challenge in which (6000+ students participated).",
     },
     {
       company: "Tameer-E-Millat Institute",
@@ -236,7 +236,7 @@ export const RESUME_DATA = {
       start: "2023 Oct",
       end: "2023 Dec",
       description:
-        "Launched a new initiative to teach students about cutting-edge technologies, leading a 3-month course as Head of IT Teaching from January to December 2023. Delivered Nawabshah's first-ever Blockchain & AI course to Batch-01, covering general web technologies, fundamentals, technical aspects, and modern tech trends and practices.",
+        "I launched Nawabshah's first Blockchain & AI course, teaching cutting-edge technologies. I led a 3-month Introductory-Level course covering web technologies, fundamentals, and modern tech trends.",
     },
     {
       company: "MicrosysX",
@@ -246,7 +246,7 @@ export const RESUME_DATA = {
       start: "2023 Aug",
       end: "2023 Aug",
       description:
-        "Collaborated with the frontend team to develop and maintain client business websites and web applications using the latest tech stack. Ensured modern, responsive, and efficient designs for seamless user experiences across various devices and browsers. Implemented best practices for performance optimization and code quality, contributing to the continuous improvement and innovation of frontend solutions.",
+        "I developed and maintained businesses websites and web applications using the latest tech stack. I ensured modern, responsive designs for seamless user experiences and implemented best practices for performance optimization and code quality.",
     },
     {
       company: "Panaverse, PIAIC",
@@ -256,7 +256,7 @@ export const RESUME_DATA = {
       start: "2022 Sep",
       end: "Present",
       description:
-        "Initially assigned as a Line Manager overseeing a group of students, I was promoted to Teaching Assistant for the entire class, enhancing the learning experience. I assisted students with class assignments, learned and taught state-of-the-art technology, and fostered a collaborative and supportive learning environment.",
+        "I was promoted from Line Manager to Teaching Assistant, enhancing the learning experience. I assisted students with class assignments and taught state-of-the-art technology, fostering a collaborative and supportive learning environment.",
     },
     {
       company: "B4Business",
@@ -266,17 +266,17 @@ export const RESUME_DATA = {
       start: "2022 Jan",
       end: "2023 Jan",
       description:
-        "Managed and led the B4Business Platform, a comprehensive learning hub, using WordPress as a CMS to create and manage content. Authored articles on Blockchain, Crypto, Technical Analysis, and Fundamental News, delivering up-to-date news and in-depth analysis. Reviewed and provided insights on various crypto and blockchain topics, while engaging with the community to foster a space for learning and growth.",
+        "I managed and led B4Business, a comprehensive learning hub, using WordPress as a CMS. I authored articles on Blockchain, Crypto, Technical Analysis, and Fundamental News, engaging with the community to foster a space for learning and growth.",
     },
     {
       company: "IVSpace",
       link: "https://www.ivspace.io/",
       badges: ["Remote", "Part-Time"],
-      title: "Community Administator",
+      title: "Community Administrator",
       start: "2022 Jan",
       end: "2022 June",
       description:
-        "Managed the IVS community, assisting members with problem-solving and fostering engagement. Administered and moderated interactions on Telegram and Discord, creating compelling content to inform and engage the community. Developed strategies to grow and enhance participation, facilitating a positive and supportive environment for all members",
+        "I managed the IVSpace community, assisting members with problem-solving and fostering engagement. I administered and moderated interactions on Telegram and Discord, developing strategies to grow and enhance community participation.",
     },
     {
       company: "Binance",
@@ -286,9 +286,10 @@ export const RESUME_DATA = {
       start: "2021 Oct",
       end: "2022 June",
       description:
-        "Crafted engaging articles to educate users about Binance products and services, and produced informative videos to simplify complex crypto concepts. Developed eye-catching social media posts to drive user engagement and awareness, analyzed content performance to optimize strategies, and collaborated with the Binance Affiliate content team to ensure accuracy and relevance of content.",
+        "I created engaging articles and videos to educate users about Binance products and services. I developed social media posts to drive user engagement and awareness, analyzing content performance to optimize strategies and ensure accuracy.",
     },
   ],
+
   skills: [
     "HTML/CSS/Javascript",
     "TypeScript",
