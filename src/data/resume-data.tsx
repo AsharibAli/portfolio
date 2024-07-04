@@ -254,7 +254,7 @@ export const RESUME_DATA = {
       badges: ["Onsite", "Apprenticeship"],
       title: "Teaching Assistant",
       start: "2022 Sep",
-      end: "Present",
+      end: "2024 July",
       description:
         "I was promoted from Line Manager to Teaching Assistant, enhancing the learning experience. I assisted students with class assignments and taught state-of-the-art technology, fostering a collaborative and supportive learning environment.",
     },
