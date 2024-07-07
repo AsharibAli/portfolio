@@ -386,8 +386,8 @@ export const RESUME_DATA = {
       techStack: ["Portfolio Project", "Nextjs", "TypeScript", "TailwindCSS"],
       description: "My personal portfolio website.",
       link: {
-        label: "asharib.xyz",
-        href: "https://asharib.xyz/",
+        label: "github.com",
+        href: "https://github.com/AsharibAli/portfolio",
       },
     },
     {
@@ -441,7 +441,13 @@ export const RESUME_DATA = {
     },
     {
       title: "ChatDev",
-      techStack: ["Assignment Projects", "ChatDev", "JavaScript", "Python", "OpenAI"],
+      techStack: [
+        "Assignment Projects",
+        "ChatDev",
+        "JavaScript",
+        "Python",
+        "OpenAI",
+      ],
       description:
         "Created Customized Software using Natural Language Idea (through Multi-Agent Collaboration) with ChatDev.",
       link: {
