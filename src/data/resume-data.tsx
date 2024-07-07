@@ -13,7 +13,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/nawabshah",
   about: "Passionate Developer. Designer. Manager. 🖤",
   summary:
-    "🙌 I help you to learn & earn through cutting-edge technologies | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | Blockchain and AI ⚡ | Talk about state-of-the-art 🚀 | Contributing Open-Source 🌱 | Learning Cloud Native Applied Generative AI 🤖 | Teaching programming to Thousands of Students (Onsite) 🧑‍💻",
+    "🙌 I help you to Learn & Earn through Blockchain and AI | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | 🌱 Contributing open-source | 🤖 Learning Cloud Native Applied Generative AI | 🧑‍💻 Teaching programming to 1500+ students on-site at GIAIC.",
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
   personalWebsiteUrl: "https://asharib.xyz",
   contact: {
@@ -383,7 +383,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Portfolio",
-      techStack: ["Personal Project", "HTML", "CSS", "JavaScript"],
+      techStack: ["Portfolio Project", "Nextjs", "TypeScript", "TailwindCSS"],
       description: "My personal portfolio website.",
       link: {
         label: "asharib.xyz",
@@ -441,7 +441,7 @@ export const RESUME_DATA = {
     },
     {
       title: "ChatDev",
-      techStack: ["Side Projects", "ChatDev", "JavaScript", "Python", "OpenAI"],
+      techStack: ["Assignment Projects", "ChatDev", "JavaScript", "Python", "OpenAI"],
       description:
         "Created Customized Software using Natural Language Idea (through Multi-Agent Collaboration) with ChatDev.",
       link: {
@@ -451,7 +451,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Financial Analyst AI",
-      techStack: ["Assignment Project", "Python", "Streamlit", "OpenAI"],
+      techStack: ["Assignment Project", "Python"],
       description:
         "Build using OpenAI assistant and financialmodelingprep APIs.",
       link: {
@@ -461,7 +461,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Optimism AI",
-      techStack: ["Side Project", "Blockchain", "AI", "Layer2"],
+      techStack: ["Hackathon Project", "Blockchain", "AI"],
       description:
         "Unleash the real power of Web3 & AI with Optimism AI natively for optimism blockchain.",
       link: {
@@ -470,8 +470,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "AI Quizzes",
-      techStack: ["Side Project", "AI", "Quizzes", "JavaScript"],
+      title: "AI Quiz App",
+      techStack: ["Side Project", "AI", "Quizzes"],
       description:
         "Test your prompt engineering, AI, and large language model skills by taking this simple 50-question quiz.",
       link: {
@@ -480,8 +480,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Blockchain Quizzes",
-      techStack: ["Side Project", "Blockchain", "Quizzes", "JavaScript"],
+      title: "Blockchain Quiz App",
+      techStack: ["Side Project", "Blockchain", "Quizzes"],
       description:
         "Test your blockchain technology skills by taking this simple 50-question quiz.",
       link: {
@@ -491,7 +491,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Blockchain Research Tools",
-      techStack: ["Side Project", "Crypto", "Tools", "Products"],
+      techStack: ["Side Project", "Crypto", "Tools"],
       description:
         "A curated list of great blockchain or crypto-based research tools, products, and services.",
       link: {
@@ -501,7 +501,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Learn Prompting Guide",
-      techStack: ["Translation", "Urdu Language", "PE", "AI"],
+      techStack: ["Translation", "Urdu Language", "AI"],
       description:
         "Complete Urdu Language Translation of Learn Prompting Official Documentation.",
       link: {
@@ -521,7 +521,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Threads Clone",
-      techStack: ["Clone", "Nextjs", "TypeScript", "Threads"],
+      techStack: ["Clone", "Nextjs", "TypeScript"],
       description:
         "A Threads Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       link: {
@@ -531,7 +531,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Next Auth V5",
-      techStack: ["Course", "Nextjs", "TypeScript", "NextAuth.js"],
+      techStack: ["Course", "TypeScript", "NextAuth.js"],
       description:
         "The NextAuth.js advance project built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       link: {
@@ -540,17 +540,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Sigma Web Development",
-      techStack: ["Course", "Web Development", "JavaScript"],
-      description:
-        "Complete Sigma Web Development Course followed by a Youtube Course.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/sigma-web-dev",
-      },
-    },
-    {
-      title: "Next.js App Router Course",
+      title: "Next.js App Router",
       techStack: ["Course", "TypeScript", "Next.js"],
       description:
         "This dashboard app has 16 chapters, each on a different topic, by the official Next.js course.",
@@ -560,48 +550,58 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "HTML, CSS, & JS Projects",
+      techStack: ["Side Projects", "HTML", "CSS", "JS"],
+      description:
+        "Develop several HTML, CSS, and JS projects to help me with my logic building.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/html-css-js-projects",
+      },
+    },
+    {
+      title: "Sigma Web Development",
+      techStack: ["Course", "Web Development", "JS"],
+      description:
+        "Complete Sigma Web Development Course followed by a Youtube Course.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/sigma-web-dev",
+      },
+    },
+    {
       title: "100 Days of Code",
-      techStack: ["Side Projects", "HTML", "CSS", "JavaScript"],
+      techStack: ["GIAIC Community", "Web Development"],
       description:
-        "100 Days of Code is a challenge/community, where you publicly commit to code for 1 hour for the next 100 days.",
-      link: {
-        label: "100daysofcode.com",
-        href: "https://www.100daysofcode.com/",
-      },
-    },
-    {
-      title: "100 Days of Design",
-      techStack: ["Side Projects", "Figma", "Canva", "Illustrator"],
-      description:
-        "100 Days of Design is a challenge/community, where you publicly commit to design for 1 hour for the next 100 days.",
-      link: {
-        label: "dailyui.co",
-        href: "https://www.dailyui.co/",
-      },
-    },
-    {
-      title: "100 Days of Prompt Engineering",
-      techStack: ["Community", "Prompt Engineering", "AI", "LLM"],
-      description:
-        "To become a better Prompt Engineer, I'm following my own strategy to understand the AI stuffs.",
-      link: {
-        label: "learnprompting.org/",
-        href: "https://learnprompting.org/docs/intro",
-      },
-    },
-    {
-      title: "Discord 100 Days Coding Challenge",
-      techStack: ["GenAI Community", "Programming", "TS", "JS"],
-      description:
-        "100 Days of Coding Challenge | Starting from Very Basics to Advance Level | For 50k+ GIAIC Students | on Discord.",
+        "100 Days of Coding Challenge | Starting from Very Basics to Advance Level | For 30k+ GIAIC Students.",
       link: {
         label: "linkedin.com",
-        href: "https://www.linkedin.com/posts/asharibali_100daysofcode-typescript-javascript-activity-7168557543525494784-29L6?utm_source=share&utm_medium=member_desktop",
+        href: "https://github.com/AsharibAli/100-days-of-code",
+      },
+    },
+    {
+      title: "100 Days of Designs",
+      techStack: ["Side Projects", "Figma", "Canva"],
+      description:
+        "To enhance my thinking in designs, I'm following 100 days of designs with DailyUi",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/100-Days-of-Designs",
+      },
+    },
+    {
+      title: "100 Days of Prompting",
+      techStack: ["Prompting Engineering", "AI", "LLM"],
+      description:
+        "To become a better Prompt Engineer, I'm following my own strategy to built different prompts.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/100-Days-of-Prompt-Engineering",
       },
     },
     {
       title: "100 Days of Blockchain",
-      techStack: ["Revision", "Blockchain", "Solidity", "Smart Contracts"],
+      techStack: ["Revision", "Blockchain", "Solidity"],
       description:
         "Revision of Solidity Language, and Smart Contracts Development using latest tools and stack.",
       link: {
