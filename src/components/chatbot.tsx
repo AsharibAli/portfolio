@@ -63,9 +63,9 @@ const AsharibChatbot = () => {
                     backgroundColor: "#ffffff",
                     textColor: "#303235",
                     sendButtonColor: "#000000",
-                    maxChars: 50,
+                    maxChars: 100,
                     maxCharsWarningMessage:
-                      "You exceeded the characters limit. Please input less than 50 characters.",
+                      "You exceeded the characters limit. Please input less than 100 characters.",
                     autoFocus: true, // If not used, autofocus is disabled on mobile and enabled on desktop. true enables it on both, false disables it on both.
                     sendMessageSound: true,
                     // sendSoundLocation: "send_message.mp3", // If this is not used, the default sound effect will be played if sendSoundMessage is true.
