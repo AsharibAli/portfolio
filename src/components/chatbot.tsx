@@ -38,7 +38,7 @@ const AsharibChatbot = () => {
                   welcomeMessage:
                     "Hey! I am Asharib Assistant AI, here to help you with any questions you have. What can I assist you with today?",
                   errorMessage:
-                    "Getting the errors from the server, please try again later!",
+                    "Unable to retrieve data from the server. Please try again later.",
                   backgroundColor: "#ffffff",
                   height: 700,
                   width: 400,
