@@ -13,7 +13,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/nawabshah",
   about: "Passionate Developer. Designer. Manager. 🖤",
   summary:
-    "🙌 I help you to Learn & Earn through Blockchain and AI | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | 🌱 Contributing open-source | 🤖 Learning Cloud Native Applied Generative AI | 🧑‍💻 Teaching programming to 1500+ students on-site at GIAIC.",
+    "🙌 I help you to Learn & Earn through Blockchain and AI | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | 🌱 Contributing open-source | 🤖 Learning Cloud Native Applied Generative AI | 🧑‍💻 Teaching programming to 1,500+ students on-site while managing a community of 30k+ members at GIAIC.",
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
   personalWebsiteUrl: "https://asharib.xyz",
   contact: {
