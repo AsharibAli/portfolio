@@ -351,16 +351,16 @@ export const RESUME_DATA = {
         href: "https://monito.dev/",
       },
     },
-    {
-      title: "5irePay",
-      techStack: ["Hackathon Project", "JavaScript", "Next.js", "TailwindCSS"],
-      description:
-        "The PayPal for crypto | Send and Receive your crypto payments instantly with just owing an gmail/email only.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/5irePay",
-      },
-    },
+    // {
+    //   title: "5irePay",
+    //   techStack: ["Hackathon Project", "JavaScript", "Next.js", "TailwindCSS"],
+    //   description:
+    //     "The PayPal for crypto | Send and Receive your crypto payments instantly with just owing an gmail/email only.",
+    //   link: {
+    //     label: "github.com",
+    //     href: "https://github.com/AsharibAli/5irePay",
+    //   },
+    // },
     {
       title: "Panaverse",
       techStack: ["Assignment Project", "JavaScript", "Next.js", "TailwindCSS"],
