@@ -13,7 +13,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/nawabshah",
   about: "Passionate Developer. Designer. Manager. 🖤",
   summary:
-    "🙌 I help you to Learn & Earn through Blockchain and AI | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | 🌱 Contributing open-source | 🤖 Learning Cloud Native Applied Generative AI | 🧑‍💻 Teaching programming to 1,500+ students on-site while managing a community of 30k+ members at GIAIC.",
+    "🙌 I Build AI & Blockchain Stuffs | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | 🌱 Contributing open-source | 🤖 Learning Cloud Native Applied Generative AI | 🧑‍💻 Teaching programming to 1,500+ students on-site while managing a community of 30k+ students at GIAIC.",
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
   personalWebsiteUrl: "https://asharib.xyz",
   contact: {
@@ -186,7 +186,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Get 10+ awards in winning multiple speech contests.",
+      title: "Received many awards for winning multiple speech contests.",
       by: "By: Multiple Organizations & Local Institutes",
       reference: [
         {
@@ -222,11 +222,11 @@ export const RESUME_DATA = {
       company: "GIAIC",
       link: "https://www.linkedin.com/posts/asharibali_piaic-giaic-ai-activity-7162920750088155136-VwIL?utm_source=share&utm_medium=member_desktop",
       badges: ["Onsite", "Apprenticeship"],
-      title: "Teaching Assistant & Student Ambassador",
-      start: "2024 Jan",
+      title: "Lead Teacher & Student Ambassador",
+      start: "2024 Feb",
       end: "Present",
       description:
-        "I am leading and managing the GIAIC community on Discord, engaging with thousands of students (Onsite as a faculty teacher & Online as a Student Ambassador) in learning TypeScript and other programming languages. I'm delivering the Certified Cloud Native Applied Generative AI course and organized a 100-days-of-coding challenge in which (6000+ students participated).",
+        "I am leading and managing the GIAIC community on Discord, engaging with thousands of students (Onsite as a lead teacher & Online as a Student Ambassador) in learning TypeScript and other programming languages. I'm delivering the Certified Cloud Native Applied Generative AI course and organized a 100-days-of-coding challenge in which (1k+ students participated).",
     },
     {
       company: "Tameer-E-Millat Institute",
@@ -237,16 +237,6 @@ export const RESUME_DATA = {
       end: "2023 Dec",
       description:
         "I launched Nawabshah's first Blockchain & AI course, teaching cutting-edge technologies. I led a 3-month Introductory-Level course covering web technologies, fundamentals, and modern tech trends.",
-    },
-    {
-      company: "MicrosysX",
-      link: "https://www.linkedin.com/company/microsysx/",
-      badges: ["Remote", "Full-Time"],
-      title: "Frontend Engineer",
-      start: "2023 Aug",
-      end: "2023 Aug",
-      description:
-        "I developed and maintained businesses websites and web applications using the latest tech stack. I ensured modern, responsive designs for seamless user experiences and implemented best practices for performance optimization and code quality.",
     },
     {
       company: "Panaverse, PIAIC",
@@ -277,16 +267,6 @@ export const RESUME_DATA = {
       end: "2022 June",
       description:
         "I managed the IVSpace community, assisting members with problem-solving and fostering engagement. I administered and moderated interactions on Telegram and Discord, developing strategies to grow and enhance community participation.",
-    },
-    {
-      company: "Binance",
-      link: "https://www.binance.com/en",
-      badges: ["Remote", "Seasonal"],
-      title: "Affiliate Content Creator",
-      start: "2021 Oct",
-      end: "2022 June",
-      description:
-        "I created engaging articles and videos to educate users about Binance products and services. I developed social media posts to drive user engagement and awareness, analyzing content performance to optimize strategies and ensure accuracy.",
     },
   ],
 
@@ -351,16 +331,6 @@ export const RESUME_DATA = {
         href: "https://monito.dev/",
       },
     },
-    // {
-    //   title: "5irePay",
-    //   techStack: ["Hackathon Project", "JavaScript", "Next.js", "TailwindCSS"],
-    //   description:
-    //     "The PayPal for crypto | Send and Receive your crypto payments instantly with just owing an gmail/email only.",
-    //   link: {
-    //     label: "github.com",
-    //     href: "https://github.com/AsharibAli/5irePay",
-    //   },
-    // },
     {
       title: "Panaverse",
       techStack: ["Assignment Project", "JavaScript", "Next.js", "TailwindCSS"],
