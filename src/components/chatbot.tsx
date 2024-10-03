@@ -24,6 +24,11 @@ const AsharibChatbot = () => {
                   dragAndDrop: true,
                   customIconSrc:
                     "https://raw.githubusercontent.com/AsharibAli/project-images/main/logo.png",
+                  autoWindowOpen: {
+                    autoOpen: true, 
+                    openDelay: 2,
+                    autoOpenOnMobile: false, 
+                  },
                 },
                 tooltip: {
                   showTooltip: true,
@@ -75,11 +80,20 @@ const AsharibChatbot = () => {
                   feedback: {
                     color: "#000000",
                   },
+                  dateTimeToggle: {
+                    date: true,
+                    time: true,
+                  },
                   footer: {
                     textColor: "#000000",
                     text: "Build with ❤️ by",
                     company: "Asharib Ali",
                     companyLink: "https://github.com/AsharibAli/",
+                  },
+                  disclaimer: {
+                    title: "Disclaimer",
+                    message:
+                      'By using this chatbot, you agree to the <a target="_blank" href="https://flowiseai.com/terms">Terms & Condition</a>',
                   },
                 },
               },
