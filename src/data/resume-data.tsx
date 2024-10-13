@@ -239,16 +239,6 @@ export const RESUME_DATA = {
         "I launched Nawabshah's first Blockchain & AI course, teaching cutting-edge technologies. I led a 3-month Introductory-Level course covering web technologies, fundamentals, and modern tech trends.",
     },
     {
-      company: "Panaverse, PIAIC",
-      link: "https://github.com/panaverse",
-      badges: ["Onsite", "Apprenticeship"],
-      title: "Teaching Assistant",
-      start: "2022 Sep",
-      end: "2024 July",
-      description:
-        "I was promoted from Line Manager to Teaching Assistant, enhancing the learning experience. I assisted students with class assignments and taught state-of-the-art technology, fostering a collaborative and supportive learning environment.",
-    },
-    {
       company: "B4Business",
       link: "https://b4bussines.com/",
       badges: ["Remote", "Part-Time"],
