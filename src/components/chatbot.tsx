@@ -33,8 +33,8 @@ const AsharibChatbot = () => {
                 tooltip: {
                   showTooltip: true,
                   tooltipMessage: "Try Asharib AI👋",
-                  tooltipBackgroundColor: "black",
-                  tooltipTextColor: "white",
+                  tooltipBackgroundColor: "white",
+                  tooltipTextColor: "black",
                   tooltipFontSize: 16,
                 },
                 chatWindow: {

@@ -4,33 +4,33 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 224 71.4% 4.1%;
+    --background: 0 0% 0%;
+    --foreground: 210 20% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 224 71.4% 4.1%;
+    --card: 0 0% 5%;
+    --card-foreground: 210 20% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 224 71.4% 4.1%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 210 20% 98%;
 
-    --primary: 220.9 39.3% 11%;
-    --primary-foreground: 210 20% 98%;
+    --primary: 210 20% 98%;
+    --primary-foreground: 220.9 39.3% 11%;
 
-    --secondary: 220 14.3% 95.9%;
-    --secondary-foreground: 220.9 39.3% 11%;
+    --secondary: 215 27.9% 16.9%;
+    --secondary-foreground: 210 20% 98%;
 
-    --muted: 220 14.3% 95.9%;
-    --muted-foreground: 220 8.9% 46.1%;
+    --muted: 215 27.9% 16.9%;
+    --muted-foreground: 217.9 10.6% 64.9%;
 
-    --accent: 220 14.3% 95.9%;
-    --accent-foreground: 220.9 39.3% 11%;
+    --accent: 215 27.9% 16.9%;
+    --accent-foreground: 210 20% 98%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 20% 98%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 224 71.4% 4.1%;
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 216 12.2% 83.9%;
 
     --radius: 0.5rem;
   }
@@ -71,10 +71,48 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-black text-white;
   }
 }
 
 .print-force-new-page {
   page-break-before: always;
+}
+
+.card {
+  @apply bg-[#111111] border-gray-800/50 rounded-xl shadow-lg hover:border-gray-700 transition-all duration-300;
+}
+
+.badge {
+  @apply bg-gray-800/90 text-white rounded-lg border border-gray-700/50;
+}
+
+/* Print styles */
+@media print {
+  body {
+    @apply bg-white text-black;
+  }
+  
+  .card {
+    @apply bg-white border-gray-200 shadow-none;
+  }
+  
+  .badge {
+    @apply bg-gray-100 text-black border-gray-300;
+  }
+}
+
+/* Add these custom styles */
+@layer utilities {
+  .section-spacing {
+    @apply space-y-10 md:space-y-12;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:border-gray-700;
+  }
+  
+  .link-hover {
+    @apply transition-colors duration-200 hover:text-blue-400;
+  }
 }

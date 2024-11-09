@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, PhoneIcon, ArrowRightIcon, ExternalLinkIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
@@ -13,11 +13,11 @@ import FlowiseChatbot from "@/components/chatbot";
 
 export default function Page() {
   return (
-    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
-      <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4">
-        <div className="flex items-center justify-between">
-          <div className="flex-1 space-y-1.5">
-            <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
+    <main className="container relative mx-auto scroll-my-12 overflow-auto p-6 print:p-12 md:p-16 bg-black min-h-screen">
+      <section className="mx-auto w-full max-w-3xl space-y-10 bg-black text-white print:bg-white print:text-black rounded-2xl">
+        <div className="flex items-center justify-between gap-8 rounded-xl p-4 border border-gray-800">
+          <div className="flex-1 space-y-2.5">
+            <h1 className="text-3xl font-bold tracking-tight">{RESUME_DATA.name}</h1>
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
               {RESUME_DATA.about}
             </p>
@@ -84,8 +84,8 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="h-28 w-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
+          <Avatar className="h-32 w-32 rounded-xl border-2 border-gray-800">
+            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} className="rounded-xl" />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
@@ -129,8 +129,32 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs print:text-[10px]">
-                  {work.description}
+                <CardContent className="mt-2">
+                  <p className="mb-2 text-xs print:text-[10px]">
+                    {work.description}
+                  </p>
+                  {work.bulletPoints && work.bulletPoints.length > 0 && (
+                    <ul className="mt-2 text-xs print:text-[10px]">
+                      {work.bulletPoints.map((point: { text: string; link?: string }, index: number) => (
+                        <li key={index} className="flex items-center gap-x-2 mb-1">
+                          <ArrowRightIcon className="h-3 w-3 flex-shrink-0 text-gray-500" />
+                          <span className="flex items-center gap-x-1">
+                            {point.text}
+                            {point.link && (
+                              <a 
+                                href={point.link} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center hover:text-blue-500"
+                              >
+                                <ExternalLinkIcon className="h-3 w-3 ml-1" />
+                              </a>
+                            )}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </CardContent>
               </Card>
             );
@@ -191,28 +215,26 @@ export default function Page() {
 
         <Section>
           <h2 className="text-xl font-bold">
-            {" "}
             Achievements & Honourable Mentions
           </h2>
           {RESUME_DATA.achievements.map((achievement) => {
             return (
               <Card key={achievement.title}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2  text-base">
-                    <h3 className="font-semibold leading-none">
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-semibold leading-none flex items-center gap-x-2">
                       {achievement.title}
-                      <span className="inline-flex gap-x-1 pl-1">
-                        {achievement.reference.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="cursor-pointer  align-middle"
-                            key={badge.name}
-                            onClick={() => window.open(badge.url, "_blank")}
-                          >
-                            {badge.name}
-                          </Badge>
-                        ))}
-                      </span>
+                      {achievement.reference.map((ref) => (
+                        <a
+                          key={ref.url}
+                          href={ref.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center hover:text-blue-400 transition-colors duration-200"
+                        >
+                          <ExternalLinkIcon className="h-4 w-4" />
+                        </a>
+                      ))}
                     </h3>
                   </div>
                 </CardHeader>
