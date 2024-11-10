@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   initials: "AA",
   location: "Based in Pakistan 🇵🇰",
   locationLink: "https://www.google.com/maps/place/nawabshah",
-  about: "Passionate Developer. Designer. Manager. 🖤",
+  about: "Passionate Developer. Designer. Manager. 🤍",
   summary:
     "🙌 I Build AI & Blockchain Stuffs | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | 🌱 Contributing open-source | 🤖 Learning Cloud Native Applied Generative AI | 🧑‍💻 Teaching programming to 1,500+ students on-site while managing a community of 30k+ students at GIAIC.",
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",

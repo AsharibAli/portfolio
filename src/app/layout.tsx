@@ -6,12 +6,11 @@ import React from "react";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Asharib Ali | Passionate Developer. Designer. Manager. 🖤",
+  title: "Asharib Ali | Passionate Developer. Designer. Manager. 🤍",
   description:
-    "🙌 I help you to learn & earn through cutting-edge technologies | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | Blockchain and AI ⚡ | Talk about state-of-the-art🚀 | Contributing open-source 🌱",
+    "🙌 I Build AI & Blockchain Stuffs | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | 🌱 Contributing open-source | 🤖 Learning Cloud Native Applied Generative AI | 🧑‍💻 Teaching programming to 1,500+ students on-site while managing a community of 30k+ students at GIAIC.",
 };
 
-// If loading a variable font, you don't need to specify the font weight
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
