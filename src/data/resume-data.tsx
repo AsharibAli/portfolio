@@ -223,21 +223,27 @@ export const RESUME_DATA = {
       link: "https://www.linkedin.com/posts/asharibali_piaic-giaic-ai-activity-7162920750088155136-VwIL",
       badges: ["Onsite", "Apprenticeship"],
       title: "Lead Teacher & Student Ambassador",
-      start: "2024 Feb", 
+      start: "2024 Feb",
       end: "Present",
       description:
-        "I am leading and managing the GIAIC community on Discord, engaging with thousands of students in learning TypeScript and other programming languages.",
+        "I am teaching programming to thousands of students on-site and managing the GIAIC Discord community to help students learn and grow.",
       bulletPoints: [
         {
-          text: "Leading 1500+ students as an onsite instructor for TypeScript and programming fundamentals",
-          link: "https://example.com/teaching-proof",
+          text: "Leading 1500+ students as an onsite lead instructor for programming practical and fundamentals",
+          link: "https://www.linkedin.com/posts/asharibali_little-glimpse-i-had-the-pleasure-of-activity-7239249368883576834-gysQ?utm_source=share&utm_medium=member_desktop",
         },
         {
+          
           text: "Managing 30k+ student community on Discord as a Student Ambassador",
+          link: "https://discord.gg/ZsN4YVRsRg",
         },
         {
           text: "Organized successful 100-days-of-coding challenge with 1k+ active participants",
           link: "https://github.com/AsharibAli/100-days-of-code",
+        },
+        {
+          text: "Organized successful 30-days-of-30-projects challenge with 1k+ active participants",
+          link: "https://github.com/AsharibAli/30days-of-30projects",
         },
       ],
     },
@@ -247,7 +253,7 @@ export const RESUME_DATA = {
       badges: ["Onsite", "Contract"],
       title: "Head of IT Teaching",
       start: "2023 Oct",
-      end: "2023 Dec", 
+      end: "2023 Dec",
       description:
         "I launched Nawabshah's first Blockchain & AI course, teaching cutting-edge technologies. I led a 3-month Introductory-Level course covering web technologies, fundamentals, and modern tech trends.",
       bulletPoints: [
@@ -259,7 +265,7 @@ export const RESUME_DATA = {
         },
         {
           text: "Introduced innovative teaching methods combining theory with practical projects",
-        }
+        },
       ],
     },
     {
@@ -270,38 +276,14 @@ export const RESUME_DATA = {
       start: "2022 Jan",
       end: "2023 Jan",
       description:
-        "I managed and led B4Business, a comprehensive learning hub, using WordPress as a CMS. I authored articles on Blockchain, Crypto, Technical Analysis, and Fundamental News, engaging with the community to foster a space for learning and growth.",
+        "I managed and led B4Business, a comprehensive learning hub, using WordPress as a CMS. I authored articles on Blockchain, Technical Analysis, and Fundamental News, engaging with the community to foster a space for learning and growth.",
       bulletPoints: [
         {
-          text: "Published 100+ articles on blockchain technology and cryptocurrency",
+          text: "Published 100+ articles on blockchain technology",
         },
         {
           text: "Grew website traffic through SEO optimization",
         },
-        {
-          text: "Built and managed a team of 5 content writers",
-        }
-      ],
-    },
-    {
-      company: "IVSpace",
-      link: "https://www.ivspace.io/",
-      badges: ["Remote", "Part-Time"],
-      title: "Community Administrator",
-      start: "2022 Jan",
-      end: "2022 June",
-      description:
-        "I managed the IVSpace community, assisting members with problem-solving and fostering engagement. I administered and moderated interactions on Telegram and Discord, developing strategies to grow and enhance community participation.",
-      bulletPoints: [
-        {
-          text: "Managed a community of 5000+ members across Discord and Telegram",
-        },
-        {
-          text: "Implemented engagement strategies that increased active participation by 40%",
-        },
-        {
-          text: "Created and maintained community guidelines and moderation protocols",
-        }
       ],
     },
   ],
