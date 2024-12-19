@@ -17,8 +17,8 @@ const AsharibChatbot = () => {
               theme: {
                 button: {
                   backgroundColor: "#000000",
-                  right: 20,
-                  bottom: 20,
+                  right: 15,
+                  bottom: 16,
                   size: "medium",
                   iconColor: "white",
                   dragAndDrop: true,

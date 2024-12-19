@@ -84,8 +84,28 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Lava Blockchain Champion ",
-      by: "By: Lava Network Official (Open-Source Contribution)",
+      title: "Masa Finance Ambassador ",
+      by: "By: Masa AI Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "http://masa.ai/",
+        },
+      ],
+    },
+    {
+      title: "FlowiseAI Expert (Open-Source Contributor)",
+      by: "By: FlowiseAI Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://github.com/flowiseai/flowise",
+        },
+      ],
+    },
+    {
+      title: "Lava Blockchain Champion (Open-Source Contributor)",
+      by: "By: Lava Network Official",
       reference: [
         {
           name: "👉 Reference",
@@ -94,12 +114,12 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Masa Finance Ambassador ",
-      by: "By: Masa AI Official",
+      title: "Open Campus Hackathon Winner (Infrastructure-Track)",
+      by: "By: Open Campus Official",
       reference: [
         {
           name: "👉 Reference",
-          url: "http://masa.ai/",
+          url: "https://medium.com/edu-chain/announcing-the-winners-of-edu-chain-hackathon-semester-1-6554808bbf5a",
         },
       ],
     },
@@ -114,7 +134,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Owl Hackathon (3rd) Winner (Bounty-Track)",
+      title: "Owl Hackathon Hackathon Winner (Bounty-Track)",
       by: "By: Owl Protocol Official",
       reference: [
         {
@@ -124,8 +144,70 @@ export const RESUME_DATA = {
       ],
     },
     {
+      title: "DSCVR Hackathon Hackathon Winner (Metaplex-Track)",
+      by: "By: DSCVR & Metaplex Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://www.youtube.com/watch?v=8D9SQx4azxE",
+        },
+      ],
+    },
+    {
+      title: "DSCVR Hackathon Hackathon Winner (DSCVR-Track)",
+      by: "By: DSCVR Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://earn.superteam.fun/listings/bounty/build-a-canvas-on-dscvr/",
+        },
+      ],
+    },
+    {
+      title: "Workshop Speaker at Mega Co-Learning Camp with EduChain",
+      by: "By: HackQuest Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/HackQuest_/status/1863830459488350572",
+        },
+        {
+          name: "👉 Reference",
+          url: "https://x.com/HackQuest_/status/1863833522613686751",
+        },
+        {
+          name: "👉 Reference",
+          url: "https://x.com/HackQuest_/status/1864638387216634005",
+        },
+      ],
+    },
+    {
+      title: "Most Used Platform on EduChain (6.7M+ on-chain Transactions)",
+      by: "By: Open Campus Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/pukecast/status/1856030956135821538",
+        },
+      ],
+    },
+    {
+      title: "Youngest AMA Speaker about Education on Blockchain",
+      by: "By: Pukecast Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/pukecast/status/1856030956135821538",
+        },
+        {
+          name: "👉 Reference",
+          url: "https://x.com/pukecast/status/1856683237793538467",
+        },
+      ],
+    },
+    {
       title: "Win 10+ Crypto-Based Contests",
-      by: "By: crypto projects and communities",
+      by: "By: multiple crypto projects and communities",
       reference: [
         {
           name: "👉 Reference",
@@ -154,7 +236,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Student Ambassador of 50k+ GIAIC Students ",
+      title: "Student Ambassador of 30k+ GIAIC Students ",
       by: "By: Head of Faculty at GIAIC",
       reference: [
         {
@@ -221,7 +303,7 @@ export const RESUME_DATA = {
     {
       company: "GIAIC",
       link: "https://www.linkedin.com/posts/asharibali_piaic-giaic-ai-activity-7162920750088155136-VwIL",
-      badges: ["Onsite", "Apprenticeship"],
+      badges: ["Onsite", "Part-Time"],
       title: "Lead Teacher & Student Ambassador",
       start: "2024 Feb",
       end: "Present",
@@ -233,7 +315,6 @@ export const RESUME_DATA = {
           link: "https://www.linkedin.com/posts/asharibali_little-glimpse-i-had-the-pleasure-of-activity-7239249368883576834-gysQ?utm_source=share&utm_medium=member_desktop",
         },
         {
-          
           text: "Managing 30k+ student community on Discord as a Student Ambassador",
           link: "https://discord.gg/ZsN4YVRsRg",
         },
@@ -251,7 +332,7 @@ export const RESUME_DATA = {
       company: "Tameer-E-Millat Institute",
       link: "https://twitter.com/0xAsharib/status/1712050364823048485",
       badges: ["Onsite", "Contract"],
-      title: "Head of IT Teaching",
+      title: "Head of IT",
       start: "2023 Oct",
       end: "2023 Dec",
       description:
@@ -283,6 +364,27 @@ export const RESUME_DATA = {
         },
         {
           text: "Grew website traffic through SEO optimization",
+        },
+      ],
+    },
+    {
+      company: "IVSpace",
+      link: "https://www.ivspace.io/",
+      badges: ["Remote", "Part-Time"],
+      title: "Community Administrator",
+      start: "2022 Jan",
+      end: "2022 June",
+      description:
+        "I led IVSpace community social handles, helping members and growing engagement through moderation and community-building activities.",
+      bulletPoints: [
+        {
+          text: "Led 5k+ member community on Discord and Telegram",
+        },
+        {
+          text: "Grew active members by 40% through engagement activities",
+        },
+        {
+          text: "Set up and enforced community rules and guidelines",
         },
       ],
     },
@@ -345,8 +447,18 @@ export const RESUME_DATA = {
       description:
         "Safock - Opening Doors to DeFi ETFs | Stake ETFs | Get Insurance on ETFs | Backed by RTokens.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "safock-asharibali.vercel.app/",
+        href: "https://safock-asharibali.vercel.app/",
+      },
+    },
+    {
+      title: "5irePay",
+      techStack: ["Hackathon Project", "Next.js", "Solidity"],
+      description:
+        "5irePay is the PayPal of Crypto - send and receive crypto payments instantly with just an email address only!",
+      link: {
+        label: "5ire-pay.vercel.app",
+        href: "https://5ire-pay.vercel.app/",
       },
     },
     {
@@ -565,7 +677,7 @@ export const RESUME_DATA = {
     },
     {
       title: "100 Days of Code",
-      techStack: ["GIAIC Community", "Web Development"],
+      techStack: ["GIAIC", "Web Development", "TypeScript"],
       description:
         "100 Days of Coding Challenge | Starting from Very Basics to Advance Level | For 30k+ GIAIC Students.",
       link: {
@@ -602,6 +714,78 @@ export const RESUME_DATA = {
         label: "github.com",
         href: "https://github.com/AsharibAli/100-days-of-blockchain",
       },
+    },
+    {
+      title: "30 Days of 30 Projects",
+      techStack: ["GIAIC", "NextJS", "TypeScript"],
+      description:
+        "30 Days of 30 Projects | One cool mini project each day using the latest tech stack for the next 30 days | For the 30k+ GIAIC Students.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/30days-of-30projects",
+      },
+    },
+  ],
+  pinPoints: [
+    {
+      title: "Experience",
+      description: "3+ years in tech industry",
+      icon: "💼",
+    },
+    {
+      title: "Teaching",
+      description: "3k+ students taught onsite",
+      icon: "👨‍🏫",
+    },
+    {
+      title: "Community",
+      description: "Have 30k+ followers on social handles",
+      icon: "👥",
+    },
+    {
+      title: "Projects",
+      description: "100+ projects completed",
+      icon: "🚀",
+    },
+    {
+      title: "Open Source",
+      description: "50+ contributions",
+      icon: "✨",
+    },
+    {
+      title: "Hackathons",
+      description: "Won 5+ hackathons",
+      icon: "🏆",
+    },
+    {
+      title: "Feedbacks",
+      description: "5k+ positive feedbacks",
+      icon: "👍",
+    },
+    {
+      title: "Startups",
+      description: "5+ failed startups",
+      icon: "💸",
+    },
+    {
+      title: "Languages",
+      description: "English, Urdu",
+      icon: "🗣️",
+    },
+    {
+      title: "Hobbies",
+      description: "Reading, Writing, Coding, Traveling",
+      icon: "🎓",
+    },
+    {
+      title: "Age",
+      description: "21 years old (04-Sep-2004)",
+      icon: "🙆‍♂️",
+    },
+    {
+      title: "Status",
+      description: "Single",
+      icon: "💑",
     },
   ],
 } as const;

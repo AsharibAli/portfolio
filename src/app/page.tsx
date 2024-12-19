@@ -213,6 +213,21 @@ export default function Page() {
           </div>
         </Section>
 
+        <Section className="print-force-new-page scroll-mb-16">
+          <h2 className="text-xl font-bold">Pin Points</h2>
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-4 print:gap-2 md:grid-cols-2 lg:grid-cols-4">
+            {RESUME_DATA.pinPoints.map((point) => (
+              <Card key={point.title} className="flex flex-col p-4 items-start gap-2">
+                <div className="text-2xl">{point.icon}</div>
+                <div>
+                  <h3 className="font-semibold">{point.title}</h3>
+                  <p className="text-sm text-muted-foreground">{point.description}</p>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </Section>
+
         <Section>
           <h2 className="text-xl font-bold">
             Achievements & Honourable Mentions
