@@ -187,7 +187,7 @@ export const RESUME_DATA = {
       reference: [
         {
           name: "👉 Reference",
-          url: "https://x.com/pukecast/status/1856030956135821538",
+          url: "https://x.com/opencampus_xyz/status/1860993260237525007",
         },
       ],
     },
