@@ -759,7 +759,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Feedbacks",
-      description: "5k+ positive feedbacks",
+      description: "10k+ positive feedbacks",
       icon: "👍",
     },
     {
