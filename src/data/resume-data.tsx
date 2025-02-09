@@ -14,7 +14,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/nawabshah",
   about: "Passionate Developer. Designer. Manager. 🤍",
   summary:
-    "🙌 I Build AI & Blockchain Stuffs | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | 🌱 Contributing open-source | 🤖 Learning Cloud Native Applied Generative AI | 🧑‍💻 Teaching programming to 1,500+ students on-site while managing a community of 30k+ students at GIAIC.",
+    "🙌 I build & teach AI and Blockchain Stuffs | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | 🌱 Contributing open-source | 🤖 Learning Cloud Native Applied Generative AI | 🧑‍💻 Teaching programming to 1,500+ students on-site while managing a community of 30k+ students at GIAIC.",
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
   personalWebsiteUrl: "https://asharib.xyz",
   contact: {
@@ -51,7 +51,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Panaverse, PIAIC",
-      degree: "Cloud Native Applied Generative AI (GenEng)",
+      degree: "Cloud Native Applied Generative AI",
       start: "2022",
       end: "Present",
     },
@@ -765,7 +765,7 @@ export const RESUME_DATA = {
     {
       title: "Startups",
       description: "5+ failed startups",
-      icon: "💸",
+      icon: "📌",
     },
     {
       title: "Languages",
