@@ -5,7 +5,13 @@ import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon, ArrowRightIcon, ExternalLinkIcon } from "lucide-react";
+import {
+  GlobeIcon,
+  MailIcon,
+  PhoneIcon,
+  ArrowRightIcon,
+  ExternalLinkIcon,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
@@ -13,11 +19,13 @@ import FlowiseChatbot from "@/components/chatbot";
 
 export default function Page() {
   return (
-    <main className="container relative mx-auto scroll-my-12 overflow-auto p-6 print:p-12 md:p-16 bg-black min-h-screen">
-      <section className="mx-auto w-full max-w-3xl space-y-10 bg-black text-white print:bg-white print:text-black rounded-2xl">
-        <div className="flex items-center justify-between gap-8 rounded-xl p-4 border border-gray-800">
+    <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-6 print:p-12 md:p-16">
+      <section className="mx-auto w-full max-w-3xl space-y-10 rounded-2xl bg-black text-white print:bg-white print:text-black">
+        <div className="flex items-center justify-between gap-8 rounded-xl border border-gray-800 p-4">
           <div className="flex-1 space-y-2.5">
-            <h1 className="text-3xl font-bold tracking-tight">{RESUME_DATA.name}</h1>
+            <h1 className="text-3xl font-bold tracking-tight">
+              {RESUME_DATA.name}
+            </h1>
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
               {RESUME_DATA.about}
             </p>
@@ -84,8 +92,12 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="h-32 w-32 rounded-xl border-2 border-gray-800">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} className="rounded-xl" />
+          <Avatar className="hidden h-32 w-32 rounded-xl border-2 border-gray-800 md:block">
+            <AvatarImage
+              alt={RESUME_DATA.name}
+              src={RESUME_DATA.avatarUrl}
+              className="rounded-xl"
+            />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
@@ -135,24 +147,32 @@ export default function Page() {
                   </p>
                   {work.bulletPoints && work.bulletPoints.length > 0 && (
                     <ul className="mt-2 text-xs print:text-[10px]">
-                      {work.bulletPoints.map((point: { text: string; link?: string }, index: number) => (
-                        <li key={index} className="flex items-center gap-x-2 mb-1">
-                          <ArrowRightIcon className="h-3 w-3 flex-shrink-0 text-gray-500" />
-                          <span className="flex items-center gap-x-1">
-                            {point.text}
-                            {point.link && (
-                              <a 
-                                href={point.link} 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                className="inline-flex items-center hover:text-blue-500"
-                              >
-                                <ExternalLinkIcon className="h-3 w-3 ml-1" />
-                              </a>
-                            )}
-                          </span>
-                        </li>
-                      ))}
+                      {work.bulletPoints.map(
+                        (
+                          point: { text: string; link?: string },
+                          index: number,
+                        ) => (
+                          <li
+                            key={index}
+                            className="mb-1 flex items-center gap-x-2"
+                          >
+                            <ArrowRightIcon className="h-3 w-3 flex-shrink-0 text-gray-500" />
+                            <span className="flex items-center gap-x-1">
+                              {point.text}
+                              {point.link && (
+                                <a
+                                  href={point.link}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="inline-flex items-center hover:text-blue-500"
+                                >
+                                  <ExternalLinkIcon className="ml-1 h-3 w-3" />
+                                </a>
+                              )}
+                            </span>
+                          </li>
+                        ),
+                      )}
                     </ul>
                   )}
                 </CardContent>
@@ -217,11 +237,16 @@ export default function Page() {
           <h2 className="text-xl font-bold">Pin Points</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-4 print:gap-2 md:grid-cols-2 lg:grid-cols-4">
             {RESUME_DATA.pinPoints.map((point) => (
-              <Card key={point.title} className="flex flex-col p-4 items-start gap-2">
+              <Card
+                key={point.title}
+                className="flex flex-col items-start gap-2 p-4"
+              >
                 <div className="text-2xl">{point.icon}</div>
                 <div>
                   <h3 className="font-semibold">{point.title}</h3>
-                  <p className="text-sm text-muted-foreground">{point.description}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {point.description}
+                  </p>
                 </div>
               </Card>
             ))}
@@ -237,7 +262,7 @@ export default function Page() {
               <Card key={achievement.title}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="font-semibold leading-none flex items-center gap-x-2">
+                    <h3 className="flex items-center gap-x-2 font-semibold leading-none">
                       {achievement.title}
                       {achievement.reference.map((ref) => (
                         <a
@@ -245,7 +270,7 @@ export default function Page() {
                           href={ref.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center hover:text-blue-400 transition-colors duration-200"
+                          className="inline-flex items-center transition-colors duration-200 hover:text-blue-400"
                         >
                           <ExternalLinkIcon className="h-4 w-4" />
                         </a>

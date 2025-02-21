@@ -4,8 +4,9 @@ import {
   XIcon,
   MediumIcon,
   TelegramIcon,
+  InstagramIcon,
+  FacebookIcon,
 } from "@/components/icons";
-import { ArrowRightIcon } from "lucide-react";
 
 export const RESUME_DATA = {
   name: "Asharib Ali",
@@ -45,6 +46,16 @@ export const RESUME_DATA = {
         name: "GitHub",
         url: "https://github.com/AsharibAli",
         icon: GitHubIcon,
+      },
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/0xasharib/",
+        icon: InstagramIcon,
+      },
+      {
+        name: "Facebook",
+        url: "https://www.facebook.com/asharib.imtiaz/",
+        icon: FacebookIcon,
       },
     ],
   },
