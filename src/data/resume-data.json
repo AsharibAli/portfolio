@@ -3,50 +3,59 @@
   "initials": "AA",
   "location": "Based in Pakistan 🇵🇰",
   "locationLink": "https://www.google.com/maps/place/nawabshah",
-  "about": "Passionate Developer. Designer. Manager. 🖤",
-  "summary": "🙌 I help you to Learn & Earn through Blockchain and AI | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | 🌱 Contributing open-source | 🤖 Learning Cloud Native Applied Generative AI | 🧑‍💻 Teaching programming to 1500+ students on-site at GIAIC.",
+  "about": "Passionate Developer. Designer. Manager. 🤍",
+  "summary": "🙌 I build & teach AI and Blockchain Stuffs | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | 🌱 Contributing open-source | 🤖 Learning Cloud Native Applied Generative AI | 🧑‍💻 Teaching programming to 1,500+ students on-site while managing a community of 30k+ students at GIAIC.",
   "avatarUrl": "https://avatars.githubusercontent.com/u/102221198?v=4",
   "personalWebsiteUrl": "https://asharib.xyz",
   "contact": {
-    "email": "asharibali@proton.me",
+    "email": "asharibali@pm.me",
     "social": [
       {
-        "name": "Contact",
-        "url": "https://t.me/AsharibAli",
-        "icon": "PhoneIcon"
-      },
-      {
-        "name": "GitHub",
-        "url": "https://github.com/AsharibAli",
-        "icon": "GitHubIcon"
+        "name": "Telegram",
+        "url": "https://t.me/AsharibAli"
       },
       {
         "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/asharibali/",
-        "icon": "LinkedInIcon"
+        "url": "https://www.linkedin.com/in/asharibali/"
       },
       {
-        "name": "X/Twitter",
-        "url": "https://x.com/0xAsharib",
-        "icon": "XIcon"
+        "name": "X",
+        "url": "https://x.com/0xAsharib"
       },
       {
-        "name": "Blogs",
-        "url": "https://asharibali.medium.com/",
-        "icon": "MediumIcon"
+        "name": "Medium",
+        "url": "https://asharibali.medium.com/"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/AsharibAli"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/0xasharib/"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/asharib.imtiaz/"
       }
     ]
   },
   "education": [
     {
+      "school": "Virtual University",
+      "degree": "Associate Degree in Computer Science",
+      "start": "2024",
+      "end": "Present"
+    },
+    {
       "school": "Panaverse, PIAIC",
-      "degree": "Cloud Applied Generative AI (GenEng)",
+      "degree": "Cloud Native Applied Generative AI",
       "start": "2022",
       "end": "Present"
     },
     {
       "school": "Goverment Boys Degree College",
-      "degree": "Intermediate in General Science",
+      "degree": "Intermediate in Medical Science",
       "start": "2020",
       "end": "2022"
     }
@@ -73,8 +82,28 @@
       ]
     },
     {
-      "title": "Lava Blockchain Champion",
-      "by": "By: Lava Network Official (Open-Source Contribution)",
+      "title": "Masa Finance Ambassador",
+      "by": "By: Masa AI Official",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "http://masa.ai/"
+        }
+      ]
+    },
+    {
+      "title": "FlowiseAI Expert (Open-Source Contributor)",
+      "by": "By: FlowiseAI Official",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "https://github.com/flowiseai/flowise"
+        }
+      ]
+    },
+    {
+      "title": "Lava Blockchain Champion (Open-Source Contributor)",
+      "by": "By: Lava Network Official",
       "reference": [
         {
           "name": "👉 Reference",
@@ -83,12 +112,12 @@
       ]
     },
     {
-      "title": "Masa Finance Ambassador",
-      "by": "By: Masa AI Official",
+      "title": "Open Campus Hackathon Winner (Infrastructure-Track)",
+      "by": "By: Open Campus Official",
       "reference": [
         {
           "name": "👉 Reference",
-          "url": "http://masa.ai/"
+          "url": "https://medium.com/edu-chain/announcing-the-winners-of-edu-chain-hackathon-semester-1-6554808bbf5a"
         }
       ]
     },
@@ -103,7 +132,7 @@
       ]
     },
     {
-      "title": "Owl Hackathon (3rd) Winner (Bounty-Track)",
+      "title": "Owl Hackathon Hackathon Winner (Bounty-Track)",
       "by": "By: Owl Protocol Official",
       "reference": [
         {
@@ -113,8 +142,70 @@
       ]
     },
     {
+      "title": "DSCVR Hackathon Hackathon Winner (Metaplex-Track)",
+      "by": "By: DSCVR & Metaplex Official",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "https://www.youtube.com/watch?v=8D9SQx4azxE"
+        }
+      ]
+    },
+    {
+      "title": "DSCVR Hackathon Hackathon Winner (DSCVR-Track)",
+      "by": "By: DSCVR Official",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "https://earn.superteam.fun/listings/bounty/build-a-canvas-on-dscvr/"
+        }
+      ]
+    },
+    {
+      "title": "Workshop Speaker at Mega Co-Learning Camp with EduChain",
+      "by": "By: HackQuest Official",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "https://x.com/HackQuest_/status/1863830459488350572"
+        },
+        {
+          "name": "👉 Reference",
+          "url": "https://x.com/HackQuest_/status/1863833522613686751"
+        },
+        {
+          "name": "👉 Reference",
+          "url": "https://x.com/HackQuest_/status/1864638387216634005"
+        }
+      ]
+    },
+    {
+      "title": "Most Used Platform on EduChain (6.7M+ on-chain Transactions)",
+      "by": "By: Open Campus Official",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "https://x.com/opencampus_xyz/status/1860993260237525007"
+        }
+      ]
+    },
+    {
+      "title": "Youngest AMA Speaker about Education on Blockchain",
+      "by": "By: Pukecast Official",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "https://x.com/pukecast/status/1856030956135821538"
+        },
+        {
+          "name": "👉 Reference",
+          "url": "https://x.com/pukecast/status/1856683237793538467"
+        }
+      ]
+    },
+    {
       "title": "Win 10+ Crypto-Based Contests",
-      "by": "By: crypto projects and communities",
+      "by": "By: multiple crypto projects and communities",
       "reference": [
         {
           "name": "👉 Reference",
@@ -143,7 +234,7 @@
       ]
     },
     {
-      "title": "Student Ambassador of 50k+ GIAIC Students",
+      "title": "Student Ambassador of 30k+ GIAIC Students",
       "by": "By: Head of Faculty at GIAIC",
       "reference": [
         {
@@ -173,7 +264,7 @@
       ]
     },
     {
-      "title": "Get 10+ awards in winning multiple speech contests.",
+      "title": "Received many awards for winning multiple speech contests",
       "by": "By: Multiple Organizations & Local Institutes",
       "reference": [
         {
@@ -183,7 +274,7 @@
       ]
     },
     {
-      "title": "Complete Translation of Learn Prompting Guide into Urdu Language",
+      "title": "Complete Tranlsation of Learn Prompting Guide into Urdu Language",
       "by": "By: Learn Prompting Organization (Open-Source Contribution)",
       "reference": [
         {
@@ -203,43 +294,53 @@
       ]
     }
   ],
-
   "work": [
     {
       "company": "GIAIC",
-      "link": "https://www.linkedin.com/posts/asharibali_piaic-giaic-ai-activity-7162920750088155136-VwIL?utm_source=share&utm_medium=member_desktop",
-      "badges": ["Onsite", "Apprenticeship"],
-      "title": "Teaching Assistant & Student Ambassador",
-      "start": "2024 Jan",
+      "link": "https://www.linkedin.com/posts/asharibali_piaic-giaic-ai-activity-7162920750088155136-VwIL",
+      "badges": ["Onsite", "Part-Time"],
+      "title": "Lead Teacher & Student Ambassador",
+      "start": "2024 Feb",
       "end": "Present",
-      "description": "I am leading and managing the GIAIC community on Discord, engaging with thousands of students (Onsite as a faculty teacher & Online as a Student Ambassador) in learning TypeScript and other programming languages. I'm delivering the Certified Cloud Native Applied Generative AI course and organized a 100-days-of-coding challenge in which (6000+ students participated)."
+      "description": "I am teaching programming to thousands of students on-site and managing the GIAIC Discord community to help students learn and grow.",
+      "bulletPoints": [
+        {
+          "text": "Leading 1500+ students as an onsite lead instructor for programming practical and fundamentals",
+          "link": "https://www.linkedin.com/posts/asharibali_little-glimpse-i-had-the-pleasure-of-activity-7239249368883576834-gysQ?utm_source=share&utm_medium=member_desktop"
+        },
+        {
+          "text": "Managing 30k+ student community on Discord as a Student Ambassador",
+          "link": "https://discord.gg/ZsN4YVRsRg"
+        },
+        {
+          "text": "Organized successful 100-days-of-coding challenge with 1k+ active participants",
+          "link": "https://github.com/AsharibAli/100-days-of-code"
+        },
+        {
+          "text": "Organized successful 30-days-of-30-projects challenge with 1k+ active participants",
+          "link": "https://github.com/AsharibAli/30days-of-30projects"
+        }
+      ]
     },
     {
       "company": "Tameer-E-Millat Institute",
       "link": "https://twitter.com/0xAsharib/status/1712050364823048485",
       "badges": ["Onsite", "Contract"],
-      "title": "Head of IT Teaching",
+      "title": "Head of IT",
       "start": "2023 Oct",
       "end": "2023 Dec",
-      "description": "I launched Nawabshah's first Blockchain & AI course, teaching cutting-edge technologies. I led a 3-month Introductory-Level course covering web technologies, fundamentals, and modern tech trends."
-    },
-    {
-      "company": "MicrosysX",
-      "link": "https://www.linkedin.com/company/microsysx/",
-      "badges": ["Remote", "Full-Time"],
-      "title": "Frontend Engineer",
-      "start": "2023 Aug",
-      "end": "2023 Aug",
-      "description": "I developed and maintained businesses websites and web applications using the latest tech stack. I ensured modern, responsive designs for seamless user experiences and implemented best practices for performance optimization and code quality."
-    },
-    {
-      "company": "Panaverse, PIAIC",
-      "link": "https://github.com/panaverse",
-      "badges": ["Onsite", "Apprenticeship"],
-      "title": "Teaching Assistant",
-      "start": "2022 Sep",
-      "end": "Present",
-      "description": "I was promoted from Line Manager to Teaching Assistant, enhancing the learning experience. I assisted students with class assignments and taught state-of-the-art technology, fostering a collaborative and supportive learning environment."
+      "description": "I launched Nawabshah's first Blockchain & AI course, teaching cutting-edge technologies. I led a 3-month Introductory-Level course covering web technologies, fundamentals, and modern tech trends.",
+      "bulletPoints": [
+        {
+          "text": "Designed and delivered comprehensive curriculum for 50+ students"
+        },
+        {
+          "text": "Achieved 90% student satisfaction rate through hands-on learning approach"
+        },
+        {
+          "text": "Introduced innovative teaching methods combining theory with practical projects"
+        }
+      ]
     },
     {
       "company": "B4Business",
@@ -248,7 +349,15 @@
       "title": "Founder & Content Writer",
       "start": "2022 Jan",
       "end": "2023 Jan",
-      "description": "I managed and led B4Business, a comprehensive learning hub, using WordPress as a CMS. I authored articles on Blockchain, Crypto, Technical Analysis, and Fundamental News, engaging with the community to foster a space for learning and growth."
+      "description": "I managed and led B4Business, a comprehensive learning hub, using WordPress as a CMS. I authored articles on Blockchain, Technical Analysis, and Fundamental News, engaging with the community to foster a space for learning and growth.",
+      "bulletPoints": [
+        {
+          "text": "Published 100+ articles on blockchain technology"
+        },
+        {
+          "text": "Grew website traffic through SEO optimization"
+        }
+      ]
     },
     {
       "company": "IVSpace",
@@ -257,16 +366,18 @@
       "title": "Community Administrator",
       "start": "2022 Jan",
       "end": "2022 June",
-      "description": "I managed the IVSpace community, assisting members with problem-solving and fostering engagement. I administered and moderated interactions on Telegram and Discord, developing strategies to grow and enhance community participation."
-    },
-    {
-      "company": "Binance",
-      "link": "https://www.binance.com/en",
-      "badges": ["Remote", "Seasonal"],
-      "title": "Affiliate Content Creator",
-      "start": "2021 Oct",
-      "end": "2022 June",
-      "description": "I created engaging articles and videos to educate users about Binance products and services. I developed social media posts to drive user engagement and awareness, analyzing content performance to optimize strategies and ensure accuracy."
+      "description": "I led IVSpace community social handles, helping members and growing engagement through moderation and community-building activities.",
+      "bulletPoints": [
+        {
+          "text": "Led 5k+ member community on Discord and Telegram"
+        },
+        {
+          "text": "Grew active members by 40% through engagement activities"
+        },
+        {
+          "text": "Set up and enforced community rules and guidelines"
+        }
+      ]
     }
   ],
   "skills": [
@@ -283,19 +394,20 @@
     "Docker Compose",
     "CI/CD Actions",
     "Solidity",
-    "Teaching",
-    "Prompt Engineering",
+    "EVM",
+    "Tech Teaching",
     "API Development",
     "Frontend Development",
     "Backend Development",
     "Full Stack Development",
     "Blockchain Development",
     "AI Development",
-    "Content Creation",
+    "Prompt Engineering",
+    "Content Creator",
+    "Content Writer",
     "Community Management",
     "Project Management"
   ],
-
   "projects": [
     {
       "title": "Talkn",
@@ -323,22 +435,17 @@
       ],
       "description": "Safock - Opening Doors to DeFi ETFs | Stake ETFs | Get Insurance on ETFs | Backed by RTokens.",
       "link": {
-        "label": "monito.dev",
-        "href": "https://monito.dev/"
+        "label": "safock-asharibali.vercel.app/",
+        "href": "https://safock-asharibali.vercel.app/"
       }
     },
     {
       "title": "5irePay",
-      "techStack": [
-        "Hackathon Project",
-        "JavaScript",
-        "Next.js",
-        "TailwindCSS"
-      ],
-      "description": "The PayPal for crypto | Send and Receive your crypto payments instantly with just owing an gmail/email only.",
+      "techStack": ["Hackathon Project", "Next.js", "Solidity"],
+      "description": "5irePay is the PayPal of Crypto - send and receive crypto payments instantly with just an email address only!",
       "link": {
-        "label": "github.com",
-        "href": "https://github.com/AsharibAli/5irePay"
+        "label": "5ire-pay.vercel.app",
+        "href": "https://5ire-pay.vercel.app/"
       }
     },
     {
@@ -366,11 +473,11 @@
     },
     {
       "title": "Portfolio",
-      "techStack": ["Personal Project", "HTML", "CSS", "JavaScript"],
+      "techStack": ["Portfolio Project", "Nextjs", "TypeScript", "TailwindCSS"],
       "description": "My personal portfolio website.",
       "link": {
-        "label": "asharib.xyz",
-        "href": "https://asharib.xyz/"
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/portfolio"
       }
     },
     {
@@ -421,7 +528,7 @@
     {
       "title": "ChatDev",
       "techStack": [
-        "Side Projects",
+        "Assignment Projects",
         "ChatDev",
         "JavaScript",
         "Python",
@@ -435,7 +542,7 @@
     },
     {
       "title": "Financial Analyst AI",
-      "techStack": ["Assignment Project", "Python", "Streamlit", "OpenAI"],
+      "techStack": ["Assignment Project", "Python"],
       "description": "Build using OpenAI assistant and financialmodelingprep APIs.",
       "link": {
         "label": "github.com",
@@ -444,7 +551,7 @@
     },
     {
       "title": "Optimism AI",
-      "techStack": ["Side Project", "Blockchain", "AI", "Layer2"],
+      "techStack": ["Hackathon Project", "Blockchain", "AI"],
       "description": "Unleash the real power of Web3 & AI with Optimism AI natively for optimism blockchain.",
       "link": {
         "label": "op-ai.xyz",
@@ -452,8 +559,8 @@
       }
     },
     {
-      "title": "AI Quizzes",
-      "techStack": ["Side Project", "AI", "Quizzes", "JavaScript"],
+      "title": "AI Quiz App",
+      "techStack": ["Side Project", "AI", "Quizzes"],
       "description": "Test your prompt engineering, AI, and large language model skills by taking this simple 50-question quiz.",
       "link": {
         "label": "github.com",
@@ -461,8 +568,8 @@
       }
     },
     {
-      "title": "Blockchain Quizzes",
-      "techStack": ["Side Project", "Blockchain", "Quizzes", "JavaScript"],
+      "title": "Blockchain Quiz App",
+      "techStack": ["Side Project", "Blockchain", "Quizzes"],
       "description": "Test your blockchain technology skills by taking this simple 50-question quiz.",
       "link": {
         "label": "github.com",
@@ -471,7 +578,7 @@
     },
     {
       "title": "Blockchain Research Tools",
-      "techStack": ["Side Project", "Crypto", "Tools", "Products"],
+      "techStack": ["Side Project", "Crypto", "Tools"],
       "description": "A curated list of great blockchain or crypto-based research tools, products, and services.",
       "link": {
         "label": "github.com",
@@ -480,7 +587,7 @@
     },
     {
       "title": "Learn Prompting Guide",
-      "techStack": ["Translation", "Urdu Language", "PE", "AI"],
+      "techStack": ["Translation", "Urdu Language", "AI"],
       "description": "Complete Urdu Language Translation of Learn Prompting Official Documentation.",
       "link": {
         "label": "linkedin.com",
@@ -498,7 +605,7 @@
     },
     {
       "title": "Threads Clone",
-      "techStack": ["Clone", "Nextjs", "TypeScript", "Threads"],
+      "techStack": ["Clone", "Nextjs", "TypeScript"],
       "description": "A Threads Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       "link": {
         "label": "github.com",
@@ -507,7 +614,7 @@
     },
     {
       "title": "Next Auth V5",
-      "techStack": ["Course", "Nextjs", "TypeScript", "NextAuth.js"],
+      "techStack": ["Course", "TypeScript", "NextAuth.js"],
       "description": "The NextAuth.js advance project built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       "link": {
         "label": "github.com",
@@ -515,16 +622,7 @@
       }
     },
     {
-      "title": "Sigma Web Development",
-      "techStack": ["Course", "Web Development", "JavaScript"],
-      "description": "Complete Sigma Web Development Course followed by a Youtube Course.",
-      "link": {
-        "label": "github.com",
-        "href": "https://github.com/AsharibAli/sigma-web-dev"
-      }
-    },
-    {
-      "title": "Next.js App Router Course",
+      "title": "Next.js App Router",
       "techStack": ["Course", "TypeScript", "Next.js"],
       "description": "This dashboard app has 16 chapters, each on a different topic, by the official Next.js course.",
       "link": {
@@ -533,49 +631,129 @@
       }
     },
     {
+      "title": "HTML, CSS, & JS Projects",
+      "techStack": ["Side Projects", "HTML", "CSS", "JS"],
+      "description": "Develop several HTML, CSS, and JS projects to help me with my logic building.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/html-css-js-projects"
+      }
+    },
+    {
+      "title": "Sigma Web Development",
+      "techStack": ["Course", "Web Development", "JS"],
+      "description": "Complete Sigma Web Development Course followed by a Youtube Course.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/sigma-web-dev"
+      }
+    },
+    {
       "title": "100 Days of Code",
-      "techStack": ["Side Projects", "HTML", "CSS", "JavaScript"],
-      "description": "100 Days of Code is a challenge/community, where you publicly commit to code for 1 hour for the next 100 days.",
-      "link": {
-        "label": "100daysofcode.com",
-        "href": "https://www.100daysofcode.com/"
-      }
-    },
-    {
-      "title": "100 Days of Design",
-      "techStack": ["Side Projects", "Figma", "Canva", "Illustrator"],
-      "description": "100 Days of Design is a challenge/community, where you publicly commit to design for 1 hour for the next 100 days.",
-      "link": {
-        "label": "dailyui.co",
-        "href": "https://www.dailyui.co/"
-      }
-    },
-    {
-      "title": "100 Days of Prompt Engineering",
-      "techStack": ["Community", "Prompt Engineering", "AI", "LLM"],
-      "description": "To become a better Prompt Engineer, I'm following my own strategy to understand the AI stuffs.",
-      "link": {
-        "label": "learnprompting.org/",
-        "href": "https://learnprompting.org/docs/intro"
-      }
-    },
-    {
-      "title": "Discord 100 Days Coding Challenge",
-      "techStack": ["GenAI Community", "Programming", "TS", "JS"],
-      "description": "100 Days of Coding Challenge | Starting from Very Basics to Advance Level | For 50k+ GIAIC Students | on Discord.",
+      "techStack": ["GIAIC", "Web Development", "TypeScript"],
+      "description": "100 Days of Coding Challenge | Starting from Very Basics to Advance Level | For 30k+ GIAIC Students.",
       "link": {
         "label": "linkedin.com",
-        "href": "https://www.linkedin.com/posts/asharibali_100daysofcode-typescript-javascript-activity-7168557543525494784-29L6?utm_source=share&utm_medium=member_desktop"
+        "href": "https://github.com/AsharibAli/100-days-of-code"
+      }
+    },
+    {
+      "title": "100 Days of Designs",
+      "techStack": ["Side Projects", "Figma", "Canva"],
+      "description": "To enhance my thinking in designs, I'm following 100 days of designs with DailyUi",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/100-Days-of-Designs"
+      }
+    },
+    {
+      "title": "100 Days of Prompting",
+      "techStack": ["Prompting Engineering", "AI", "LLM"],
+      "description": "To become a better Prompt Engineer, I'm following my own strategy to built different prompts.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/100-Days-of-Prompt-Engineering"
       }
     },
     {
       "title": "100 Days of Blockchain",
-      "techStack": ["Revision", "Blockchain", "Solidity", "Smart Contracts"],
+      "techStack": ["Revision", "Blockchain", "Solidity"],
       "description": "Revision of Solidity Language, and Smart Contracts Development using latest tools and stack.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/100-days-of-blockchain"
       }
+    },
+    {
+      "title": "30 Days of 30 Projects",
+      "techStack": ["GIAIC", "NextJS", "TypeScript"],
+      "description": "30 Days of 30 Projects | One cool mini project each day using the latest tech stack for the next 30 days | For the 30k+ GIAIC Students.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/30days-of-30projects"
+      }
+    }
+  ],
+  "pinPoints": [
+    {
+      "title": "Experience",
+      "description": "3+ years in tech industry",
+      "icon": "💼"
+    },
+    {
+      "title": "Teaching",
+      "description": "3k+ students taught onsite",
+      "icon": "👨‍🏫"
+    },
+    {
+      "title": "Community",
+      "description": "Have 30k+ followers on social handles",
+      "icon": "👥"
+    },
+    {
+      "title": "Projects",
+      "description": "100+ projects completed",
+      "icon": "🚀"
+    },
+    {
+      "title": "Open Source",
+      "description": "50+ contributions",
+      "icon": "✨"
+    },
+    {
+      "title": "Hackathons",
+      "description": "Won 5+ hackathons",
+      "icon": "🏆"
+    },
+    {
+      "title": "Feedbacks",
+      "description": "10k+ positive feedbacks",
+      "icon": "👍"
+    },
+    {
+      "title": "Startups",
+      "description": "5+ failed startups",
+      "icon": "📌"
+    },
+    {
+      "title": "Languages",
+      "description": "English, Urdu",
+      "icon": "🗣️"
+    },
+    {
+      "title": "Hobbies",
+      "description": "Reading, Writing, Coding, Traveling",
+      "icon": "🎓"
+    },
+    {
+      "title": "Age",
+      "description": "21 years old (04-Sep-2004)",
+      "icon": "🙆‍♂️"
+    },
+    {
+      "title": "Status",
+      "description": "Single",
+      "icon": "💑"
     }
   ]
 }

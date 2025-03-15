@@ -19,7 +19,7 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
   personalWebsiteUrl: "https://asharib.xyz",
   contact: {
-    email: "asharibali@proton.me",
+    email: "asharibali@pm.me",
 
     social: [
       {
@@ -61,6 +61,12 @@ export const RESUME_DATA = {
   },
   education: [
     {
+      school: "Virtual University",
+      degree: "Associate Degree in Computer Science",
+      start: "2024",
+      end: "Present",
+    },
+    {
       school: "Panaverse, PIAIC",
       degree: "Cloud Native Applied Generative AI",
       start: "2022",
@@ -68,7 +74,7 @@ export const RESUME_DATA = {
     },
     {
       school: "Goverment Boys Degree College",
-      degree: "Intermediate in General Science",
+      degree: "Intermediate in Medical Science",
       start: "2020",
       end: "2022",
     },
