@@ -2,7 +2,7 @@
 import React from "react";
 import Script from "next/script";
 
-const AsharibChatbot = () => {
+const AsharibAssistant = () => {
   return (
     <div className="m-0">
       <Script
@@ -25,23 +25,23 @@ const AsharibChatbot = () => {
                   customIconSrc:
                     "https://raw.githubusercontent.com/AsharibAli/project-images/main/logo.png",
                   autoWindowOpen: {
-                    autoOpen: true, 
+                    autoOpen: true,
                     openDelay: 2,
-                    autoOpenOnMobile: false, 
+                    autoOpenOnMobile: false,
                   },
                 },
                 tooltip: {
                   showTooltip: true,
-                  tooltipMessage: "Try Asharib AI👋",
+                  tooltipMessage: "Try Asharib Assistant",
                   tooltipBackgroundColor: "white",
                   tooltipTextColor: "black",
                   tooltipFontSize: 16,
                 },
                 chatWindow: {
                   showTitle: true,
-                  title: "🤖 Asharib Assistant AI 👈",
+                  title: "🤖 Asharib Assistant 👈",
                   welcomeMessage:
-                    "Hey! I am Asharib Assistant AI, here to help you with any questions you have. What can I assist you with today?",
+                    "Hey! I am Asharib Assistant, here to help you with any questions you have. What can I assist you with today?",
                   errorMessage:
                     "Unable to retrieve data from the server. Please try again later.",
                   backgroundColor: "#ffffff",
@@ -73,9 +73,7 @@ const AsharibChatbot = () => {
                       "You exceeded the characters limit. Please input less than 100 characters.",
                     autoFocus: true, // If not used, autofocus is disabled on mobile and enabled on desktop. true enables it on both, false disables it on both.
                     sendMessageSound: true,
-                    // sendSoundLocation: "send_message.mp3", // If this is not used, the default sound effect will be played if sendSoundMessage is true.
                     receiveMessageSound: true,
-                    // receiveSoundLocation: "receive_message.mp3", // If this is not used, the default sound effect will be played if receiveSoundMessage is true.
                   },
                   feedback: {
                     color: "#000000",
@@ -90,11 +88,6 @@ const AsharibChatbot = () => {
                     company: "Asharib Ali",
                     companyLink: "https://github.com/AsharibAli/",
                   },
-                  disclaimer: {
-                    title: "Disclaimer",
-                    message:
-                      'By using this chatbot, you agree to the <a target="_blank" href="https://flowiseai.com/terms">Terms & Condition</a>',
-                  },
                 },
               },
             });
@@ -105,4 +98,4 @@ const AsharibChatbot = () => {
   );
 };
 
-export default AsharibChatbot;
+export default AsharibAssistant;
