@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import data from "@/data/resume-data.json";
+import { RESUME_DATA } from "@/data/resume-data.tsx";
 
 export async function GET() {
-  return NextResponse.json(data);
+  return NextResponse.json(RESUME_DATA);
 }
