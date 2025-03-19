@@ -19,7 +19,7 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
   personalWebsiteUrl: "https://asharib.xyz",
   contact: {
-    email: "asharibali@pm.me",
+    email: "contact@asharib.xyz",
 
     social: [
       {
