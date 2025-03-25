@@ -1,8 +1,8 @@
 # 🔥 Asharib Minimalist Portfolio 🔥
 
-Welcome to the official repository for Asharib's minimalist CV/Portfolio page! 🚀
+This simple website renders a sleek, print-friendly CV with a minimalist design. 
 
-This simple web app renders a sleek, print-friendly CV with a minimalist design. Built using the latest technologies, it ensures a seamless experience across all devices.
+Built using the latest technologies, it ensures a seamless experience across all devices.
 
 ## ✨ Features
 
@@ -25,11 +25,11 @@ This simple web app renders a sleek, print-friendly CV with a minimalist design.
    ```
 3. Install dependencies:
    ```bash
-   npm install
+   pnpm install
    ```
 4. Run the development server:
    ```bash
-   npm run dev
+   pnpm run dev
    ```
 
 ## 🌐 Live Demo
@@ -38,7 +38,7 @@ Check out the [live demo](https://www.asharib.xyz/) to see it in action!
 
 ## 🙌 Contributing
 
-We welcome contributions! Feel free to submit issues or pull requests.
+I welcome contributions! Feel free to submit issues or pull requests.
 
 ---
 
