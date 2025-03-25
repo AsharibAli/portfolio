@@ -6,6 +6,7 @@ import {
   TelegramIcon,
   InstagramIcon,
   FacebookIcon,
+  YoutubeIcon,
 } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -46,6 +47,11 @@ export const RESUME_DATA = {
         name: "GitHub",
         url: "https://github.com/AsharibAli",
         icon: GitHubIcon,
+      },
+      {
+        name: "Youtube",
+        url: "https://www.youtube.com/@0xAsharib",
+        icon: YoutubeIcon,
       },
       {
         name: "Instagram",
