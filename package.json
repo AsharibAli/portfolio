@@ -17,7 +17,6 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cmdk": "^0.2.0",
-    "flowise-embed-react": "^1.0.2",
     "lucide-react": "^0.300.0",
     "next": "15.2.2",
     "react": "19.0.0",
