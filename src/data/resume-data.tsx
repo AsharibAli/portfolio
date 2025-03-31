@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/nawabshah",
   about: "Passionate Developer. Designer. Manager. 🤍",
   summary:
-    "🙌 I build & teach AI and Blockchain Stuffs | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | 🌱 Contributing open-source | 🤖 Learning Cloud Native Applied Generative AI | 🧑‍💻 Teaching programming to 1,500+ students on-site while managing a community of 30k+ students at GIAIC.",
+    "I build & teach AI and Blockchain Stuffs | 3+ years of Tech Experience | Building products with latest tech-stack | Contributing open-source | Learning Cloud Native Applied Generative AI | Teaching programming to 1,500+ students on-site while managing a community of 30k+ students at GIAIC.",
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
   personalWebsiteUrl: "https://asharib.xyz",
   contact: {
@@ -52,11 +52,6 @@ export const RESUME_DATA = {
         name: "Youtube",
         url: "https://www.youtube.com/@0xAsharib",
         icon: YoutubeIcon,
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/0xasharib/",
-        icon: InstagramIcon,
       },
       {
         name: "Facebook",
@@ -486,7 +481,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Panaverse",
-      techStack: ["Assignment Project", "JavaScript", "Next.js", "TailwindCSS"],
+      techStack: ["Assignment Project", "JavaScript", "Next.js"],
       description:
         "Panaverse is a forward-thinking educational organization in pakistan.",
       link: {
@@ -534,7 +529,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Neghs Website",
-      techStack: ["Side Project", "HTML", "CSS", "JavaScript"],
+      techStack: ["Side Project", "HTML", "JavaScript"],
       description:
         "A school website for Noman School, built with HTML, CSS, and JavaScript.",
       link: {
@@ -544,7 +539,7 @@ export const RESUME_DATA = {
     },
     {
       title: "SCM Website",
-      techStack: ["Side Project", "HTML", "SCSS", "JavaScript"],
+      techStack: ["Side Project", "HTML", "JavaScript"],
       description:
         "A school website for SCM School, built with HTML, SCSS, and JavaScript.",
       link: {
@@ -640,7 +635,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Figma Clone",
-      techStack: ["Clone", "Nextjs", "TypeScript", "Figma"],
+      techStack: ["Clone", "Nextjs", "TypeScript"],
       description:
         "A Figma Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       link: {
@@ -672,14 +667,14 @@ export const RESUME_DATA = {
       title: "Next.js App Router",
       techStack: ["Course", "TypeScript", "Next.js"],
       description:
-        "This dashboard app has 16 chapters, each on a different topic, by the official Next.js course.",
+        "Complete official Next.js course with 16 chapters, each on a different topic and build a dashboard app.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/nextjs-dashboard",
       },
     },
     {
-      title: "HTML, CSS, & JS Projects",
+      title: "HTML, CSS & JS Projects",
       techStack: ["Side Projects", "HTML", "CSS", "JS"],
       description:
         "Develop several HTML, CSS, and JS projects to help me with my logic building.",
@@ -748,8 +743,18 @@ export const RESUME_DATA = {
         href: "https://github.com/AsharibAli/30days-of-30projects",
       },
     },
+    {
+      title: "Ramadan Coding Nights",
+      techStack: ["GIAIC", "Live Coding", "Python"],
+      description:
+        "A 20-day Ramadan coding challenge featuring 1-hour live sessions where I build Python mini-projects while explaining concepts to students.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/ramadan-coding-nights",
+      },
+    },
   ],
-  pinPoints: [
+  keyHighlights: [
     {
       title: "Experience",
       description: "3+ years in tech industry",
@@ -757,12 +762,12 @@ export const RESUME_DATA = {
     },
     {
       title: "Teaching",
-      description: "3k+ students taught onsite",
+      description: "3k+ students taught (onsite) about tech",
       icon: "👨‍🏫",
     },
     {
       title: "Community",
-      description: "Have 30k+ followers on social handles",
+      description: "Have 30k+ followers across social handles",
       icon: "👥",
     },
     {
@@ -777,22 +782,22 @@ export const RESUME_DATA = {
     },
     {
       title: "Hackathons",
-      description: "Won 5+ hackathons",
+      description: "Won 7 hackathons",
       icon: "🏆",
     },
     {
       title: "Feedbacks",
-      description: "10k+ positive feedbacks",
+      description: "Received 10k+ positive feedbacks",
       icon: "👍",
     },
     {
       title: "Startups",
-      description: "5+ failed startups",
+      description: "4 failed & 2 successful startups",
       icon: "📌",
     },
     {
       title: "Languages",
-      description: "English, Urdu",
+      description: "English (Professional), Urdu (Native)",
       icon: "🗣️",
     },
     {

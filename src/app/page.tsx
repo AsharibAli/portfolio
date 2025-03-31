@@ -19,7 +19,7 @@ import FlowiseChatbot from "@/components/chatbot";
 
 export default function Page() {
   return (
-    <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-6 print:p-12 md:p-16">
+    <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-6 md:p-16 print:p-12">
       <section className="mx-auto w-full max-w-3xl space-y-10 rounded-2xl bg-black text-white print:bg-white print:text-black">
         <div className="flex items-center justify-between gap-8 rounded-xl border border-gray-800 p-4">
           <div className="flex-1 space-y-2.5">
@@ -108,6 +108,27 @@ export default function Page() {
             {RESUME_DATA.summary}
           </p>
         </Section>
+
+        <Section className="print-force-new-page scroll-mb-16">
+          <h2 className="text-xl font-bold">Key Highlights</h2>
+          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-4 print:grid-cols-4 print:gap-2">
+            {RESUME_DATA.keyHighlights.map((point) => (
+              <Card
+                key={point.title}
+                className="flex flex-col items-start gap-2 p-4"
+              >
+                <div className="text-2xl">{point.icon}</div>
+                <div>
+                  <h3 className="font-semibold">{point.title}</h3>
+                  <p className="text-sm text-muted-foreground">
+                    {point.description}
+                  </p>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
@@ -218,7 +239,7 @@ export default function Page() {
 
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
@@ -230,26 +251,6 @@ export default function Page() {
                 />
               );
             })}
-          </div>
-        </Section>
-
-        <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Pin Points</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-4 print:gap-2 md:grid-cols-2 lg:grid-cols-4">
-            {RESUME_DATA.pinPoints.map((point) => (
-              <Card
-                key={point.title}
-                className="flex flex-col items-start gap-2 p-4"
-              >
-                <div className="text-2xl">{point.icon}</div>
-                <div>
-                  <h3 className="font-semibold">{point.title}</h3>
-                  <p className="text-sm text-muted-foreground">
-                    {point.description}
-                  </p>
-                </div>
-              </Card>
-            ))}
           </div>
         </Section>
 
