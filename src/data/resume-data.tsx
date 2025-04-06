@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/nawabshah",
   about: "Passionate Developer. Designer. Manager. 🤍",
   summary:
-    "I build & teach AI and Blockchain Stuffs | 3+ years of Tech Experience | Building products with latest tech-stack | Contributing open-source | Learning Cloud Native Applied Generative AI | Teaching programming to 1,500+ students on-site while managing a community of 30k+ students at GIAIC.",
+    "I build & teach AI and Blockchain Stuffs | 3+ years of Tech Experience | Building products with latest tech-stack | Contributing open-source | Learning Cloud Native Applied Agentic AI | Teaching Agentic AI to 1,500+ students on-site while managing a community of 30k+ students at GIAIC.",
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
   personalWebsiteUrl: "https://asharib.xyz",
   contact: {
@@ -69,7 +69,7 @@ export const RESUME_DATA = {
     },
     {
       school: "Panaverse, PIAIC",
-      degree: "Cloud Native Applied Generative AI",
+      degree: "Cloud Native Applied Agentic AI",
       start: "2022",
       end: "Present",
     },
@@ -319,6 +319,34 @@ export const RESUME_DATA = {
 
   work: [
     {
+      company: "EduHub",
+      link: "https://x.com/eduhub__/status/1846075841551257707",
+      badges: ["Remote", "Full-Time"],
+      title: "Founder & CTO",
+      start: "2024 July",
+      end: "Present",
+      description:
+        "I am teaching programming to thousands of students on-site and managing the GIAIC Discord community to help students learn and grow.",
+      bulletPoints: [
+        {
+          text: "Leading 1500+ students as an onsite lead instructor for programming practical and fundamentals",
+          link: "https://www.linkedin.com/posts/asharibali_little-glimpse-i-had-the-pleasure-of-activity-7239249368883576834-gysQ?utm_source=share&utm_medium=member_desktop",
+        },
+        {
+          text: "Managing 30k+ student community on Discord as a Student Ambassador",
+          link: "https://discord.gg/ZsN4YVRsRg",
+        },
+        {
+          text: "Organized successful 100-days-of-coding challenge with 1k+ active participants",
+          link: "https://github.com/AsharibAli/100-days-of-code",
+        },
+        {
+          text: "Organized successful 30-days-of-30-projects challenge with 1k+ active participants",
+          link: "https://github.com/AsharibAli/30days-of-30projects",
+        },
+      ],
+    },
+    {
       company: "GIAIC",
       link: "https://www.linkedin.com/posts/asharibali_piaic-giaic-ai-activity-7162920750088155136-VwIL",
       badges: ["Onsite", "Part-Time"],
@@ -347,7 +375,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      company: "Tameer-E-Millat Institute",
+      company: "Tameer-E-Millat",
       link: "https://twitter.com/0xAsharib/status/1712050364823048485",
       badges: ["Onsite", "Contract"],
       title: "Head of IT",
@@ -792,7 +820,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Startups",
-      description: "4 failed & 2 successful startups",
+      description: "4 failed & 1 successful startup",
       icon: "📌",
     },
     {
