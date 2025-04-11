@@ -320,29 +320,25 @@ export const RESUME_DATA = {
   work: [
     {
       company: "EduHub",
-      link: "https://x.com/eduhub__/status/1846075841551257707",
+      link: "https://eduhub.dev/",
       badges: ["Remote", "Full-Time"],
       title: "Founder & CTO",
-      start: "2024 July",
+      start: "2024 August",
       end: "Present",
       description:
-        "I am teaching programming to thousands of students on-site and managing the GIAIC Discord community to help students learn and grow.",
+        "I've been working as a Founder & CTO at EduHub, building Vibe Tooling for (community & developers) on EduChain, a L3 blockchain for Education.",
       bulletPoints: [
         {
-          text: "Leading 1500+ students as an onsite lead instructor for programming practical and fundamentals",
-          link: "https://www.linkedin.com/posts/asharibali_little-glimpse-i-had-the-pleasure-of-activity-7239249368883576834-gysQ?utm_source=share&utm_medium=member_desktop",
+          text: "Top Project of EduChain (25+ million on-chain transactions)",
+          link: "https://x.com/opencampus_xyz/status/1879393083701494262",
         },
         {
-          text: "Managing 30k+ student community on Discord as a Student Ambassador",
-          link: "https://discord.gg/ZsN4YVRsRg",
+          text: "Backed by Open Campus Incubar Program",
+          link: "https://oci.opencampus.xyz/",
         },
         {
-          text: "Organized successful 100-days-of-coding challenge with 1k+ active participants",
-          link: "https://github.com/AsharibAli/100-days-of-code",
-        },
-        {
-          text: "Organized successful 30-days-of-30-projects challenge with 1k+ active participants",
-          link: "https://github.com/AsharibAli/30days-of-30projects",
+          text: "EduChain Hackathon Winner",
+          link: "https://medium.com/edu-chain/announcing-the-winners-of-edu-chain-hackathon-semester-1-6554808bbf5a",
         },
       ],
     },
@@ -354,7 +350,7 @@ export const RESUME_DATA = {
       start: "2024 Feb",
       end: "Present",
       description:
-        "I am teaching programming to thousands of students on-site and managing the GIAIC Discord community to help students learn and grow.",
+        "I am teaching Agentic AI to 1500+ students (on-site) and managing the 30k+ GIAIC Discord community to help students learn and grow.",
       bulletPoints: [
         {
           text: "Leading 1500+ students as an onsite lead instructor for programming practical and fundamentals",
@@ -365,12 +361,16 @@ export const RESUME_DATA = {
           link: "https://discord.gg/ZsN4YVRsRg",
         },
         {
-          text: "Organized successful 100-days-of-coding challenge with 1k+ active participants",
+          text: "Organized successful 100-days-of-coding challenge with 5k+ active participants",
           link: "https://github.com/AsharibAli/100-days-of-code",
         },
         {
-          text: "Organized successful 30-days-of-30-projects challenge with 1k+ active participants",
+          text: "Organized successful 30-days-of-30-projects challenge with 2k+ active participants",
           link: "https://github.com/AsharibAli/30days-of-30projects",
+        },
+        {
+          text: "Organized successful Ramadan Coding Nights with 1k+ active participants",
+          link: "https://github.com/AsharibAli/ramadan-coding-nights",
         },
       ],
     },
@@ -382,7 +382,7 @@ export const RESUME_DATA = {
       start: "2023 Oct",
       end: "2023 Dec",
       description:
-        "I launched Nawabshah's first Blockchain & AI course, teaching cutting-edge technologies. I led a 3-month Introductory-Level course covering web technologies, fundamentals, and modern tech trends.",
+        "I led a 3-month Introductory-Level course covering web technologies, fundamentals, and modern tech trends (Blockchain & AI).",
       bulletPoints: [
         {
           text: "Designed and delivered comprehensive curriculum for 50+ students",
