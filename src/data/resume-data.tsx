@@ -333,12 +333,8 @@ export const RESUME_DATA = {
           link: "https://x.com/opencampus_xyz/status/1879393083701494262",
         },
         {
-          text: "Backed by Open Campus Incubar Program",
+          text: "Backed by Open Campus Incubator Program",
           link: "https://oci.opencampus.xyz/",
-        },
-        {
-          text: "EduChain Hackathon Winner",
-          link: "https://medium.com/edu-chain/announcing-the-winners-of-edu-chain-hackathon-semester-1-6554808bbf5a",
         },
       ],
     },
