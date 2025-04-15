@@ -806,7 +806,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Hackathons",
-      description: "Won 7 hackathons",
+      description: "Won Multiple hackathons",
       icon: "🏆",
     },
     {
