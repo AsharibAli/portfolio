@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/nawabshah",
   about: "Passionate Developer. Designer. Manager. 🤍",
   summary:
-    "I build & teach AI and Blockchain Stuffs | 3+ years of Tech Experience | Building products with latest tech-stack | Contributing open-source | Learning Cloud Native Applied Agentic AI | Teaching Agentic AI to 1,500+ students on-site while managing a community of 30k+ students at GIAIC.",
+    "I build & teach AI and Blockchain Stuffs | 3+ years of Tech Experience | Contributing open-source | Learning Cloud Native Applied Agentic AI | Teaching Agentic AI to 1,500+ students (on-site) and Leading 30k+ Tech Community at GIAIC.",
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
   personalWebsiteUrl: "https://asharib.xyz",
   contact: {
@@ -331,6 +331,10 @@ export const RESUME_DATA = {
         {
           text: "Top Project of EduChain (25+ million on-chain transactions)",
           link: "https://x.com/opencampus_xyz/status/1879393083701494262",
+        },
+        {
+          text: "Developed and launched core products: EduAgent, EduGPT, EduKit, and EduBox",
+          link: "https://docs.eduhub.dev/products",
         },
         {
           text: "Backed by Open Campus Incubator Program",
