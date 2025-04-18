@@ -10,7 +10,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install all dependencies.
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 # Copy local code to the container image.
 COPY . .
