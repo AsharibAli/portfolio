@@ -4,7 +4,7 @@
   "location": "Based in Pakistan 🇵🇰",
   "locationLink": "https://www.google.com/maps/place/nawabshah",
   "about": "Passionate Developer. Designer. Manager. 🤍",
-  "summary": "🙌 I build & teach AI and Blockchain Stuffs | ❇️ 3+ years of Tech Experience | ✨ Building products with latest tech-stack | 🌱 Contributing open-source | 🤖 Learning Cloud Native Applied Generative AI | 🧑‍💻 Teaching programming to 1,500+ students on-site while managing a community of 30k+ students at GIAIC.",
+  "summary": "I build & teach AI and Blockchain Stuffs | 3+ years of Tech Experience | Contributing open-source | Learning Cloud Native Applied Agentic AI | Teaching Agentic AI to 1,500+ students (on-site) and Leading 30k+ Tech Community at GIAIC.",
   "avatarUrl": "https://avatars.githubusercontent.com/u/102221198?v=4",
   "personalWebsiteUrl": "https://asharib.xyz",
   "contact": {
@@ -31,8 +31,8 @@
         "url": "https://github.com/AsharibAli"
       },
       {
-        "name": "Instagram",
-        "url": "https://www.instagram.com/0xasharib/"
+        "name": "Youtube",
+        "url": "https://www.youtube.com/@0xAsharib"
       },
       {
         "name": "Facebook",
@@ -49,7 +49,7 @@
     },
     {
       "school": "Panaverse, PIAIC",
-      "degree": "Cloud Native Applied Generative AI",
+      "degree": "Cloud Native Applied Agentic AI",
       "start": "2022",
       "end": "Present"
     },
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "title": "Masa Finance Ambassador",
+      "title": "Masa Finance Ambassador ",
       "by": "By: Masa AI Official",
       "reference": [
         {
@@ -234,7 +234,7 @@
       ]
     },
     {
-      "title": "Student Ambassador of 30k+ GIAIC Students",
+      "title": "Student Ambassador of 30k+ GIAIC Students ",
       "by": "By: Head of Faculty at GIAIC",
       "reference": [
         {
@@ -279,7 +279,7 @@
       "reference": [
         {
           "name": "👉 Reference",
-          "url": "https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop"
+          "url": "  https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop          "
         }
       ]
     },
@@ -296,13 +296,36 @@
   ],
   "work": [
     {
+      "company": "EduHub",
+      "link": "https://eduhub.dev/",
+      "badges": ["Remote", "Full-Time"],
+      "title": "Founder & CTO",
+      "start": "2024 August",
+      "end": "Present",
+      "description": "I've been working as a Founder & CTO at EduHub, building Vibe Tooling for (community & developers) on EduChain, a L3 blockchain for Education.",
+      "bulletPoints": [
+        {
+          "text": "Top Project of EduChain (25+ million on-chain transactions)",
+          "link": "https://x.com/opencampus_xyz/status/1879393083701494262"
+        },
+        {
+          "text": "Developed and launched core products: EduAgent, EduGPT, EduKit, and EduBox",
+          "link": "https://docs.eduhub.dev/products"
+        },
+        {
+          "text": "Backed by Open Campus Incubator Program",
+          "link": "https://oci.opencampus.xyz/"
+        }
+      ]
+    },
+    {
       "company": "GIAIC",
       "link": "https://www.linkedin.com/posts/asharibali_piaic-giaic-ai-activity-7162920750088155136-VwIL",
       "badges": ["Onsite", "Part-Time"],
       "title": "Lead Teacher & Student Ambassador",
       "start": "2024 Feb",
       "end": "Present",
-      "description": "I am teaching programming to thousands of students on-site and managing the GIAIC Discord community to help students learn and grow.",
+      "description": "I am teaching Agentic AI to 1500+ students (on-site) and managing the 30k+ GIAIC Discord community to help students learn and grow.",
       "bulletPoints": [
         {
           "text": "Leading 1500+ students as an onsite lead instructor for programming practical and fundamentals",
@@ -313,23 +336,27 @@
           "link": "https://discord.gg/ZsN4YVRsRg"
         },
         {
-          "text": "Organized successful 100-days-of-coding challenge with 1k+ active participants",
+          "text": "Organized successful 100-days-of-coding challenge with 5k+ active participants",
           "link": "https://github.com/AsharibAli/100-days-of-code"
         },
         {
-          "text": "Organized successful 30-days-of-30-projects challenge with 1k+ active participants",
+          "text": "Organized successful 30-days-of-30-projects challenge with 2k+ active participants",
           "link": "https://github.com/AsharibAli/30days-of-30projects"
+        },
+        {
+          "text": "Organized successful Ramadan Coding Nights with 1k+ active participants",
+          "link": "https://github.com/AsharibAli/ramadan-coding-nights"
         }
       ]
     },
     {
-      "company": "Tameer-E-Millat Institute",
+      "company": "Tameer-E-Millat",
       "link": "https://twitter.com/0xAsharib/status/1712050364823048485",
       "badges": ["Onsite", "Contract"],
       "title": "Head of IT",
       "start": "2023 Oct",
       "end": "2023 Dec",
-      "description": "I launched Nawabshah's first Blockchain & AI course, teaching cutting-edge technologies. I led a 3-month Introductory-Level course covering web technologies, fundamentals, and modern tech trends.",
+      "description": "I led a 3-month Introductory-Level course covering web technologies, fundamentals, and modern tech trends (Blockchain & AI).",
       "bulletPoints": [
         {
           "text": "Designed and delivered comprehensive curriculum for 50+ students"
@@ -450,12 +477,7 @@
     },
     {
       "title": "Panaverse",
-      "techStack": [
-        "Assignment Project",
-        "JavaScript",
-        "Next.js",
-        "TailwindCSS"
-      ],
+      "techStack": ["Assignment Project", "JavaScript", "Next.js"],
       "description": "Panaverse is a forward-thinking educational organization in pakistan.",
       "link": {
         "label": "github.com",
@@ -500,7 +522,7 @@
     },
     {
       "title": "Neghs Website",
-      "techStack": ["Side Project", "HTML", "CSS", "JavaScript"],
+      "techStack": ["Side Project", "HTML", "JavaScript"],
       "description": "A school website for Noman School, built with HTML, CSS, and JavaScript.",
       "link": {
         "label": "github.com",
@@ -509,7 +531,7 @@
     },
     {
       "title": "SCM Website",
-      "techStack": ["Side Project", "HTML", "SCSS", "JavaScript"],
+      "techStack": ["Side Project", "HTML", "JavaScript"],
       "description": "A school website for SCM School, built with HTML, SCSS, and JavaScript.",
       "link": {
         "label": "github.com",
@@ -596,7 +618,7 @@
     },
     {
       "title": "Figma Clone",
-      "techStack": ["Clone", "Nextjs", "TypeScript", "Figma"],
+      "techStack": ["Clone", "Nextjs", "TypeScript"],
       "description": "A Figma Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       "link": {
         "label": "github.com",
@@ -624,14 +646,14 @@
     {
       "title": "Next.js App Router",
       "techStack": ["Course", "TypeScript", "Next.js"],
-      "description": "This dashboard app has 16 chapters, each on a different topic, by the official Next.js course.",
+      "description": "Complete official Next.js course with 16 chapters, each on a different topic and build a dashboard app.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/nextjs-dashboard"
       }
     },
     {
-      "title": "HTML, CSS, & JS Projects",
+      "title": "HTML, CSS & JS Projects",
       "techStack": ["Side Projects", "HTML", "CSS", "JS"],
       "description": "Develop several HTML, CSS, and JS projects to help me with my logic building.",
       "link": {
@@ -692,9 +714,18 @@
         "label": "github.com",
         "href": "https://github.com/AsharibAli/30days-of-30projects"
       }
+    },
+    {
+      "title": "Ramadan Coding Nights",
+      "techStack": ["GIAIC", "Live Coding", "Python"],
+      "description": "A 20-day Ramadan coding challenge featuring 1-hour live sessions where I build Python mini-projects while explaining concepts to students.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/ramadan-coding-nights"
+      }
     }
   ],
-  "pinPoints": [
+  "keyHighlights": [
     {
       "title": "Experience",
       "description": "3+ years in tech industry",
@@ -702,12 +733,12 @@
     },
     {
       "title": "Teaching",
-      "description": "3k+ students taught onsite",
+      "description": "3k+ students taught (onsite) about tech",
       "icon": "👨‍🏫"
     },
     {
       "title": "Community",
-      "description": "Have 30k+ followers on social handles",
+      "description": "Have 30k+ followers across social handles",
       "icon": "👥"
     },
     {
@@ -722,22 +753,22 @@
     },
     {
       "title": "Hackathons",
-      "description": "Won 5+ hackathons",
+      "description": "Won Multiple hackathons",
       "icon": "🏆"
     },
     {
       "title": "Feedbacks",
-      "description": "10k+ positive feedbacks",
+      "description": "Received 10k+ positive feedbacks",
       "icon": "👍"
     },
     {
       "title": "Startups",
-      "description": "5+ failed startups",
+      "description": "4 failed & 1 successful startup",
       "icon": "📌"
     },
     {
       "title": "Languages",
-      "description": "English, Urdu",
+      "description": "English (Professional), Urdu (Native)",
       "icon": "🗣️"
     },
     {
