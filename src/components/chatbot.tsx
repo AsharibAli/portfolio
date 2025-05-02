@@ -6,7 +6,7 @@ const AsharibAssistant = () => {
   return (
     <div className="m-0">
       <Script
-        src="https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        src="https://cdn.jsdelivr.net/npm/flowise-embed@latest/dist/web.js"
         type="module"
         strategy="lazyOnload"
         onLoad={() => {
