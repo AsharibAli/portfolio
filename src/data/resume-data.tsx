@@ -344,17 +344,29 @@ export const RESUME_DATA = {
     },
     {
       company: "GIAIC",
-      link: "https://www.linkedin.com/posts/asharibali_piaic-giaic-ai-activity-7162920750088155136-VwIL",
+      link: "https://www.linkedin.com/posts/ameen-alam_asharib-ali-governor-sindh-initiative-for-activity-7167880905192030208-x-Yp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
       badges: ["Onsite", "Part-Time"],
       title: "Lead Teacher & Student Ambassador",
       start: "2024 Feb",
       end: "Present",
       description:
-        "I am teaching Agentic AI to 1500+ students (on-site) and managing the 30k+ GIAIC Discord community to help students learn and grow.",
+        "I am teaching Agentic AI to 1500+ students (on-site) and managing the 30k+ GIAIC Discord community to help students learn and grow in tech.",
       bulletPoints: [
         {
           text: "Leading 1500+ students as an onsite lead instructor for programming practical and fundamentals",
           link: "https://www.linkedin.com/posts/asharibali_little-glimpse-i-had-the-pleasure-of-activity-7239249368883576834-gysQ?utm_source=share&utm_medium=member_desktop",
+        },
+        {
+          text: "Taught TypeScript to 1,500+ students in Q1.",
+          link: "https://www.linkedin.com/posts/asharibali_ai-quiz-programming-activity-7204203223904116736-Z5a2?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
+        },
+        {
+          text: "Taught React & Next.js to 1,500+ students in Q2.",
+          link: "https://www.linkedin.com/posts/asharibali_the-last-class-of-giaic-q2-monday-2-5-session-activity-7289780533025206272-JjUJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
+        },
+        {
+          text: "Teaching Python to 1,500+ students in Q3.",
+          link: "https://www.linkedin.com/posts/asharibali_first-class-of-giaic-q3-monday-2-5-activity-7300118847204818944-EWhl?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
         },
         {
           text: "Managing 30k+ student community on Discord as a Student Ambassador",
