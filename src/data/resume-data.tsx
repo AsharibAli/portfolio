@@ -87,7 +87,7 @@ export const RESUME_DATA = {
       reference: [
         {
           name: "👉 Reference",
-          url: "https://twitter.com/binance",
+          url: "https://x.com/binance",
         },
       ],
     },
@@ -249,7 +249,7 @@ export const RESUME_DATA = {
       reference: [
         {
           name: "👉 Reference",
-          url: "https://twitter.com/cz_binance/status/1582658179569442817?s=20",
+          url: "https://x.com/cz_binance/status/1582658179569442817?s=20",
         },
       ],
     },
@@ -269,7 +269,7 @@ export const RESUME_DATA = {
       reference: [
         {
           name: "👉 Reference",
-          url: "https://twitter.com/eigenlayer/status/1640449493526274049?s=20",
+          url: "https://x.com/eigenlayer/status/1640449493526274049?s=20",
         },
       ],
     },
@@ -311,7 +311,37 @@ export const RESUME_DATA = {
       reference: [
         {
           name: "👉 Reference",
-          url: "https://twitter.com/binance/status/1714321768368967735",
+          url: "https://x.com/binance/status/1714321768368967735",
+        },
+      ],
+    },
+    {
+      title: "Exceed Xounity 2025 - Workshop Guest Speaker",
+      by: "By: Exceed Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://www.youtube.com/watch?v=MO_88QrgxUY",
+        },
+      ],
+    },
+    {
+      title: "Resources & Tools To Win in Web3 - Workshop Guest Speaker",
+      by: "By: Open Campus Official",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://www.youtube.com/watch?v=JY4Feuv7s_0",
+        },
+      ],
+    },
+    {
+      title: "Learn. Build. Ship. Your first dApp - Workshop Guest Speaker",
+      by: "By: NED University",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://www.linkedin.com/posts/asharibali_%F0%9D%90%8D%F0%9D%90%84%F0%9D%90%83-%F0%9D%90%94%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%B2-%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9D-activity-7321048266819756032-l6eK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
         },
       ],
     },
@@ -330,21 +360,36 @@ export const RESUME_DATA = {
       bulletPoints: [
         {
           text: "Top Project of EduChain (25+ million on-chain transactions)",
-          link: "https://x.com/opencampus_xyz/status/1879393083701494262",
+          links: [
+            {
+              name: "EduChain Reference",
+              url: "https://x.com/opencampus_xyz/status/1879393083701494262",
+            },
+          ],
         },
         {
           text: "Developed and launched core products: EduAgent, EduGPT, EduKit, and EduBox",
-          link: "https://docs.eduhub.dev/products",
+          links: [
+            {
+              name: "EduHub Products",
+              url: "https://docs.eduhub.dev/products",
+            },
+          ],
         },
         {
           text: "Backed by Open Campus Incubator Program",
-          link: "https://oci.opencampus.xyz/",
+          links: [
+            {
+              name: "OCI Program",
+              url: "https://oci.opencampus.xyz/",
+            },
+          ],
         },
       ],
     },
     {
       company: "GIAIC",
-      link: "https://www.linkedin.com/posts/ameen-alam_asharib-ali-governor-sindh-initiative-for-activity-7167880905192030208-x-Yp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
+      link: "https://www.governorsindh.com/",
       badges: ["Onsite", "Part-Time"],
       title: "Lead Teacher & Student Ambassador",
       start: "2024 Feb",
@@ -353,42 +398,61 @@ export const RESUME_DATA = {
         "I am teaching Agentic AI to 1500+ students (on-site) and managing the 30k+ GIAIC Discord community to help students learn and grow in tech.",
       bulletPoints: [
         {
-          text: "Leading 1500+ students as an onsite lead instructor for programming practical and fundamentals",
-          link: "https://www.linkedin.com/posts/asharibali_little-glimpse-i-had-the-pleasure-of-activity-7239249368883576834-gysQ?utm_source=share&utm_medium=member_desktop",
+          text: "Lead instructor for 1,500+ students learning Agentic AI, in Q1, Q2, and Q3",
+          links: [
+            {
+              name: "Q1 TypeScript",
+              url: "https://www.linkedin.com/posts/asharibali_ai-quiz-programming-activity-7204203223904116736-Z5a2?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
+            },
+            {
+              name: "Q2 React/Next.js",
+              url: "https://www.linkedin.com/posts/asharibali_little-glimpse-i-had-the-pleasure-of-activity-7239249368883576834-gysQ?utm_source=share&utm_medium=member_desktop",
+            },
+            {
+              name: "Q3 Python",
+              url: "https://www.linkedin.com/posts/asharibali_first-class-of-giaic-q3-monday-2-5-activity-7300118847204818944-EWhl?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
+            },
+          ],
         },
         {
-          text: "Taught TypeScript to 1,500+ students in Q1.",
-          link: "https://www.linkedin.com/posts/asharibali_ai-quiz-programming-activity-7204203223904116736-Z5a2?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
+          text: "Managed a 30k+ GIAIC students community on Discord as the only Student Ambassador",
+          links: [
+            {
+              name: "LinkedIn Endorsement",
+              url: "https://www.linkedin.com/posts/ameen-alam_asharib-ali-governor-sindh-initiative-for-activity-7167880905192030208-x-Yp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
+            },
+            {
+              name: "Discord Community",
+              url: "https://discord.gg/ZsN4YVRsRg",
+            },
+            {
+              name: "LinkTree (GIAIC)",
+              url: "https://linktr.ee/giaic",
+            },
+          ],
         },
         {
-          text: "Taught React & Next.js to 1,500+ students in Q2.",
-          link: "https://www.linkedin.com/posts/asharibali_the-last-class-of-giaic-q2-monday-2-5-session-activity-7289780533025206272-JjUJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
-        },
-        {
-          text: "Teaching Python to 1,500+ students in Q3.",
-          link: "https://www.linkedin.com/posts/asharibali_first-class-of-giaic-q3-monday-2-5-activity-7300118847204818944-EWhl?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
-        },
-        {
-          text: "Managing 30k+ student community on Discord as a Student Ambassador",
-          link: "https://discord.gg/ZsN4YVRsRg",
-        },
-        {
-          text: "Organized successful 100-days-of-coding challenge with 5k+ active participants",
-          link: "https://github.com/AsharibAli/100-days-of-code",
-        },
-        {
-          text: "Organized successful 30-days-of-30-projects challenge with 2k+ active participants",
-          link: "https://github.com/AsharibAli/30days-of-30projects",
-        },
-        {
-          text: "Organized successful Ramadan Coding Nights with 1k+ active participants",
-          link: "https://github.com/AsharibAli/ramadan-coding-nights",
+          text: "Organized large-scale coding challenges",
+          links: [
+            {
+              name: "100 Days of Code (5k+ participants)",
+              url: "https://github.com/AsharibAli/100-days-of-code",
+            },
+            {
+              name: "30 Days of 30 Projects (2k+ participants)",
+              url: "https://github.com/AsharibAli/30days-of-30projects",
+            },
+            {
+              name: "Ramadan Coding Nights (1k+ participants)",
+              url: "https://github.com/AsharibAli/ramadan-coding-nights",
+            },
+          ],
         },
       ],
     },
     {
       company: "Tameer-E-Millat",
-      link: "https://twitter.com/0xAsharib/status/1712050364823048485",
+      link: "https://x.com/0xAsharib/status/1712050364823048485",
       badges: ["Onsite", "Contract"],
       title: "Head of IT",
       start: "2023 Oct",

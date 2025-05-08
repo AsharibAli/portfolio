@@ -168,32 +168,48 @@ export default function Page() {
                   </p>
                   {work.bulletPoints && work.bulletPoints.length > 0 && (
                     <ul className="mt-2 text-xs print:text-[10px]">
-                      {work.bulletPoints.map(
-                        (
-                          point: { text: string; link?: string },
-                          index: number,
-                        ) => (
-                          <li
-                            key={index}
-                            className="mb-1 flex items-center gap-x-2"
-                          >
-                            <ArrowRightIcon className="h-3 w-3 flex-shrink-0 text-gray-500" />
-                            <span className="flex items-center gap-x-1">
-                              {point.text}
-                              {point.link && (
-                                <a
-                                  href={point.link}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="inline-flex items-center hover:text-blue-500"
-                                >
-                                  <ExternalLinkIcon className="ml-1 h-3 w-3" />
-                                </a>
-                              )}
-                            </span>
-                          </li>
-                        ),
-                      )}
+                      {work.bulletPoints.map((point: any, index: number) => (
+                        <li
+                          key={index}
+                          className="mb-1 flex items-center gap-x-2"
+                        >
+                          <ArrowRightIcon className="h-3 w-3 flex-shrink-0 text-gray-500" />
+                          <span className="flex items-center gap-x-1">
+                            {point.text}
+                            {point.link && (
+                              <a
+                                href={point.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center hover:text-blue-500"
+                              >
+                                <ExternalLinkIcon className="ml-1 h-3 w-3" />
+                              </a>
+                            )}
+                            {point.links && point.links.length > 0 && (
+                              <span className="ml-1 flex items-center space-x-1">
+                                {point.links.map(
+                                  (
+                                    link: { name: string; url: string },
+                                    linkIndex: number,
+                                  ) => (
+                                    <a
+                                      key={linkIndex}
+                                      href={link.url}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="inline-flex items-center hover:text-blue-500"
+                                      title={link.name}
+                                    >
+                                      <ExternalLinkIcon className="h-3 w-3" />
+                                    </a>
+                                  ),
+                                )}
+                              </span>
+                            )}
+                          </span>
+                        </li>
+                      ))}
                     </ul>
                   )}
                 </CardContent>
