@@ -886,12 +886,12 @@ export const RESUME_DATA = {
     },
     {
       title: "Hackathons",
-      description: "Won Multiple hackathons",
+      description: "Won 7 hackathons",
       icon: "🏆",
     },
     {
       title: "Feedbacks",
-      description: "Received 10k+ positive feedbacks",
+      description: "Received 10k+ positive comments on socials",
       icon: "👍",
     },
     {
@@ -911,7 +911,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Age",
-      description: "21 years old (04-Sep-2004)",
+      description: "20 years old (04-Sep-2004)",
       icon: "🙆‍♂️",
     },
     {
