@@ -14,11 +14,11 @@ export const RESUME_DATA = {
   initials: "AA",
   location: "Based in Pakistan 🇵🇰",
   locationLink: "https://www.google.com/maps/place/nawabshah",
-  about: "Passionate Developer. Designer. Manager. 🤍",
+  about: "I build & teach AI and Blockchain stuff 🤍",
   summary:
-    "I build & teach AI and Blockchain Stuffs | 3+ years of Tech Experience | Contributing open-source | Learning Cloud Native Applied Agentic AI | Teaching Agentic AI to 1,500+ students (on-site) and Leading 30k+ Tech Community at GIAIC.",
+    "I'm an AI & Blockchain developer with 3+ years of experience transforming complex technologies into accessible knowledge. I help the next generation of technologists while building the future through innovative solutions. I'm currently teaching Agentic AI to 1,500+ students, managing a 30k+ tech community at GIAIC, and advancing the field with open-source contributions.",
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
-  personalWebsiteUrl: "https://asharib.xyz",
+  personalWebsiteUrl: "https://www.asharib.xyz",
   contact: {
     email: "contact@asharib.xyz",
 

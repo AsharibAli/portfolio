@@ -26,13 +26,13 @@ const AsharibAssistant = () => {
                     "https://raw.githubusercontent.com/AsharibAli/project-images/main/logo.png",
                   autoWindowOpen: {
                     autoOpen: true,
-                    openDelay: 2,
+                    openDelay: 5,
                     autoOpenOnMobile: false,
                   },
                 },
                 tooltip: {
                   showTooltip: true,
-                  tooltipMessage: "Try Asharib Assistant",
+                  tooltipMessage: "Try my Assistant",
                   tooltipBackgroundColor: "white",
                   tooltipTextColor: "black",
                   tooltipFontSize: 16,
@@ -41,7 +41,7 @@ const AsharibAssistant = () => {
                   showTitle: true,
                   title: "🤖 Asharib Assistant 👈",
                   welcomeMessage:
-                    "Hey! I am Asharib Assistant, here to help you with any questions you have. What can I assist you with today?",
+                    "Hello! I am Asharib Assistant, here to help you with any questions you have about Asharib Ali. What can I assist you with today?",
                   errorMessage:
                     "Unable to retrieve data from the server. Please try again later.",
                   backgroundColor: "#ffffff",
