@@ -87,7 +87,6 @@
   @apply bg-gray-800/90 text-white rounded-lg border border-gray-700/50;
 }
 
-/* Print styles */
 @media print {
   body {
     @apply bg-white text-black;
@@ -102,7 +101,6 @@
   }
 }
 
-/* Add these custom styles */
 @layer utilities {
   .section-spacing {
     @apply space-y-10 md:space-y-12;
@@ -115,4 +113,47 @@
   .link-hover {
     @apply transition-colors duration-200 hover:text-blue-400;
   }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.animate-fade-in-delayed {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out forwards;
+  animation-delay: 0.2s;
+}
+
+.animate-fade-in-delayed-more {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out forwards;
+  animation-delay: 0.4s;
+}
+
+/* For the page transition effect */
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.5s ease-out forwards;
 }
