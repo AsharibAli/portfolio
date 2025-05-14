@@ -49,12 +49,14 @@ export default function Page() {
   // Initial view - just the switch button centered
   if (viewMode === "initial") {
     return (
-      <div className="flex min-h-screen flex-col items-center justify-center bg-black">
+      <div className="flex min-h-screen flex-col items-center justify-center bg-black px-4 py-8">
         <div className="mb-8 text-center">
-          <h1 className="mb-6 bg-clip-text text-4xl font-bold text-transparent text-white">
+          <h1 className="mb-6 text-3xl font-bold text-white sm:text-4xl">
             How would you like to view my portfolio?
           </h1>
-          <p className="text-gray-400">Choose a view mode to continue</p>
+          <p className="text-sm text-gray-400 sm:text-base">
+            Choose a view mode to continue
+          </p>
         </div>
         <ViewSwitch
           currentView="simple"
@@ -70,10 +72,10 @@ export default function Page() {
     return (
       <div className="animate-scale-in">
         <SimpleView />
-        <div className="fixed bottom-8 left-1/2 z-50 -translate-x-1/2 transform">
+        <div className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8">
           <ViewSwitch currentView={viewMode} onChange={handleViewModeChange} />
         </div>
-        <div className="fixed bottom-6 right-6 z-50">
+        <div className="fixed bottom-6 right-4 z-50 sm:right-6">
           <FlowiseChatbot />
         </div>
       </div>
@@ -83,7 +85,7 @@ export default function Page() {
   // Full view (original content)
   return (
     <div className="animate-scale-in">
-      <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-6 md:p-16 print:p-12">
+      <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-4 sm:p-6 md:p-16 print:p-12">
         <section className="mx-auto w-full max-w-3xl space-y-10 rounded-2xl bg-black text-white print:bg-white print:text-black">
           <div className="flex items-center justify-between gap-8 rounded-xl border border-gray-800 p-4">
             <div className="flex-1 space-y-2.5">
@@ -385,7 +387,7 @@ export default function Page() {
           <FlowiseChatbot />
         </div>
 
-        <div className="fixed bottom-8 left-1/2 z-50 -translate-x-1/2 transform">
+        <div className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8">
           <ViewSwitch currentView={viewMode} onChange={handleViewModeChange} />
         </div>
       </main>
