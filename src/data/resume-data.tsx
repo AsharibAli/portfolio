@@ -326,7 +326,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Resources & Tools To Win in Web3 - Workshop Guest Speaker",
+      title: "Resources & Tools To Win in Web3 - Workshop Lead Speaker",
       by: "By: Open Campus Official",
       reference: [
         {
@@ -336,12 +336,22 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Learn. Build. Ship. Your first dApp - Workshop Guest Speaker",
+      title: "Learn. Build. Ship. Your first dApp - Workshop Lead Speaker",
       by: "By: NED University",
       reference: [
         {
           name: "👉 Reference",
           url: "https://www.linkedin.com/posts/asharibali_%F0%9D%90%8D%F0%9D%90%84%F0%9D%90%83-%F0%9D%90%94%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%B2-%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9D-activity-7321048266819756032-l6eK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
+        },
+      ],
+    },
+    {
+      title: "Three days virtual bootcamp about blockchain - Co-Lead Speaker",
+      by: "By: Decentral Developers",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://www.linkedin.com/posts/decentral-developers_blockchainbootcamp-web3revolution-futureofinternet-activity-7321844451448893440-jW1x?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
         },
       ],
     },
