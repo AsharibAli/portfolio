@@ -14,9 +14,9 @@ export const RESUME_DATA = {
   initials: "AA",
   location: "Based in Pakistan 🇵🇰",
   locationLink: "https://www.google.com/maps/place/nawabshah",
-  about: "I build & teach AI and Blockchain stuff 🤍",
+  about: "I build & teach AI and Blockchain stuff",
   summary:
-    "I'm an AI & Blockchain developer with 3+ years of experience transforming complex technologies into accessible knowledge. I help the next generation of technologists while building the future through innovative solutions. I'm currently teaching Agentic AI to 1,500+ students, managing a 30k+ tech community at GIAIC, and advancing the field with open-source contributions.",
+    "I build AI & Blockchain solutions and teach others to do the same. Currently instructing 1,500+ students in Cloud Native + Agentic AI while managing a 30k+ tech community at GIAIC.",
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
   personalWebsiteUrl: "https://www.asharib.xyz",
   contact: {
@@ -362,7 +362,7 @@ export const RESUME_DATA = {
       company: "EduHub",
       link: "https://eduhub.dev/",
       badges: ["Remote", "Full-Time"],
-      title: "Founder & CTO",
+      title: "Chief Technology Officer",
       start: "2024 August",
       end: "Present",
       description:
@@ -401,7 +401,7 @@ export const RESUME_DATA = {
       company: "GIAIC",
       link: "https://www.governorsindh.com/",
       badges: ["Onsite", "Part-Time"],
-      title: "Lead Teacher & Student Ambassador",
+      title: "Lead Teacher",
       start: "2024 Feb",
       end: "Present",
       description:
@@ -449,11 +449,11 @@ export const RESUME_DATA = {
               url: "https://github.com/AsharibAli/100-days-of-code",
             },
             {
-              name: "30 Days of 30 Projects (2k+ participants)",
+              name: "30 Days of 30 Projects (3k+ participants)",
               url: "https://github.com/AsharibAli/30days-of-30projects",
             },
             {
-              name: "Ramadan Coding Nights (1k+ participants)",
+              name: "Ramadan Coding Nights (2k+ participants)",
               url: "https://github.com/AsharibAli/ramadan-coding-nights",
             },
           ],
@@ -485,7 +485,7 @@ export const RESUME_DATA = {
       company: "B4Business",
       link: "https://b4bussines.com/",
       badges: ["Remote", "Part-Time"],
-      title: "Founder & Content Writer",
+      title: "Technical Writer",
       start: "2022 Jan",
       end: "2023 Jan",
       description:
