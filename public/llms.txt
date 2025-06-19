@@ -1,0 +1,68 @@
+# Asharib Ali
+
+> AI & Blockchain developer with 3+ years of experience. Teaching Cloud Native + Agentic AI to 1,500+ students at GIAIC and managing a 30k+ tech community. CTO at EduHub building on EduChain blockchain.
+
+## Live Profile Data
+
+- [Complete Profile API](https://asharib.xyz/api/profile): Real-time comprehensive data including experience, education, projects, achievements, and contact information
+- [Homepage](https://asharib.xyz): Interactive portfolio with current status and recent updates
+
+## Professional Background
+
+- [Current Role - CTO at EduHub](https://eduhub.dev): Building educational tooling on EduChain L3 blockchain with 25+ million on-chain transactions
+- [Teaching Role at GIAIC](https://www.governorsindh.com): Lead instructor for 1,500+ students in Cloud Native + Agentic AI (Q1: TypeScript, Q2: React/Next.js, Q3: Python)
+- [Community Leadership](https://discord.gg/ZsN4YVRsRg): Managing 30k+ GIAIC Discord community as Student Ambassador
+
+## Key Achievements
+
+- [Open Campus Hackathon Winner](https://medium.com/edu-chain/announcing-the-winners-of-edu-chain-hackathon-semester-1-6554808bbf5a): Infrastructure Track champion
+- [Celestia Hackathon Winner](https://x.com/CelestiaOrg/status/1797710392992678345): Community Track champion  
+- [Multiple Hackathon Victories](https://asharib.xyz/api/profile): 7+ hackathon wins across various blockchain projects
+- [Binance Recognition](https://x.com/binance): Official follow and contest winner
+- [Top EduChain Project](https://x.com/opencampus_xyz/status/1879393083701494262): Most active platform with 25M+ transactions
+
+## Technical Expertise
+
+- **Blockchain Development**: Solidity, EVM, Smart Contracts, DApp Development
+- **AI Development**: Agentic AI, Prompt Engineering, LLM Integration
+- **Full Stack Development**: TypeScript, React, Next.js, Python, fastAPI, PostgreSQL
+- **Teaching & Community**: Curriculum design, large-scale coding challenges, community management
+
+## Educational Initiatives
+
+- [100 Days of Code Challenge](https://github.com/AsharibAli/100-days-of-code): 5k+ participants learning fundamentals
+- [30 Days of 30 Projects](https://github.com/AsharibAli/30days-of-30projects): 3k+ participants building real projects
+- [Ramadan Coding Nights](https://github.com/AsharibAli/ramadan-coding-nights): 2k+ participants in live coding sessions
+
+## Featured Projects
+
+- [EduHub Platform](https://eduhub.dev): Educational blockchain platform with EduAgent, EduGPT, EduKit, and EduBox
+- [Talkn](https://talkn-rho.vercel.app): Web3 Talk-2-Earn and Engage-2-Earn platform
+- [Optimism AI](https://www.op-ai.xyz): AI-powered tools for Optimism blockchain ecosystem
+
+## Open Source Contributions
+
+- [FlowiseAI Expert](https://github.com/flowiseai/flowise): Core contributor to open-source AI workflow platform
+- [Lava Network Champion](https://github.com/lavanet): Blockchain infrastructure contributions
+- [Learn Prompting Urdu Translation](https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn): Complete documentation translation
+
+## Contact & Social
+
+- [Email](mailto:contact@asharib.xyz): Professional contact
+- [GitHub](https://github.com/AsharibAli): 100+ repositories and open source work
+- [Twitter/X](https://x.com/0xAsharib): Tech insights and blockchain updates  
+- [LinkedIn](https://www.linkedin.com/in/asharibali): Professional network and achievements
+- [YouTube](https://www.youtube.com/@0xAsharib): Educational content and tutorials
+
+## Educational Background
+
+- [Current Studies](https://asharib.xyz/api/profile): Associate Degree in Computer Science (Virtual University)
+- [GIAIC Program](https://www.governorsindh.com): Cloud Native Applied Agentic AI (Governor's Initiative)
+- [PIAIC Alumni](https://www.piaic.org): Presidential Initiative for Artificial Intelligence & Computing
+
+## Optional
+
+- [Complete Project Portfolio](https://asharib.xyz/api/profile): 100+ projects including hackathon wins, assignments, and side projects
+- [Detailed Work History](https://asharib.xyz/api/profile): Full employment timeline with descriptions and achievements
+- [Skills & Technologies](https://asharib.xyz/api/profile): Comprehensive technical skill set and proficiencies
+- [Awards & Recognition](https://asharib.xyz/api/profile): 20+ achievements and industry recognition 
