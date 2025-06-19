@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/nawabshah",
   about: "I build & teach AI and Blockchain stuff",
   summary:
-    "I build AI & Blockchain solutions and teach others to do the same. Currently instructing 1,500+ students in Cloud Native + Agentic AI while managing a 30k+ tech community at GIAIC.",
+    "I build AI & Blockchain solutions and teach others to do the same. Currently instructing 1,500+ students (on-site) in Cloud Native + Agentic AI while managing a 30k+ tech community at GIAIC.",
   avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
   personalWebsiteUrl: "https://www.asharib.xyz",
   contact: {
