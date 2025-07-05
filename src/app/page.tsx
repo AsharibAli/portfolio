@@ -26,6 +26,11 @@ export default function Page() {
 
   // Function to handle view mode change
   const handleViewModeChange = (mode: ViewMode) => {
+    // If developer mode is selected, redirect to the API endpoint
+    if (mode === "developer") {
+      window.open("/api/profile", "_blank");
+      return;
+    }
     setViewMode(mode);
   };
 
@@ -41,7 +46,10 @@ export default function Page() {
     const savedViewMode = localStorage.getItem(
       "portfolioViewMode",
     ) as ViewMode | null;
-    if (savedViewMode && ["simple", "detailed"].includes(savedViewMode)) {
+    if (
+      savedViewMode &&
+      ["simple", "detailed", "developer"].includes(savedViewMode)
+    ) {
       setViewMode(savedViewMode);
     }
   }, []);
@@ -52,7 +60,7 @@ export default function Page() {
       <div className="flex min-h-screen flex-col items-center justify-center bg-black px-4 py-8">
         <div className="mb-8 text-center">
           <h1 className="mb-6 text-3xl font-bold text-white sm:text-4xl">
-            How would you like to view my portfolio?
+            Select mode
           </h1>
           <p className="text-sm text-gray-400 sm:text-base">
             Choose a view mode to continue
@@ -363,7 +371,6 @@ export default function Page() {
                       </h3>
                     </div>
                   </CardHeader>
-                  <CardContent className="mt-2">{achievement.by}</CardContent>
                 </Card>
               );
             })}

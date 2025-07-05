@@ -82,18 +82,88 @@ export const RESUME_DATA = {
   ],
   achievements: [
     {
-      title: "Binance Followed me on X",
-      by: "By: Binance Official",
+      title: "Recognized by Binance for Community Impact",
       reference: [
         {
           name: "👉 Reference",
-          url: "https://x.com/binance",
+          url: "https://x.com/binance/status/1714321768368967735",
+        },
+      ],
+    },
+    {
+      title: "Student Ambassador for 30k+ GIAIC Community",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://www.linkedin.com/posts/ameen-alam_asharib-ali-governor-sindh-initiative-for-activity-7167880905192030208-x-Yp/?utm_source=share&utm_medium=member_desktop",
+        },
+      ],
+    },
+    {
+      title: "EigenLayer Community Recognition & Active Contributor",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/eigenlayer/status/1640449493526274049?s=20",
+        },
+      ],
+    },
+    {
+      title: "Best Student of the Year (1200+ Students)",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://www.instagram.com/p/CRTPa8Wt_cL/",
+        },
+      ],
+    },
+    {
+      title: "Most Used Platform on EduChain (6.7M+ Transactions)",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/opencampus_xyz/status/1860993260237525007",
+        },
+      ],
+    },
+    {
+      title: "NED University Invited me to speak on Web3",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://www.linkedin.com/posts/asharibali_%F0%9D%90%8D%F0%9D%90%84%F0%9D%90%83-%F0%9D%90%94%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%B2-%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9D-activity-7321048266819756032-l6eK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
+        },
+      ],
+    },
+    {
+      title: "Sir Zia Appreciated my hard work at Panaverse",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://imgbb.com/GcrjcTw",
+        },
+      ],
+    },
+    {
+      title: "Personal Recognition from Harry Zhang",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "https://x.com/harryzhangs/status/1887772228651208963",
+        },
+      ],
+    },
+    {
+      title: "Complete Urdu Translation of Learn Prompting Guide",
+      reference: [
+        {
+          name: "👉 Reference",
+          url: "  https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop          ",
         },
       ],
     },
     {
       title: "Honourable IT Instructor",
-      by: "By: Tameer-E-Millat Institute",
       reference: [
         {
           name: "👉 Reference",
@@ -102,8 +172,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Masa Finance Ambassador ",
-      by: "By: Masa AI Official",
+      title: "Masa Finance Ambassador",
       reference: [
         {
           name: "👉 Reference",
@@ -112,8 +181,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "FlowiseAI Expert (Open-Source Contributor)",
-      by: "By: FlowiseAI Official",
+      title: "FlowiseAI Expert & Open-Source Contributor",
       reference: [
         {
           name: "👉 Reference",
@@ -122,8 +190,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Lava Blockchain Champion (Open-Source Contributor)",
-      by: "By: Lava Network Official",
+      title: "Lava Blockchain Champion & Open-Source Contributor",
       reference: [
         {
           name: "👉 Reference",
@@ -132,8 +199,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Open Campus Hackathon Winner (Infrastructure-Track)",
-      by: "By: Open Campus Official",
+      title: "Open Campus Hackathon Winner (Infrastructure Track)",
       reference: [
         {
           name: "👉 Reference",
@@ -142,8 +208,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Celestia Hackathon Winner (Community-Track)",
-      by: "By: Celestia Blockchain Official",
+      title: "Celestia Hackathon Winner (Community Track)",
       reference: [
         {
           name: "👉 Reference",
@@ -152,8 +217,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Owl Hackathon Hackathon Winner (Bounty-Track)",
-      by: "By: Owl Protocol Official",
+      title: "Owl Protocol Hackathon Winner (Bounty Track)",
       reference: [
         {
           name: "👉 Reference",
@@ -162,8 +226,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "DSCVR Hackathon Hackathon Winner (Metaplex-Track)",
-      by: "By: DSCVR & Metaplex Official",
+      title: "DSCVR Hackathon Winner (Metaplex Track)",
       reference: [
         {
           name: "👉 Reference",
@@ -172,8 +235,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "DSCVR Hackathon Hackathon Winner (DSCVR-Track)",
-      by: "By: DSCVR Official",
+      title: "DSCVR Hackathon Winner (DSCVR Track)",
       reference: [
         {
           name: "👉 Reference",
@@ -183,7 +245,6 @@ export const RESUME_DATA = {
     },
     {
       title: "Workshop Speaker at Mega Co-Learning Camp with EduChain",
-      by: "By: HackQuest Official",
       reference: [
         {
           name: "👉 Reference",
@@ -200,18 +261,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Most Used Platform on EduChain (6.7M+ on-chain Transactions)",
-      by: "By: Open Campus Official",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/opencampus_xyz/status/1860993260237525007",
-        },
-      ],
-    },
-    {
-      title: "Youngest AMA Speaker about Education on Blockchain",
-      by: "By: Pukecast Official",
+      title: "Youngest AMA Speaker on Education & Blockchain",
       reference: [
         {
           name: "👉 Reference",
@@ -224,8 +274,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Win 10+ Crypto-Based Contests",
-      by: "By: multiple crypto projects and communities",
+      title: "Winner of 10+ Crypto & Web3 Contests",
       reference: [
         {
           name: "👉 Reference",
@@ -234,60 +283,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Top 10% in AI & Blockchain at Panaverse",
-      by: "By: COO of PIAIC, Sir Zia Khan",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://imgbb.com/GcrjcTw",
-        },
-      ],
-    },
-    {
-      title: "CZ Binance Commented on my Tweet",
-      by: "By: Ex CEO of Binance",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/cz_binance/status/1582658179569442817?s=20",
-        },
-      ],
-    },
-    {
-      title: "Student Ambassador of 30k+ GIAIC Students ",
-      by: "By: Head of Faculty at GIAIC",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://www.linkedin.com/posts/ameen-alam_asharib-ali-governor-sindh-initiative-for-activity-7167880905192030208-x-Yp/?utm_source=share&utm_medium=member_desktop",
-        },
-      ],
-    },
-    {
-      title: "EigenLayer Appreciated my Work & Active Contributor on Forum",
-      by: "By: EigenLayer Official",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/eigenlayer/status/1640449493526274049?s=20",
-        },
-      ],
-    },
-
-    {
-      title:
-        "Best Student of the Year award at GBD College out of 1200+ Students",
-      by: "By: GBD College Principal",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://www.instagram.com/p/CRTPa8Wt_cL/",
-        },
-      ],
-    },
-    {
-      title: "Received many awards for winning multiple speech contests",
-      by: "By: Multiple Organizations & Local Institutes",
+      title: "Multiple Speech Contest Winner",
       reference: [
         {
           name: "👉 Reference",
@@ -296,28 +292,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Complete Tranlsation of Learn Prompting Guide into Urdu Language",
-      by: "By: Learn Prompting Organization (Open-Source Contribution)",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "  https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop          ",
-        },
-      ],
-    },
-    {
-      title: "From Challenge to Change, Ramadan Good Deed Contest Winner",
-      by: "By: Binance Official",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/binance/status/1714321768368967735",
-        },
-      ],
-    },
-    {
-      title: "Exceed Xounity 2025 - Workshop Guest Speaker",
-      by: "By: Exceed Official",
+      title: "Exceed Xounity 2025 Workshop Guest Speaker",
       reference: [
         {
           name: "👉 Reference",
@@ -326,8 +301,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Resources & Tools To Win in Web3 - Workshop Lead Speaker",
-      by: "By: Open Campus Official",
+      title: "Web3 Resources & Tools Workshop Lead Speaker",
       reference: [
         {
           name: "👉 Reference",
@@ -336,18 +310,7 @@ export const RESUME_DATA = {
       ],
     },
     {
-      title: "Learn. Build. Ship. Your first dApp - Workshop Lead Speaker",
-      by: "By: NED University",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://www.linkedin.com/posts/asharibali_%F0%9D%90%8D%F0%9D%90%84%F0%9D%90%83-%F0%9D%90%94%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%B2-%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9D-activity-7321048266819756032-l6eK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
-        },
-      ],
-    },
-    {
-      title: "Three days virtual bootcamp about blockchain - Co-Lead Speaker",
-      by: "By: Decentral Developers",
+      title: "Blockchain Bootcamp Co-Lead Speaker",
       reference: [
         {
           name: "👉 Reference",
