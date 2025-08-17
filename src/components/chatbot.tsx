@@ -25,7 +25,7 @@ const AsharibAssistant = () => {
                   customIconSrc:
                     "https://raw.githubusercontent.com/AsharibAli/project-images/main/logo.png",
                   autoWindowOpen: {
-                    autoOpen: true,
+                    autoOpen: false,
                     openDelay: 5,
                     autoOpenOnMobile: false,
                   },
@@ -45,7 +45,7 @@ const AsharibAssistant = () => {
                   errorMessage:
                     "Unable to retrieve data from the server. Please try again later.",
                   backgroundColor: "#ffffff",
-                  height: 700,
+                  height: 600,
                   width: 400,
                   fontSize: 16,
                   poweredByTextColor: "#000000",
