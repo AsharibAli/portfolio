@@ -8,6 +8,7 @@ import {
   FacebookIcon,
   YoutubeIcon,
 } from "@/components/icons";
+import { title } from "process";
 
 export const RESUME_DATA = {
   name: "Asharib Ali",
@@ -329,7 +330,7 @@ export const RESUME_DATA = {
       start: "2024 August",
       end: "Present",
       description:
-        "I've been working as a Founder & CTO at EduHub, building Vibe Tooling for (community & developers) on EduChain, a L3 blockchain for Education.",
+        "I've been working as a Founder & CTO at EduHub, building Vibe Tooling for (community & developers) on EduChain, a blockchain for Education.",
       bulletPoints: [
         {
           text: "Top Project of EduChain (25+ million on-chain transactions)",
@@ -341,7 +342,7 @@ export const RESUME_DATA = {
           ],
         },
         {
-          text: "Developed and launched core products: EduAgent, EduGPT, EduKit, and EduBox",
+          text: "Developed and launched core products: EduHub, EduAgent, EduGPT, EduKit, and EduBox",
           links: [
             {
               name: "EduHub Products",
@@ -654,6 +655,26 @@ export const RESUME_DATA = {
       link: {
         label: "5ire-pay.vercel.app",
         href: "https://5ire-pay.vercel.app/",
+      },
+    },
+    {
+      title: "NextIJT",
+      techStack: ["Volunteering Project", "Next.js", "TypeScript"],
+      description:
+        "Official website for NextIJT, a non-profit organization that provides free education to students in Pakistan.",
+      link: {
+        label: "nextijt.com",
+        href: "https://nextijt.com/",
+      },
+    },
+    {
+      title: "Safe Foundation",
+      techStack: ["Volunteering Project", "Next.js", "TypeScript"],
+      description:
+        "Official website for Safe Foundation, a non-profit nurturing intellectual growth and leadership in Pakistan.",
+      link: {
+        label: "safefoundation.xyz",
+        href: "https://safefoundation.xyz/",
       },
     },
     {
