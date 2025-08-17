@@ -515,6 +515,106 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Blockchain Research Tools",
+      techStack: ["Side Project", "Crypto", "Tools"],
+      description:
+        "A curated list of great blockchain or crypto-based research tools, products, and services.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/crypto-research-tools",
+      },
+    },
+    {
+      title: "100 Days of Code",
+      techStack: ["GIAIC", "Web Development", "TypeScript"],
+      description:
+        "Organized a 100 Days of Coding Challenge for 30k+ GIAIC students, covering basic to advanced level programming.",
+      link: {
+        label: "linkedin.com",
+        href: "https://github.com/AsharibAli/100-days-of-code",
+      },
+    },
+    {
+      title: "30 Days of 30 Projects",
+      techStack: ["GIAIC", "NextJS", "TypeScript"],
+      description:
+        "Organized a 30 Days of 30 Projects Challenge for 30k+ GIAIC students, building 30 cool mini projects using the latest tech stack.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/30days-of-30projects",
+      },
+    },
+    {
+      title: "Ramadan Coding Nights",
+      techStack: ["GIAIC", "Live Coding", "Python"],
+      description:
+        "Organized a 20-day Ramadan coding challenge featuring 1-hour live sessions where I build Python mini-projects while explaining concepts to students.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/ramadan-coding-nights",
+      },
+    },
+    {
+      title: "100 Days of Blockchain",
+      techStack: ["Revision", "Blockchain", "Solidity"],
+      description:
+        "Daily practice with Solidity and smart contract development using modern blockchain tools to improve my skills.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/100-days-of-blockchain",
+      },
+    },
+    {
+      title: "100 Days of Prompting",
+      techStack: ["Prompting Engineering", "AI", "LLM"],
+      description:
+        "Daily practice in PE techniques to master AI interactions and build effective prompts for various use cases.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/100-Days-of-Prompt-Engineering",
+      },
+    },
+    {
+      title: "Mini Projects",
+      techStack: ["Side Projects", "HTML", "CSS", "JS"],
+      description:
+        "Built HTML, CSS, and JavaScript projects to improve my problem-solving skills and programming logic.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/html-css-js-projects",
+      },
+    },
+    {
+      title: "Sigma Web Development",
+      techStack: ["Course", "Web Development", "JS"],
+      description:
+        "Completed comprehensive web development course covering modern programming fundamentals and best practices.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/sigma-web-dev",
+      },
+    },
+    {
+      title: "Daily Designs Challenge",
+      techStack: ["Side Projects", "Figma", "Canva"],
+      description:
+        "Designed and created UI/UX projects over 20+ days to develop a strong foundation in design principles.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/Daily-Designs-Challenge",
+      },
+    },
+    {
+      title: "Learn Prompting Guide",
+      techStack: ["Translation", "Urdu Language", "AI"],
+      description:
+        "Completed the Urdu language translation of Learn Prompting Official Documentation.",
+      link: {
+        label: "linkedin.com",
+        href: "https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop",
+      },
+    },
+    {
       title: "Talkn",
       techStack: [
         "Hackathon Project",
@@ -525,7 +625,7 @@ export const RESUME_DATA = {
         "Harhat",
       ],
       description:
-        "Talkn is a groundbreaking project that revolutionizes the Web3 space by implementing the Talk-2-Earn and Engage-2-Earn concepts.",
+        "A Web3 platform implementing Talk-2-Earn and Engage-2-Earn concepts for decentralized social interaction.",
       link: {
         label: "https://talkn-rho.vercel.app/",
         href: "https://talkn-rho.vercel.app/",
@@ -540,7 +640,7 @@ export const RESUME_DATA = {
         "Solidity",
       ],
       description:
-        "Safock - Opening Doors to DeFi ETFs | Stake ETFs | Get Insurance on ETFs | Backed by RTokens.",
+        "A DeFi platform enabling users to stake ETFs, get insurance on ETFs, and earn rewards through RTokens.",
       link: {
         label: "safock-asharibali.vercel.app/",
         href: "https://safock-asharibali.vercel.app/",
@@ -550,17 +650,17 @@ export const RESUME_DATA = {
       title: "5irePay",
       techStack: ["Hackathon Project", "Next.js", "Solidity"],
       description:
-        "5irePay is the PayPal of Crypto - send and receive crypto payments instantly with just an email address only!",
+        "A crypto payment platform enabling instant transactions with email addresses, inspired by PayPal's functionality.",
       link: {
         label: "5ire-pay.vercel.app",
         href: "https://5ire-pay.vercel.app/",
       },
     },
     {
-      title: "Panaverse",
+      title: "Panaverse Website",
       techStack: ["Assignment Project", "JavaScript", "Next.js"],
       description:
-        "Panaverse is a forward-thinking educational organization in pakistan.",
+        "A forward-thinking educational organization in Pakistan, offering cutting-edge tech courses and training.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/panaverse-website",
@@ -570,7 +670,7 @@ export const RESUME_DATA = {
       title: "Smart Wallet Accounts",
       techStack: ["Assignment Project", "Solidity", "Next.js", "Erc4337"],
       description:
-        "It allows users to interact with the blockchain in a smart way.",
+        "A smart wallet accounts project allowing users to interact with the blockchain using account abstraction (ERC-4337).",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/smart-wallet-accounts",
@@ -579,7 +679,7 @@ export const RESUME_DATA = {
     {
       title: "Portfolio",
       techStack: ["Portfolio Project", "Nextjs", "TypeScript", "TailwindCSS"],
-      description: "My personal portfolio website.",
+      description: "My personal portfolio website built with latest tech-stack.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/portfolio",
@@ -588,7 +688,7 @@ export const RESUME_DATA = {
     {
       title: "Ecommerce Store",
       techStack: ["Assignment Project", "Nextjs", "Sanity", "Drizzle"],
-      description: "Ecommerce store build with latest stack.",
+      description: "An ecommerce store built with latest tech-stack.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/ecommerce-store",
@@ -598,7 +698,7 @@ export const RESUME_DATA = {
       title: "Ecommerce Store 2.0",
       techStack: ["Assignment Project", "Nextjs", "Shopify", "Typescript"],
       description:
-        "Ecommerce Store 2.0 uses Shopify as a Backend & Nextjs as a Frontend.",
+        "An ecommerce store built with Shopify as a backend and Nextjs as a frontend to manage products and orders.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/shopify-nextjs-commerce2.0",
@@ -608,7 +708,7 @@ export const RESUME_DATA = {
       title: "Neghs Website",
       techStack: ["Side Project", "HTML", "JavaScript"],
       description:
-        "A school website for Noman School, built with HTML, CSS, and JavaScript.",
+        "A school website for Noman School, built with HTML, CSS, and JavaScript to showcase the school's achievements and events.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/noman-school-website",
@@ -618,7 +718,7 @@ export const RESUME_DATA = {
       title: "SCM Website",
       techStack: ["Side Project", "HTML", "JavaScript"],
       description:
-        "A school website for SCM School, built with HTML, SCSS, and JavaScript.",
+        "A school website for SCM School, built with HTML, SCSS, and JavaScript to showcase the school's achievements and events.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/scm-website",
@@ -644,7 +744,7 @@ export const RESUME_DATA = {
         "OpenAI",
       ],
       description:
-        "Created Customized Software using Natural Language Idea (through Multi-Agent Collaboration) with ChatDev.",
+        "Created customized software using natural language ideas through multi-agent collaboration with ChatDev.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/projects_with_chatdev",
@@ -654,7 +754,7 @@ export const RESUME_DATA = {
       title: "Financial Analyst AI",
       techStack: ["Assignment Project", "Python"],
       description:
-        "Build using OpenAI assistant and financialmodelingprep APIs.",
+        "Built a financial analyst AI using OpenAI assistant and financialmodelingprep APIs.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/financial-analyst-ai",
@@ -664,7 +764,7 @@ export const RESUME_DATA = {
       title: "Optimism AI",
       techStack: ["Hackathon Project", "Blockchain", "AI"],
       description:
-        "Unleash the real power of Web3 & AI with Optimism AI natively for optimism blockchain.",
+        "An AI assistant for the Optimism blockchain, providing real-time insights and analytics to enhance user experience.",
       link: {
         label: "op-ai.xyz",
         href: "https://www.op-ai.xyz/",
@@ -674,7 +774,7 @@ export const RESUME_DATA = {
       title: "AI Quiz App",
       techStack: ["Side Project", "AI", "Quizzes"],
       description:
-        "Test your prompt engineering, AI, and large language model skills by taking this simple 50-question quiz.",
+        "A quiz app to test your prompt engineering, AI, and large language model skills by taking this simple 50-question quiz.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/prompting-quizzes",
@@ -684,30 +784,10 @@ export const RESUME_DATA = {
       title: "Blockchain Quiz App",
       techStack: ["Side Project", "Blockchain", "Quizzes"],
       description:
-        "Test your blockchain technology skills by taking this simple 50-question quiz.",
+        "A quiz app to test your blockchain technology skills by taking this simple 50-question quiz.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/blockchain-quizzes",
-      },
-    },
-    {
-      title: "Blockchain Research Tools",
-      techStack: ["Side Project", "Crypto", "Tools"],
-      description:
-        "A curated list of great blockchain or crypto-based research tools, products, and services.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/crypto-research-tools",
-      },
-    },
-    {
-      title: "Learn Prompting Guide",
-      techStack: ["Translation", "Urdu Language", "AI"],
-      description:
-        "Complete Urdu Language Translation of Learn Prompting Official Documentation.",
-      link: {
-        label: "linkedin.com",
-        href: "https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop",
       },
     },
     {
@@ -734,7 +814,7 @@ export const RESUME_DATA = {
       title: "Next Auth V5",
       techStack: ["Course", "TypeScript", "NextAuth.js"],
       description:
-        "The NextAuth.js advance project built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
+        "Built the NextAuth.js advance project from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/next-authjs-v5",
@@ -744,90 +824,10 @@ export const RESUME_DATA = {
       title: "Next.js App Router",
       techStack: ["Course", "TypeScript", "Next.js"],
       description:
-        "Complete official Next.js course with 16 chapters, each on a different topic and build a dashboard app.",
+        "Completed the official Next.js course with 16 chapters, each on a different topic and built a dashboard app.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/nextjs-dashboard",
-      },
-    },
-    {
-      title: "HTML, CSS & JS Projects",
-      techStack: ["Side Projects", "HTML", "CSS", "JS"],
-      description:
-        "Develop several HTML, CSS, and JS projects to help me with my logic building.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/html-css-js-projects",
-      },
-    },
-    {
-      title: "Sigma Web Development",
-      techStack: ["Course", "Web Development", "JS"],
-      description:
-        "Complete Sigma Web Development Course followed by a Youtube Course.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/sigma-web-dev",
-      },
-    },
-    {
-      title: "100 Days of Code",
-      techStack: ["GIAIC", "Web Development", "TypeScript"],
-      description:
-        "100 Days of Coding Challenge | Starting from Very Basics to Advance Level | For 30k+ GIAIC Students.",
-      link: {
-        label: "linkedin.com",
-        href: "https://github.com/AsharibAli/100-days-of-code",
-      },
-    },
-    {
-      title: "100 Days of Designs",
-      techStack: ["Side Projects", "Figma", "Canva"],
-      description:
-        "To enhance my thinking in designs, I'm following 100 days of designs with DailyUi",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/100-Days-of-Designs",
-      },
-    },
-    {
-      title: "100 Days of Prompting",
-      techStack: ["Prompting Engineering", "AI", "LLM"],
-      description:
-        "To become a better Prompt Engineer, I'm following my own strategy to built different prompts.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/100-Days-of-Prompt-Engineering",
-      },
-    },
-    {
-      title: "100 Days of Blockchain",
-      techStack: ["Revision", "Blockchain", "Solidity"],
-      description:
-        "Revision of Solidity Language, and Smart Contracts Development using latest tools and stack.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/100-days-of-blockchain",
-      },
-    },
-    {
-      title: "30 Days of 30 Projects",
-      techStack: ["GIAIC", "NextJS", "TypeScript"],
-      description:
-        "30 Days of 30 Projects | One cool mini project each day using the latest tech stack for the next 30 days | For the 30k+ GIAIC Students.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/30days-of-30projects",
-      },
-    },
-    {
-      title: "Ramadan Coding Nights",
-      techStack: ["GIAIC", "Live Coding", "Python"],
-      description:
-        "A 20-day Ramadan coding challenge featuring 1-hour live sessions where I build Python mini-projects while explaining concepts to students.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/ramadan-coding-nights",
       },
     },
   ],
