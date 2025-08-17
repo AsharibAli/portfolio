@@ -62,18 +62,88 @@
   ],
   "achievements": [
     {
-      "title": "Binance Followed me on X",
-      "by": "By: Binance Official",
+      "title": "Recognized by Binance for Community Impact",
       "reference": [
         {
           "name": "👉 Reference",
-          "url": "https://x.com/binance"
+          "url": "https://x.com/binance/status/1714321768368967735"
+        }
+      ]
+    },
+    {
+      "title": "Student Ambassador for 30k+ GIAIC Community",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "https://www.linkedin.com/posts/ameen-alam_asharib-ali-governor-sindh-initiative-for-activity-7167880905192030208-x-Yp/?utm_source=share&utm_medium=member_desktop"
+        }
+      ]
+    },
+    {
+      "title": "EigenLayer Community Recognition & Active Contributor",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "https://x.com/eigenlayer/status/1640449493526274049?s=20"
+        }
+      ]
+    },
+    {
+      "title": "Best Student of the Year (1200+ Students)",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "https://www.instagram.com/p/CRTPa8Wt_cL/"
+        }
+      ]
+    },
+    {
+      "title": "Most Used Platform on EduChain (6.7M+ Transactions)",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "https://x.com/opencampus_xyz/status/1860993260237525007"
+        }
+      ]
+    },
+    {
+      "title": "NED University Invited me to speak on Web3",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "https://www.linkedin.com/posts/asharibali_%F0%9D%90%8D%F0%9D%90%84%F0%9D%90%83-%F0%9D%90%94%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%B2-%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9D-activity-7321048266819756032-l6eK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA"
+        }
+      ]
+    },
+    {
+      "title": "Sir Zia Appreciated my hard work at Panaverse",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "https://imgbb.com/GcrjcTw"
+        }
+      ]
+    },
+    {
+      "title": "Personal Recognition from Harry Zhang",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "https://x.com/harryzhangs/status/1887772228651208963"
+        }
+      ]
+    },
+    {
+      "title": "Complete Urdu Translation of Learn Prompting Guide",
+      "reference": [
+        {
+          "name": "👉 Reference",
+          "url": "  https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop          "
         }
       ]
     },
     {
       "title": "Honourable IT Instructor",
-      "by": "By: Tameer-E-Millat Institute",
       "reference": [
         {
           "name": "👉 Reference",
@@ -82,8 +152,7 @@
       ]
     },
     {
-      "title": "Masa Finance Ambassador ",
-      "by": "By: Masa AI Official",
+      "title": "Masa Finance Ambassador",
       "reference": [
         {
           "name": "👉 Reference",
@@ -92,8 +161,7 @@
       ]
     },
     {
-      "title": "FlowiseAI Expert (Open-Source Contributor)",
-      "by": "By: FlowiseAI Official",
+      "title": "FlowiseAI Expert & Open-Source Contributor",
       "reference": [
         {
           "name": "👉 Reference",
@@ -102,8 +170,7 @@
       ]
     },
     {
-      "title": "Lava Blockchain Champion (Open-Source Contributor)",
-      "by": "By: Lava Network Official",
+      "title": "Lava Blockchain Champion & Open-Source Contributor",
       "reference": [
         {
           "name": "👉 Reference",
@@ -112,8 +179,7 @@
       ]
     },
     {
-      "title": "Open Campus Hackathon Winner (Infrastructure-Track)",
-      "by": "By: Open Campus Official",
+      "title": "Open Campus Hackathon Winner (Infrastructure Track)",
       "reference": [
         {
           "name": "👉 Reference",
@@ -122,8 +188,7 @@
       ]
     },
     {
-      "title": "Celestia Hackathon Winner (Community-Track)",
-      "by": "By: Celestia Blockchain Official",
+      "title": "Celestia Hackathon Winner (Community Track)",
       "reference": [
         {
           "name": "👉 Reference",
@@ -132,8 +197,7 @@
       ]
     },
     {
-      "title": "Owl Hackathon Hackathon Winner (Bounty-Track)",
-      "by": "By: Owl Protocol Official",
+      "title": "Owl Protocol Hackathon Winner (Bounty Track)",
       "reference": [
         {
           "name": "👉 Reference",
@@ -142,8 +206,7 @@
       ]
     },
     {
-      "title": "DSCVR Hackathon Hackathon Winner (Metaplex-Track)",
-      "by": "By: DSCVR & Metaplex Official",
+      "title": "DSCVR Hackathon Winner (Metaplex Track)",
       "reference": [
         {
           "name": "👉 Reference",
@@ -152,8 +215,7 @@
       ]
     },
     {
-      "title": "DSCVR Hackathon Hackathon Winner (DSCVR-Track)",
-      "by": "By: DSCVR Official",
+      "title": "DSCVR Hackathon Winner (DSCVR Track)",
       "reference": [
         {
           "name": "👉 Reference",
@@ -163,7 +225,6 @@
     },
     {
       "title": "Workshop Speaker at Mega Co-Learning Camp with EduChain",
-      "by": "By: HackQuest Official",
       "reference": [
         {
           "name": "👉 Reference",
@@ -180,18 +241,7 @@
       ]
     },
     {
-      "title": "Most Used Platform on EduChain (6.7M+ on-chain Transactions)",
-      "by": "By: Open Campus Official",
-      "reference": [
-        {
-          "name": "👉 Reference",
-          "url": "https://x.com/opencampus_xyz/status/1860993260237525007"
-        }
-      ]
-    },
-    {
-      "title": "Youngest AMA Speaker about Education on Blockchain",
-      "by": "By: Pukecast Official",
+      "title": "Youngest AMA Speaker on Education & Blockchain",
       "reference": [
         {
           "name": "👉 Reference",
@@ -204,8 +254,7 @@
       ]
     },
     {
-      "title": "Win 10+ Crypto-Based Contests",
-      "by": "By: multiple crypto projects and communities",
+      "title": "Winner of 10+ Crypto & Web3 Contests",
       "reference": [
         {
           "name": "👉 Reference",
@@ -214,58 +263,7 @@
       ]
     },
     {
-      "title": "Top 10% in AI & Blockchain at Panaverse",
-      "by": "By: COO of PIAIC, Sir Zia Khan",
-      "reference": [
-        {
-          "name": "👉 Reference",
-          "url": "https://imgbb.com/GcrjcTw"
-        }
-      ]
-    },
-    {
-      "title": "CZ Binance Commented on my Tweet",
-      "by": "By: Ex CEO of Binance",
-      "reference": [
-        {
-          "name": "👉 Reference",
-          "url": "https://x.com/cz_binance/status/1582658179569442817?s=20"
-        }
-      ]
-    },
-    {
-      "title": "Student Ambassador of 30k+ GIAIC Students ",
-      "by": "By: Head of Faculty at GIAIC",
-      "reference": [
-        {
-          "name": "👉 Reference",
-          "url": "https://www.linkedin.com/posts/ameen-alam_asharib-ali-governor-sindh-initiative-for-activity-7167880905192030208-x-Yp/?utm_source=share&utm_medium=member_desktop"
-        }
-      ]
-    },
-    {
-      "title": "EigenLayer Appreciated my Work & Active Contributor on Forum",
-      "by": "By: EigenLayer Official",
-      "reference": [
-        {
-          "name": "👉 Reference",
-          "url": "https://x.com/eigenlayer/status/1640449493526274049?s=20"
-        }
-      ]
-    },
-    {
-      "title": "Best Student of the Year award at GBD College out of 1200+ Students",
-      "by": "By: GBD College Principal",
-      "reference": [
-        {
-          "name": "👉 Reference",
-          "url": "https://www.instagram.com/p/CRTPa8Wt_cL/"
-        }
-      ]
-    },
-    {
-      "title": "Received many awards for winning multiple speech contests",
-      "by": "By: Multiple Organizations & Local Institutes",
+      "title": "Multiple Speech Contest Winner",
       "reference": [
         {
           "name": "👉 Reference",
@@ -274,28 +272,7 @@
       ]
     },
     {
-      "title": "Complete Tranlsation of Learn Prompting Guide into Urdu Language",
-      "by": "By: Learn Prompting Organization (Open-Source Contribution)",
-      "reference": [
-        {
-          "name": "👉 Reference",
-          "url": "  https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop          "
-        }
-      ]
-    },
-    {
-      "title": "From Challenge to Change, Ramadan Good Deed Contest Winner",
-      "by": "By: Binance Official",
-      "reference": [
-        {
-          "name": "👉 Reference",
-          "url": "https://x.com/binance/status/1714321768368967735"
-        }
-      ]
-    },
-    {
-      "title": "Exceed Xounity 2025 - Workshop Guest Speaker",
-      "by": "By: Exceed Official",
+      "title": "Exceed Xounity 2025 Workshop Guest Speaker",
       "reference": [
         {
           "name": "👉 Reference",
@@ -304,8 +281,7 @@
       ]
     },
     {
-      "title": "Resources & Tools To Win in Web3 - Workshop Lead Speaker",
-      "by": "By: Open Campus Official",
+      "title": "Web3 Resources & Tools Workshop Lead Speaker",
       "reference": [
         {
           "name": "👉 Reference",
@@ -314,18 +290,7 @@
       ]
     },
     {
-      "title": "Learn. Build. Ship. Your first dApp - Workshop Lead Speaker",
-      "by": "By: NED University",
-      "reference": [
-        {
-          "name": "👉 Reference",
-          "url": "https://www.linkedin.com/posts/asharibali_%F0%9D%90%8D%F0%9D%90%84%F0%9D%90%83-%F0%9D%90%94%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%B2-%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9D-activity-7321048266819756032-l6eK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA"
-        }
-      ]
-    },
-    {
-      "title": "Three days virtual bootcamp about blockchain - Co-Lead Speaker",
-      "by": "By: Decentral Developers",
+      "title": "Blockchain Bootcamp Co-Lead Speaker",
       "reference": [
         {
           "name": "👉 Reference",
@@ -338,11 +303,14 @@
     {
       "company": "EduHub",
       "link": "https://eduhub.dev/",
-      "badges": ["Remote", "Full-Time"],
+      "badges": [
+        "Remote",
+        "Full-Time"
+      ],
       "title": "Chief Technology Officer",
       "start": "2024 August",
       "end": "Present",
-      "description": "I've been working as a Founder & CTO at EduHub, building Vibe Tooling for (community & developers) on EduChain, a L3 blockchain for Education.",
+      "description": "I've been working as a Founder & CTO at EduHub, building Vibe Tooling for (community & developers) on EduChain, a blockchain for Education.",
       "bulletPoints": [
         {
           "text": "Top Project of EduChain (25+ million on-chain transactions)",
@@ -354,7 +322,7 @@
           ]
         },
         {
-          "text": "Developed and launched core products: EduAgent, EduGPT, EduKit, and EduBox",
+          "text": "Developed and launched core products: EduHub, EduAgent, EduGPT, EduKit, and EduBox",
           "links": [
             {
               "name": "EduHub Products",
@@ -376,7 +344,10 @@
     {
       "company": "GIAIC",
       "link": "https://www.governorsindh.com/",
-      "badges": ["Onsite", "Part-Time"],
+      "badges": [
+        "Onsite",
+        "Part-Time"
+      ],
       "title": "Lead Teacher",
       "start": "2024 Feb",
       "end": "Present",
@@ -438,7 +409,10 @@
     {
       "company": "Tameer-E-Millat",
       "link": "https://x.com/0xAsharib/status/1712050364823048485",
-      "badges": ["Onsite", "Contract"],
+      "badges": [
+        "Onsite",
+        "Contract"
+      ],
       "title": "Head of IT",
       "start": "2023 Oct",
       "end": "2023 Dec",
@@ -458,7 +432,10 @@
     {
       "company": "B4Business",
       "link": "https://b4bussines.com/",
-      "badges": ["Remote", "Part-Time"],
+      "badges": [
+        "Remote",
+        "Part-Time"
+      ],
       "title": "Technical Writer",
       "start": "2022 Jan",
       "end": "2023 Jan",
@@ -475,7 +452,10 @@
     {
       "company": "IVSpace",
       "link": "https://www.ivspace.io/",
-      "badges": ["Remote", "Part-Time"],
+      "badges": [
+        "Remote",
+        "Part-Time"
+      ],
       "title": "Community Administrator",
       "start": "2022 Jan",
       "end": "2022 June",
@@ -523,6 +503,137 @@
   ],
   "projects": [
     {
+      "title": "Blockchain Research Tools",
+      "techStack": [
+        "Side Project",
+        "Crypto",
+        "Tools"
+      ],
+      "description": "A curated list of great blockchain or crypto-based research tools, products, and services.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/crypto-research-tools"
+      }
+    },
+    {
+      "title": "100 Days of Code",
+      "techStack": [
+        "GIAIC",
+        "Web Development",
+        "TypeScript"
+      ],
+      "description": "Organized a 100 Days of Coding Challenge for 30k+ GIAIC students, covering basic to advanced level programming.",
+      "link": {
+        "label": "linkedin.com",
+        "href": "https://github.com/AsharibAli/100-days-of-code"
+      }
+    },
+    {
+      "title": "30 Days of 30 Projects",
+      "techStack": [
+        "GIAIC",
+        "NextJS",
+        "TypeScript"
+      ],
+      "description": "Organized a 30 Days of 30 Projects Challenge for 30k+ GIAIC students, building 30 cool mini projects using the latest tech stack.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/30days-of-30projects"
+      }
+    },
+    {
+      "title": "Ramadan Coding Nights",
+      "techStack": [
+        "GIAIC",
+        "Live Coding",
+        "Python"
+      ],
+      "description": "Organized a 20-day Ramadan coding challenge featuring 1-hour live sessions where I build Python mini-projects while explaining concepts to students.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/ramadan-coding-nights"
+      }
+    },
+    {
+      "title": "100 Days of Blockchain",
+      "techStack": [
+        "Revision",
+        "Blockchain",
+        "Solidity"
+      ],
+      "description": "Daily practice with Solidity and smart contract development using modern blockchain tools to improve my skills.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/100-days-of-blockchain"
+      }
+    },
+    {
+      "title": "100 Days of Prompting",
+      "techStack": [
+        "Prompting Engineering",
+        "AI",
+        "LLM"
+      ],
+      "description": "Daily practice in PE techniques to master AI interactions and build effective prompts for various use cases.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/100-Days-of-Prompt-Engineering"
+      }
+    },
+    {
+      "title": "Mini Projects",
+      "techStack": [
+        "Side Projects",
+        "HTML",
+        "CSS",
+        "JS"
+      ],
+      "description": "Built HTML, CSS, and JavaScript projects to improve my problem-solving skills and programming logic.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/html-css-js-projects"
+      }
+    },
+    {
+      "title": "Sigma Web Development",
+      "techStack": [
+        "Course",
+        "Web Development",
+        "JS"
+      ],
+      "description": "Completed comprehensive web development course covering modern programming fundamentals and best practices.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/sigma-web-dev"
+      }
+    },
+    {
+      "title": "Daily Designs Challenge",
+      "techStack": [
+        "Side Projects",
+        "Figma",
+        "Canva"
+      ],
+      "description": "Designed and created UI/UX projects over 20+ days to develop a strong foundation in design principles.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/Daily-Designs-Challenge"
+      }
+    },
+    {
+      "title": "Learn Prompting Guide",
+      "techStack": [
+        "Translation",
+        "Urdu Language",
+        "AI"
+      ],
+      "description": "Completed the Urdu language translation of Learn Prompting Official Documentation.",
+      "link": {
+        "label": "linkedin.com",
+        "href": "https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop"
+      }
+    },
+    {
       "title": "Talkn",
       "techStack": [
         "Hackathon Project",
@@ -532,7 +643,7 @@
         "Solidity",
         "Harhat"
       ],
-      "description": "Talkn is a groundbreaking project that revolutionizes the Web3 space by implementing the Talk-2-Earn and Engage-2-Earn concepts.",
+      "description": "A Web3 platform implementing Talk-2-Earn and Engage-2-Earn concepts for decentralized social interaction.",
       "link": {
         "label": "https://talkn-rho.vercel.app/",
         "href": "https://talkn-rho.vercel.app/"
@@ -546,7 +657,7 @@
         "Reserve Protocol",
         "Solidity"
       ],
-      "description": "Safock - Opening Doors to DeFi ETFs | Stake ETFs | Get Insurance on ETFs | Backed by RTokens.",
+      "description": "A DeFi platform enabling users to stake ETFs, get insurance on ETFs, and earn rewards through RTokens.",
       "link": {
         "label": "safock-asharibali.vercel.app/",
         "href": "https://safock-asharibali.vercel.app/"
@@ -554,17 +665,51 @@
     },
     {
       "title": "5irePay",
-      "techStack": ["Hackathon Project", "Next.js", "Solidity"],
-      "description": "5irePay is the PayPal of Crypto - send and receive crypto payments instantly with just an email address only!",
+      "techStack": [
+        "Hackathon Project",
+        "Next.js",
+        "Solidity"
+      ],
+      "description": "A crypto payment platform enabling instant transactions with email addresses, inspired by PayPal's functionality.",
       "link": {
         "label": "5ire-pay.vercel.app",
         "href": "https://5ire-pay.vercel.app/"
       }
     },
     {
-      "title": "Panaverse",
-      "techStack": ["Assignment Project", "JavaScript", "Next.js"],
-      "description": "Panaverse is a forward-thinking educational organization in pakistan.",
+      "title": "NextIJT",
+      "techStack": [
+        "Volunteering Project",
+        "Next.js",
+        "TypeScript"
+      ],
+      "description": "Official website for NextIJT, a non-profit organization that provides free education to students in Pakistan.",
+      "link": {
+        "label": "nextijt.com",
+        "href": "https://nextijt.com/"
+      }
+    },
+    {
+      "title": "Safe Foundation",
+      "techStack": [
+        "Volunteering Project",
+        "Next.js",
+        "TypeScript"
+      ],
+      "description": "Official website for Safe Foundation, a non-profit nurturing intellectual growth and leadership in Pakistan.",
+      "link": {
+        "label": "safefoundation.xyz",
+        "href": "https://safefoundation.xyz/"
+      }
+    },
+    {
+      "title": "Panaverse Website",
+      "techStack": [
+        "Assignment Project",
+        "JavaScript",
+        "Next.js"
+      ],
+      "description": "A forward-thinking educational organization in Pakistan, offering cutting-edge tech courses and training.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/panaverse-website"
@@ -572,8 +717,13 @@
     },
     {
       "title": "Smart Wallet Accounts",
-      "techStack": ["Assignment Project", "Solidity", "Next.js", "Erc4337"],
-      "description": "It allows users to interact with the blockchain in a smart way.",
+      "techStack": [
+        "Assignment Project",
+        "Solidity",
+        "Next.js",
+        "Erc4337"
+      ],
+      "description": "A smart wallet accounts project allowing users to interact with the blockchain using account abstraction (ERC-4337).",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/smart-wallet-accounts"
@@ -581,8 +731,13 @@
     },
     {
       "title": "Portfolio",
-      "techStack": ["Portfolio Project", "Nextjs", "TypeScript", "TailwindCSS"],
-      "description": "My personal portfolio website.",
+      "techStack": [
+        "Portfolio Project",
+        "Nextjs",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "description": "My personal portfolio website built with latest tech-stack.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/portfolio"
@@ -590,8 +745,13 @@
     },
     {
       "title": "Ecommerce Store",
-      "techStack": ["Assignment Project", "Nextjs", "Sanity", "Drizzle"],
-      "description": "Ecommerce store build with latest stack.",
+      "techStack": [
+        "Assignment Project",
+        "Nextjs",
+        "Sanity",
+        "Drizzle"
+      ],
+      "description": "An ecommerce store built with latest tech-stack.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/ecommerce-store"
@@ -599,8 +759,13 @@
     },
     {
       "title": "Ecommerce Store 2.0",
-      "techStack": ["Assignment Project", "Nextjs", "Shopify", "Typescript"],
-      "description": "Ecommerce Store 2.0 uses Shopify as a Backend & Nextjs as a Frontend.",
+      "techStack": [
+        "Assignment Project",
+        "Nextjs",
+        "Shopify",
+        "Typescript"
+      ],
+      "description": "An ecommerce store built with Shopify as a backend and Nextjs as a frontend to manage products and orders.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/shopify-nextjs-commerce2.0"
@@ -608,8 +773,12 @@
     },
     {
       "title": "Neghs Website",
-      "techStack": ["Side Project", "HTML", "JavaScript"],
-      "description": "A school website for Noman School, built with HTML, CSS, and JavaScript.",
+      "techStack": [
+        "Side Project",
+        "HTML",
+        "JavaScript"
+      ],
+      "description": "A school website for Noman School, built with HTML, CSS, and JavaScript to showcase the school's achievements and events.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/noman-school-website"
@@ -617,8 +786,12 @@
     },
     {
       "title": "SCM Website",
-      "techStack": ["Side Project", "HTML", "JavaScript"],
-      "description": "A school website for SCM School, built with HTML, SCSS, and JavaScript.",
+      "techStack": [
+        "Side Project",
+        "HTML",
+        "JavaScript"
+      ],
+      "description": "A school website for SCM School, built with HTML, SCSS, and JavaScript to showcase the school's achievements and events.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/scm-website"
@@ -626,7 +799,12 @@
     },
     {
       "title": "Create Blast Dapp",
-      "techStack": ["Hackathon Project", "Npm Package", "Nextjs", "Hardhat"],
+      "techStack": [
+        "Hackathon Project",
+        "Npm Package",
+        "Nextjs",
+        "Hardhat"
+      ],
       "description": "A full-stack starter template featuring Next & Hardhat, designed for building Dapps on Blast L2 Chain.",
       "link": {
         "label": "github.com",
@@ -642,7 +820,7 @@
         "Python",
         "OpenAI"
       ],
-      "description": "Created Customized Software using Natural Language Idea (through Multi-Agent Collaboration) with ChatDev.",
+      "description": "Created customized software using natural language ideas through multi-agent collaboration with ChatDev.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/projects_with_chatdev"
@@ -650,8 +828,11 @@
     },
     {
       "title": "Financial Analyst AI",
-      "techStack": ["Assignment Project", "Python"],
-      "description": "Build using OpenAI assistant and financialmodelingprep APIs.",
+      "techStack": [
+        "Assignment Project",
+        "Python"
+      ],
+      "description": "Built a financial analyst AI using OpenAI assistant and financialmodelingprep APIs.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/financial-analyst-ai"
@@ -659,8 +840,12 @@
     },
     {
       "title": "Optimism AI",
-      "techStack": ["Hackathon Project", "Blockchain", "AI"],
-      "description": "Unleash the real power of Web3 & AI with Optimism AI natively for optimism blockchain.",
+      "techStack": [
+        "Hackathon Project",
+        "Blockchain",
+        "AI"
+      ],
+      "description": "An AI assistant for the Optimism blockchain, providing real-time insights and analytics to enhance user experience.",
       "link": {
         "label": "op-ai.xyz",
         "href": "https://www.op-ai.xyz/"
@@ -668,8 +853,12 @@
     },
     {
       "title": "AI Quiz App",
-      "techStack": ["Side Project", "AI", "Quizzes"],
-      "description": "Test your prompt engineering, AI, and large language model skills by taking this simple 50-question quiz.",
+      "techStack": [
+        "Side Project",
+        "AI",
+        "Quizzes"
+      ],
+      "description": "A quiz app to test your prompt engineering, AI, and large language model skills by taking this simple 50-question quiz.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/prompting-quizzes"
@@ -677,34 +866,24 @@
     },
     {
       "title": "Blockchain Quiz App",
-      "techStack": ["Side Project", "Blockchain", "Quizzes"],
-      "description": "Test your blockchain technology skills by taking this simple 50-question quiz.",
+      "techStack": [
+        "Side Project",
+        "Blockchain",
+        "Quizzes"
+      ],
+      "description": "A quiz app to test your blockchain technology skills by taking this simple 50-question quiz.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/blockchain-quizzes"
       }
     },
     {
-      "title": "Blockchain Research Tools",
-      "techStack": ["Side Project", "Crypto", "Tools"],
-      "description": "A curated list of great blockchain or crypto-based research tools, products, and services.",
-      "link": {
-        "label": "github.com",
-        "href": "https://github.com/AsharibAli/crypto-research-tools"
-      }
-    },
-    {
-      "title": "Learn Prompting Guide",
-      "techStack": ["Translation", "Urdu Language", "AI"],
-      "description": "Complete Urdu Language Translation of Learn Prompting Official Documentation.",
-      "link": {
-        "label": "linkedin.com",
-        "href": "https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop"
-      }
-    },
-    {
       "title": "Figma Clone",
-      "techStack": ["Clone", "Nextjs", "TypeScript"],
+      "techStack": [
+        "Clone",
+        "Nextjs",
+        "TypeScript"
+      ],
       "description": "A Figma Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       "link": {
         "label": "github.com",
@@ -713,7 +892,11 @@
     },
     {
       "title": "Threads Clone",
-      "techStack": ["Clone", "Nextjs", "TypeScript"],
+      "techStack": [
+        "Clone",
+        "Nextjs",
+        "TypeScript"
+      ],
       "description": "A Threads Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       "link": {
         "label": "github.com",
@@ -722,8 +905,12 @@
     },
     {
       "title": "Next Auth V5",
-      "techStack": ["Course", "TypeScript", "NextAuth.js"],
-      "description": "The NextAuth.js advance project built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
+      "techStack": [
+        "Course",
+        "TypeScript",
+        "NextAuth.js"
+      ],
+      "description": "Built the NextAuth.js advance project from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/next-authjs-v5"
@@ -731,83 +918,15 @@
     },
     {
       "title": "Next.js App Router",
-      "techStack": ["Course", "TypeScript", "Next.js"],
-      "description": "Complete official Next.js course with 16 chapters, each on a different topic and build a dashboard app.",
+      "techStack": [
+        "Course",
+        "TypeScript",
+        "Next.js"
+      ],
+      "description": "Completed the official Next.js course with 16 chapters, each on a different topic and built a dashboard app.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/nextjs-dashboard"
-      }
-    },
-    {
-      "title": "HTML, CSS & JS Projects",
-      "techStack": ["Side Projects", "HTML", "CSS", "JS"],
-      "description": "Develop several HTML, CSS, and JS projects to help me with my logic building.",
-      "link": {
-        "label": "github.com",
-        "href": "https://github.com/AsharibAli/html-css-js-projects"
-      }
-    },
-    {
-      "title": "Sigma Web Development",
-      "techStack": ["Course", "Web Development", "JS"],
-      "description": "Complete Sigma Web Development Course followed by a Youtube Course.",
-      "link": {
-        "label": "github.com",
-        "href": "https://github.com/AsharibAli/sigma-web-dev"
-      }
-    },
-    {
-      "title": "100 Days of Code",
-      "techStack": ["GIAIC", "Web Development", "TypeScript"],
-      "description": "100 Days of Coding Challenge | Starting from Very Basics to Advance Level | For 30k+ GIAIC Students.",
-      "link": {
-        "label": "linkedin.com",
-        "href": "https://github.com/AsharibAli/100-days-of-code"
-      }
-    },
-    {
-      "title": "100 Days of Designs",
-      "techStack": ["Side Projects", "Figma", "Canva"],
-      "description": "To enhance my thinking in designs, I'm following 100 days of designs with DailyUi",
-      "link": {
-        "label": "github.com",
-        "href": "https://github.com/AsharibAli/100-Days-of-Designs"
-      }
-    },
-    {
-      "title": "100 Days of Prompting",
-      "techStack": ["Prompting Engineering", "AI", "LLM"],
-      "description": "To become a better Prompt Engineer, I'm following my own strategy to built different prompts.",
-      "link": {
-        "label": "github.com",
-        "href": "https://github.com/AsharibAli/100-Days-of-Prompt-Engineering"
-      }
-    },
-    {
-      "title": "100 Days of Blockchain",
-      "techStack": ["Revision", "Blockchain", "Solidity"],
-      "description": "Revision of Solidity Language, and Smart Contracts Development using latest tools and stack.",
-      "link": {
-        "label": "github.com",
-        "href": "https://github.com/AsharibAli/100-days-of-blockchain"
-      }
-    },
-    {
-      "title": "30 Days of 30 Projects",
-      "techStack": ["GIAIC", "NextJS", "TypeScript"],
-      "description": "30 Days of 30 Projects | One cool mini project each day using the latest tech stack for the next 30 days | For the 30k+ GIAIC Students.",
-      "link": {
-        "label": "github.com",
-        "href": "https://github.com/AsharibAli/30days-of-30projects"
-      }
-    },
-    {
-      "title": "Ramadan Coding Nights",
-      "techStack": ["GIAIC", "Live Coding", "Python"],
-      "description": "A 20-day Ramadan coding challenge featuring 1-hour live sessions where I build Python mini-projects while explaining concepts to students.",
-      "link": {
-        "label": "github.com",
-        "href": "https://github.com/AsharibAli/ramadan-coding-nights"
       }
     }
   ],
