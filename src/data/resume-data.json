@@ -621,6 +621,32 @@
       }
     },
     {
+      "title": "Next Auth V5",
+      "techStack": [
+        "Course",
+        "TypeScript",
+        "NextAuth.js"
+      ],
+      "description": "Built the NextAuth.js advance project from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/next-authjs-v5"
+      }
+    },
+    {
+      "title": "Next.js App Router",
+      "techStack": [
+        "Course",
+        "TypeScript",
+        "Next.js"
+      ],
+      "description": "Completed the official Next.js course with 16 chapters, each on a different topic and built a dashboard app.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/nextjs-dashboard"
+      }
+    },
+    {
       "title": "Learn Prompting Guide",
       "techStack": [
         "Translation",
@@ -772,7 +798,7 @@
       }
     },
     {
-      "title": "Neghs Website",
+      "title": "Nouman School",
       "techStack": [
         "Side Project",
         "HTML",
@@ -785,7 +811,7 @@
       }
     },
     {
-      "title": "SCM Website",
+      "title": "Sindh School",
       "techStack": [
         "Side Project",
         "HTML",
@@ -880,7 +906,7 @@
     {
       "title": "Figma Clone",
       "techStack": [
-        "Clone",
+        "Clone Project",
         "Nextjs",
         "TypeScript"
       ],
@@ -893,7 +919,7 @@
     {
       "title": "Threads Clone",
       "techStack": [
-        "Clone",
+        "Clone Project",
         "Nextjs",
         "TypeScript"
       ],
@@ -901,32 +927,6 @@
       "link": {
         "label": "github.com",
         "href": "https://github.com/AsharibAli/threads-clone"
-      }
-    },
-    {
-      "title": "Next Auth V5",
-      "techStack": [
-        "Course",
-        "TypeScript",
-        "NextAuth.js"
-      ],
-      "description": "Built the NextAuth.js advance project from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
-      "link": {
-        "label": "github.com",
-        "href": "https://github.com/AsharibAli/next-authjs-v5"
-      }
-    },
-    {
-      "title": "Next.js App Router",
-      "techStack": [
-        "Course",
-        "TypeScript",
-        "Next.js"
-      ],
-      "description": "Completed the official Next.js course with 16 chapters, each on a different topic and built a dashboard app.",
-      "link": {
-        "label": "github.com",
-        "href": "https://github.com/AsharibAli/nextjs-dashboard"
       }
     }
   ],
