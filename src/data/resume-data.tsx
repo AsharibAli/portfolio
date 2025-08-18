@@ -606,6 +606,26 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Next Auth V5",
+      techStack: ["Course", "TypeScript", "NextAuth.js"],
+      description:
+        "Built the NextAuth.js advance project from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/next-authjs-v5",
+      },
+    },
+    {
+      title: "Next.js App Router",
+      techStack: ["Course", "TypeScript", "Next.js"],
+      description:
+        "Completed the official Next.js course with 16 chapters, each on a different topic and built a dashboard app.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AsharibAli/nextjs-dashboard",
+      },
+    },
+    {
       title: "Learn Prompting Guide",
       techStack: ["Translation", "Urdu Language", "AI"],
       description:
@@ -726,7 +746,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Neghs Website",
+      title: "Nouman School",
       techStack: ["Side Project", "HTML", "JavaScript"],
       description:
         "A school website for Noman School, built with HTML, CSS, and JavaScript to showcase the school's achievements and events.",
@@ -736,7 +756,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "SCM Website",
+      title: "Sindh School",
       techStack: ["Side Project", "HTML", "JavaScript"],
       description:
         "A school website for SCM School, built with HTML, SCSS, and JavaScript to showcase the school's achievements and events.",
@@ -813,7 +833,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Figma Clone",
-      techStack: ["Clone", "Nextjs", "TypeScript"],
+      techStack: ["Clone Project", "Nextjs", "TypeScript"],
       description:
         "A Figma Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       link: {
@@ -823,32 +843,12 @@ export const RESUME_DATA = {
     },
     {
       title: "Threads Clone",
-      techStack: ["Clone", "Nextjs", "TypeScript"],
+      techStack: ["Clone Project", "Nextjs", "TypeScript"],
       description:
         "A Threads Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       link: {
         label: "github.com",
         href: "https://github.com/AsharibAli/threads-clone",
-      },
-    },
-    {
-      title: "Next Auth V5",
-      techStack: ["Course", "TypeScript", "NextAuth.js"],
-      description:
-        "Built the NextAuth.js advance project from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/next-authjs-v5",
-      },
-    },
-    {
-      title: "Next.js App Router",
-      techStack: ["Course", "TypeScript", "Next.js"],
-      description:
-        "Completed the official Next.js course with 16 chapters, each on a different topic and built a dashboard app.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/nextjs-dashboard",
       },
     },
   ],
