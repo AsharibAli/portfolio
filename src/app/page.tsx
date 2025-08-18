@@ -23,15 +23,28 @@ import { SimpleView } from "@/components/simplified-view";
 export default function Page() {
   // State to track the current view mode
   const [viewMode, setViewMode] = useState<ViewMode>("initial");
+  // State to handle smooth transitions
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
-  // Function to handle view mode change
+  // Function to handle view mode change with smooth animation
   const handleViewModeChange = (mode: ViewMode) => {
     // If developer mode is selected, redirect to the API endpoint
     if (mode === "developer") {
       window.open("/api/profile", "_blank");
       return;
     }
-    setViewMode(mode);
+
+    // If same mode is selected, do nothing
+    if (mode === viewMode) return;
+
+    // Start smooth transition
+    setIsTransitioning(true);
+
+    // Quick transition - change content after fade out
+    setTimeout(() => {
+      setViewMode(mode);
+      setIsTransitioning(false);
+    }, 150); // Very quick, smooth transition
   };
 
   // Save view preference to localStorage
@@ -78,7 +91,7 @@ export default function Page() {
   // Simplified view
   if (viewMode === "simple") {
     return (
-      <div className="animate-scale-in">
+      <div className={`smooth-transition ${isTransitioning ? "fade-out" : "fade-in"}`}>
         <SimpleView />
         <div className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8">
           <ViewSwitch currentView={viewMode} onChange={handleViewModeChange} />
@@ -92,7 +105,7 @@ export default function Page() {
 
   // Full view (original content)
   return (
-    <div className="animate-scale-in">
+    <div className={`smooth-transition ${isTransitioning ? "fade-out" : "fade-in"}`}>
       <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-4 sm:p-6 md:p-16 print:p-12">
         <section className="mx-auto w-full max-w-3xl space-y-10 rounded-2xl bg-black text-white print:bg-white print:text-black">
           <div className="flex items-center justify-between gap-8 rounded-xl border border-gray-800 p-4">

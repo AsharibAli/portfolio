@@ -157,3 +157,49 @@
 .animate-scale-in {
   animation: scaleIn 0.5s ease-out forwards;
 }
+
+/* Simple smooth transition effect */
+@keyframes smoothFadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes smoothFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-smooth-fade-out {
+  animation: smoothFadeOut 0.3s ease-out forwards;
+}
+
+.animate-smooth-fade-in {
+  animation: smoothFadeIn 0.3s ease-out forwards;
+}
+
+/* CSS transitions for even smoother effect */
+.smooth-transition {
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
