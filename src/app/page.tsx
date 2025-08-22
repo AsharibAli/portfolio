@@ -19,6 +19,7 @@ import { ProjectCard } from "@/components/project-card";
 import FlowiseChatbot from "@/components/chatbot";
 import { ViewSwitch, ViewMode } from "@/components/view-switch";
 import { SimpleView } from "@/components/simplified-view";
+import { JsonDisplay } from "@/components/json-display";
 
 export default function Page() {
   // State to track the current view mode
@@ -28,12 +29,6 @@ export default function Page() {
 
   // Function to handle view mode change with smooth animation
   const handleViewModeChange = (mode: ViewMode) => {
-    // If developer mode is selected, redirect to the API endpoint
-    if (mode === "developer") {
-      window.open("/api/profile", "_blank");
-      return;
-    }
-
     // If same mode is selected, do nothing
     if (mode === viewMode) return;
 
@@ -93,6 +88,28 @@ export default function Page() {
     return (
       <div className={`smooth-transition ${isTransitioning ? "fade-out" : "fade-in"}`}>
         <SimpleView />
+        <div className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8">
+          <ViewSwitch currentView={viewMode} onChange={handleViewModeChange} />
+        </div>
+        <div className="fixed bottom-6 right-4 z-50 sm:right-6">
+          <FlowiseChatbot />
+        </div>
+      </div>
+    );
+  }
+
+  // Developer view - display JSON data
+  if (viewMode === "developer") {
+    return (
+      <div className={`smooth-transition ${isTransitioning ? "fade-out" : "fade-in"}`}>
+        <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-2 sm:p-4 md:p-6 lg:p-8 print:p-12">
+          <div className="mx-auto w-full max-w-6xl space-y-3 sm:space-y-4 text-white pt-2 sm:pt-4">
+            {/* JSON Display Component */}
+            <JsonDisplay data={RESUME_DATA} title="Portfolio API Data" />
+          </div>
+        </main>
+        
+        {/* Fixed elements */}
         <div className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8">
           <ViewSwitch currentView={viewMode} onChange={handleViewModeChange} />
         </div>

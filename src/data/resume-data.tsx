@@ -59,6 +59,11 @@ export const RESUME_DATA = {
         url: "https://www.facebook.com/asharib.imtiaz/",
         icon: FacebookIcon,
       },
+      // {
+      //   name: "Instagram",
+      //   url: "https://www.instagram.com/0xAsharib/",
+      //   icon: InstagramIcon,
+      // },
     ],
   },
   education: [
