@@ -109,7 +109,7 @@ export function JsonDisplay({ data, title = "API Data" }: JsonDisplayProps) {
       {/* JSON display area */}
       <Card className="border-gray-800 bg-black">
         <CardContent className="p-0">
-          <div className="max-h-[65vh] sm:max-h-[75vh] overflow-auto">
+          <div className="max-h-[65vh] sm:max-h-[75vh] overflow-auto scrollbar-hide">
             <pre className="text-xs sm:text-sm text-gray-300 p-3 sm:p-4 md:p-6 font-mono leading-relaxed">
               <code className="language-json">{jsonString}</code>
             </pre>

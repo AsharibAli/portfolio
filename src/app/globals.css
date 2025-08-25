@@ -191,7 +191,7 @@
 
 /* CSS transitions for even smoother effect */
 .smooth-transition {
-  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
 }
 
 .fade-out {
@@ -202,4 +202,18 @@
 .fade-in {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Hide scrollbars while maintaining scroll functionality */
+.scrollbar-hide {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  -webkit-scrollbar: none;
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }

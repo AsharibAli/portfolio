@@ -39,7 +39,7 @@ export default function Page() {
     setTimeout(() => {
       setViewMode(mode);
       setIsTransitioning(false);
-    }, 150); // Very quick, smooth transition
+    }, 200); // Smooth transition matching CSS timing
   };
 
   // Save view preference to localStorage
