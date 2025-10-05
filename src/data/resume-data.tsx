@@ -346,6 +346,15 @@ export const RESUME_DATA = {
             },
           ],
         },
+       {
+          text: "150k+ visitors & distrusted $40k+ in rewards.",
+          links: [
+            {
+              name: "More details",
+              url: "https://www.linkedin.com/posts/asharibali_i-distributed-40000-to-8k-people-via-activity-7356918973134729216-unVm?utm_source=share&utm_medium=member_android&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
+            },
+          ],
+        },
         {
           text: "Developed and launched core products: EduHub, EduAgent, EduGPT, EduKit, and EduBox",
           links: [
