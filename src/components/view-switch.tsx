@@ -79,7 +79,7 @@ export function ViewSwitch({
       {/* Triple arrows pointing to all buttons - only show on large size (initial view) */}
       {size === "large" && (
         <div className="flex flex-col items-center mt-6">
-          <div 
+          {/* <div 
             className={cn(
               "transition-all duration-300",
               "w-96 h-20 sm:w-[480px] sm:h-24"
@@ -88,7 +88,7 @@ export function ViewSwitch({
             <ArrowIcon 
               className="w-full h-full text-white opacity-90" 
             />
-          </div>
+          </div> */}
           
           {/* "Click It" text */}
           <div 

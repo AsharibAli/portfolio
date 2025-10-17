@@ -20,6 +20,7 @@ import FlowiseChatbot from "@/components/chatbot";
 import { ViewSwitch, ViewMode } from "@/components/view-switch";
 import { SimpleView } from "@/components/simplified-view";
 import { JsonDisplay } from "@/components/json-display";
+import { ShaderAnimation } from "@/components/ui/shader-animation";
 
 export default function Page() {
   // State to track the current view mode
@@ -62,23 +63,29 @@ export default function Page() {
     }
   }, []);
 
-  // Initial view - just the switch button centered
+  // Initial view - just the switch button centered with shader animation background
   if (viewMode === "initial") {
     return (
-      <div className="flex min-h-screen flex-col items-center justify-center bg-black px-4 py-8">
-        <div className="mb-8 text-center">
-          <h1 className="mb-6 text-3xl font-bold text-white sm:text-4xl">
-            Select mode
-          </h1>
-          <p className="text-sm text-gray-400 sm:text-base">
-            Choose a view mode to continue
-          </p>
+      <div className="relative min-h-screen overflow-hidden">
+        {/* Animated shader background */}
+        <ShaderAnimation />
+        
+        {/* Content overlay */}
+        <div className="absolute inset-0 z-10 flex min-h-screen flex-col items-center justify-center px-4 py-8">
+          <div className="mb-8 text-center">
+            <h1 className="mb-6 text-3xl font-bold text-white sm:text-4xl drop-shadow-lg">
+              Select mode
+            </h1>
+            <p className="text-sm text-gray-300 sm:text-base drop-shadow-md">
+              Choose a view mode to continue
+            </p>
+          </div>
+          <ViewSwitch
+            currentView="simple"
+            onChange={handleViewModeChange}
+            size="large"
+          />
         </div>
-        <ViewSwitch
-          currentView="simple"
-          onChange={handleViewModeChange}
-          size="large"
-        />
       </div>
     );
   }
