@@ -91,14 +91,14 @@ export function ViewSwitch({
           </div> */}
           
           {/* "Click It" text */}
-          <div 
+          {/* <div 
             className={cn(
               "mt-2 font-medium text-white opacity-80 transition-all duration-300",
               "text-base sm:text-lg"
             )}
           >
             click to see my portfolio
-          </div>
+          </div> */}
         </div>
       )}
     </div>

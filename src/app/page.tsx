@@ -43,25 +43,25 @@ export default function Page() {
     }, 200); // Smooth transition matching CSS timing
   };
 
-  // Save view preference to localStorage
-  useEffect(() => {
-    if (viewMode !== "initial") {
-      localStorage.setItem("portfolioViewMode", viewMode);
-    }
-  }, [viewMode]);
+  // // Save view preference to localStorage
+  // useEffect(() => {
+  //   if (viewMode !== "initial") {
+  //     localStorage.setItem("portfolioViewMode", viewMode);
+  //   }
+  // }, [viewMode]);
 
-  // Load saved preference on initial render
-  useEffect(() => {
-    const savedViewMode = localStorage.getItem(
-      "portfolioViewMode",
-    ) as ViewMode | null;
-    if (
-      savedViewMode &&
-      ["simple", "detailed", "developer"].includes(savedViewMode)
-    ) {
-      setViewMode(savedViewMode);
-    }
-  }, []);
+  // // Load saved preference on initial render
+  // useEffect(() => {
+  //   const savedViewMode = localStorage.getItem(
+  //     "portfolioViewMode",
+  //   ) as ViewMode | null;
+  //   if (
+  //     savedViewMode &&
+  //     ["simple", "detailed", "developer"].includes(savedViewMode)
+  //   ) {
+  //     setViewMode(savedViewMode);
+  //   }
+  // }, []);
 
   // Initial view - just the switch button centered with shader animation background
   if (viewMode === "initial") {
