@@ -365,6 +365,24 @@ export const RESUME_DATA = {
           ],
         },
         {
+          text: "$5k+ in revenue from products",
+          links: [
+            {
+              name: "EduHub Revenue",
+              url: "https://eduhub.dev/",
+            },
+          ],
+        },
+        {
+          text: "OC Semester 1,2,3 Hackathon Winner",
+          links: [
+            {
+              name: "Open Campus Hackathon Winner",
+              url: "https://opencampus.xyz/",
+            },
+          ],
+        },
+        {
           text: "Backed by Open Campus Incubator Program",
           links: [
             {
