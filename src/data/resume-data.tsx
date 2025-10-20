@@ -454,6 +454,19 @@ export const RESUME_DATA = {
             },
           ],
         },
+        {
+          text: "Organized class-level coding challenges",
+          links: [
+            {
+              name: "One Dollar Challenge",
+              url: "https://www.linkedin.com/posts/asharibali_introducing-1-challenge-i-want-my-monday-activity-7325552476349206528-XtpE",
+            },
+            {
+              name: "Startup Challenge",
+              url: "https://www.linkedin.com/posts/asharibali_introducing-startup-challenge-reward-1000-activity-7345499971971874816-khuT",
+            },
+          ],
+        },
       ],
     },
     {
