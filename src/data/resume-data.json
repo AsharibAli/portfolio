@@ -303,10 +303,7 @@
     {
       "company": "EduHub",
       "link": "https://eduhub.dev/",
-      "badges": [
-        "Remote",
-        "Full-Time"
-      ],
+      "badges": ["Remote", "Full-Time"],
       "title": "Chief Technology Officer",
       "start": "2024 August",
       "end": "Present",
@@ -322,11 +319,38 @@
           ]
         },
         {
+          "text": "150k+ visitors & distrusted $40k+ in rewards.",
+          "links": [
+            {
+              "name": "More details",
+              "url": "https://www.linkedin.com/posts/asharibali_i-distributed-40000-to-8k-people-via-activity-7356918973134729216-unVm?utm_source=share&utm_medium=member_android&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA"
+            }
+          ]
+        },
+        {
           "text": "Developed and launched core products: EduHub, EduAgent, EduGPT, EduKit, and EduBox",
           "links": [
             {
               "name": "EduHub Products",
               "url": "https://docs.eduhub.dev/products"
+            }
+          ]
+        },
+        {
+          "text": "$5k+ in revenue from products",
+          "links": [
+            {
+              "name": "EduHub Revenue",
+              "url": "https://eduhub.dev/"
+            }
+          ]
+        },
+        {
+          "text": "OC Semester 1,2,3 Hackathon Winner",
+          "links": [
+            {
+              "name": "Open Campus Hackathon Winner",
+              "url": "https://opencampus.xyz/"
             }
           ]
         },
@@ -344,10 +368,7 @@
     {
       "company": "GIAIC",
       "link": "https://www.governorsindh.com/",
-      "badges": [
-        "Onsite",
-        "Part-Time"
-      ],
+      "badges": ["Onsite", "Part-Time"],
       "title": "Lead Teacher",
       "start": "2024 Feb",
       "end": "Present",
@@ -403,16 +424,26 @@
               "url": "https://github.com/AsharibAli/ramadan-coding-nights"
             }
           ]
+        },
+        {
+          "text": "Organized class-level coding challenges",
+          "links": [
+            {
+              "name": "One Dollar Challenge",
+              "url": "https://www.linkedin.com/posts/asharibali_introducing-1-challenge-i-want-my-monday-activity-7325552476349206528-XtpE"
+            },
+            {
+              "name": "Startup Challenge",
+              "url": "https://www.linkedin.com/posts/asharibali_introducing-startup-challenge-reward-1000-activity-7345499971971874816-khuT"
+            }
+          ]
         }
       ]
     },
     {
       "company": "Tameer-E-Millat",
       "link": "https://x.com/0xAsharib/status/1712050364823048485",
-      "badges": [
-        "Onsite",
-        "Contract"
-      ],
+      "badges": ["Onsite", "Contract"],
       "title": "Head of IT",
       "start": "2023 Oct",
       "end": "2023 Dec",
@@ -432,10 +463,7 @@
     {
       "company": "B4Business",
       "link": "https://b4bussines.com/",
-      "badges": [
-        "Remote",
-        "Part-Time"
-      ],
+      "badges": ["Remote", "Part-Time"],
       "title": "Technical Writer",
       "start": "2022 Jan",
       "end": "2023 Jan",
@@ -452,10 +480,7 @@
     {
       "company": "IVSpace",
       "link": "https://www.ivspace.io/",
-      "badges": [
-        "Remote",
-        "Part-Time"
-      ],
+      "badges": ["Remote", "Part-Time"],
       "title": "Community Administrator",
       "start": "2022 Jan",
       "end": "2022 June",
@@ -504,11 +529,7 @@
   "projects": [
     {
       "title": "Blockchain Research Tools",
-      "techStack": [
-        "Side Project",
-        "Crypto",
-        "Tools"
-      ],
+      "techStack": ["Side Project", "Crypto", "Tools"],
       "description": "A curated list of great blockchain or crypto-based research tools, products, and services.",
       "link": {
         "label": "github.com",
@@ -517,11 +538,7 @@
     },
     {
       "title": "100 Days of Code",
-      "techStack": [
-        "GIAIC",
-        "Web Development",
-        "TypeScript"
-      ],
+      "techStack": ["GIAIC", "Web Development", "TypeScript"],
       "description": "Organized a 100 Days of Coding Challenge for 30k+ GIAIC students, covering basic to advanced level programming.",
       "link": {
         "label": "linkedin.com",
@@ -530,11 +547,7 @@
     },
     {
       "title": "30 Days of 30 Projects",
-      "techStack": [
-        "GIAIC",
-        "NextJS",
-        "TypeScript"
-      ],
+      "techStack": ["GIAIC", "NextJS", "TypeScript"],
       "description": "Organized a 30 Days of 30 Projects Challenge for 30k+ GIAIC students, building 30 cool mini projects using the latest tech stack.",
       "link": {
         "label": "github.com",
@@ -543,11 +556,7 @@
     },
     {
       "title": "Ramadan Coding Nights",
-      "techStack": [
-        "GIAIC",
-        "Live Coding",
-        "Python"
-      ],
+      "techStack": ["GIAIC", "Live Coding", "Python"],
       "description": "Organized a 20-day Ramadan coding challenge featuring 1-hour live sessions where I build Python mini-projects while explaining concepts to students.",
       "link": {
         "label": "github.com",
@@ -556,11 +565,7 @@
     },
     {
       "title": "100 Days of Blockchain",
-      "techStack": [
-        "Revision",
-        "Blockchain",
-        "Solidity"
-      ],
+      "techStack": ["Revision", "Blockchain", "Solidity"],
       "description": "Daily practice with Solidity and smart contract development using modern blockchain tools to improve my skills.",
       "link": {
         "label": "github.com",
@@ -569,11 +574,7 @@
     },
     {
       "title": "100 Days of Prompting",
-      "techStack": [
-        "Prompting Engineering",
-        "AI",
-        "LLM"
-      ],
+      "techStack": ["Prompting Engineering", "AI", "LLM"],
       "description": "Daily practice in PE techniques to master AI interactions and build effective prompts for various use cases.",
       "link": {
         "label": "github.com",
@@ -582,12 +583,7 @@
     },
     {
       "title": "Mini Projects",
-      "techStack": [
-        "Side Projects",
-        "HTML",
-        "CSS",
-        "JS"
-      ],
+      "techStack": ["Side Projects", "HTML", "CSS", "JS"],
       "description": "Built HTML, CSS, and JavaScript projects to improve my problem-solving skills and programming logic.",
       "link": {
         "label": "github.com",
@@ -596,11 +592,7 @@
     },
     {
       "title": "Sigma Web Development",
-      "techStack": [
-        "Course",
-        "Web Development",
-        "JS"
-      ],
+      "techStack": ["Course", "Web Development", "JS"],
       "description": "Completed comprehensive web development course covering modern programming fundamentals and best practices.",
       "link": {
         "label": "github.com",
@@ -609,11 +601,7 @@
     },
     {
       "title": "Daily Designs Challenge",
-      "techStack": [
-        "Side Projects",
-        "Figma",
-        "Canva"
-      ],
+      "techStack": ["Side Projects", "Figma", "Canva"],
       "description": "Designed and created UI/UX projects over 20+ days to develop a strong foundation in design principles.",
       "link": {
         "label": "github.com",
@@ -622,11 +610,7 @@
     },
     {
       "title": "Next Auth V5",
-      "techStack": [
-        "Course",
-        "TypeScript",
-        "NextAuth.js"
-      ],
+      "techStack": ["Course", "TypeScript", "NextAuth.js"],
       "description": "Built the NextAuth.js advance project from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       "link": {
         "label": "github.com",
@@ -635,11 +619,7 @@
     },
     {
       "title": "Next.js App Router",
-      "techStack": [
-        "Course",
-        "TypeScript",
-        "Next.js"
-      ],
+      "techStack": ["Course", "TypeScript", "Next.js"],
       "description": "Completed the official Next.js course with 16 chapters, each on a different topic and built a dashboard app.",
       "link": {
         "label": "github.com",
@@ -648,11 +628,7 @@
     },
     {
       "title": "Learn Prompting Guide",
-      "techStack": [
-        "Translation",
-        "Urdu Language",
-        "AI"
-      ],
+      "techStack": ["Translation", "Urdu Language", "AI"],
       "description": "Completed the Urdu language translation of Learn Prompting Official Documentation.",
       "link": {
         "label": "linkedin.com",
@@ -691,11 +667,7 @@
     },
     {
       "title": "5irePay",
-      "techStack": [
-        "Hackathon Project",
-        "Next.js",
-        "Solidity"
-      ],
+      "techStack": ["Hackathon Project", "Next.js", "Solidity"],
       "description": "A crypto payment platform enabling instant transactions with email addresses, inspired by PayPal's functionality.",
       "link": {
         "label": "5ire-pay.vercel.app",
@@ -704,11 +676,7 @@
     },
     {
       "title": "NextIJT",
-      "techStack": [
-        "Volunteering Project",
-        "Next.js",
-        "TypeScript"
-      ],
+      "techStack": ["Volunteering Project", "Next.js", "TypeScript"],
       "description": "Official website for NextIJT, a non-profit organization that provides free education to students in Pakistan.",
       "link": {
         "label": "nextijt.com",
@@ -717,11 +685,7 @@
     },
     {
       "title": "Safe Foundation",
-      "techStack": [
-        "Volunteering Project",
-        "Next.js",
-        "TypeScript"
-      ],
+      "techStack": ["Volunteering Project", "Next.js", "TypeScript"],
       "description": "Official website for Safe Foundation, a non-profit nurturing intellectual growth and leadership in Pakistan.",
       "link": {
         "label": "safefoundation.xyz",
@@ -730,11 +694,7 @@
     },
     {
       "title": "Panaverse Website",
-      "techStack": [
-        "Assignment Project",
-        "JavaScript",
-        "Next.js"
-      ],
+      "techStack": ["Assignment Project", "JavaScript", "Next.js"],
       "description": "A forward-thinking educational organization in Pakistan, offering cutting-edge tech courses and training.",
       "link": {
         "label": "github.com",
@@ -743,12 +703,7 @@
     },
     {
       "title": "Smart Wallet Accounts",
-      "techStack": [
-        "Assignment Project",
-        "Solidity",
-        "Next.js",
-        "Erc4337"
-      ],
+      "techStack": ["Assignment Project", "Solidity", "Next.js", "Erc4337"],
       "description": "A smart wallet accounts project allowing users to interact with the blockchain using account abstraction (ERC-4337).",
       "link": {
         "label": "github.com",
@@ -757,12 +712,7 @@
     },
     {
       "title": "Portfolio",
-      "techStack": [
-        "Portfolio Project",
-        "Nextjs",
-        "TypeScript",
-        "TailwindCSS"
-      ],
+      "techStack": ["Portfolio Project", "Nextjs", "TypeScript", "TailwindCSS"],
       "description": "My personal portfolio website built with latest tech-stack.",
       "link": {
         "label": "github.com",
@@ -771,12 +721,7 @@
     },
     {
       "title": "Ecommerce Store",
-      "techStack": [
-        "Assignment Project",
-        "Nextjs",
-        "Sanity",
-        "Drizzle"
-      ],
+      "techStack": ["Assignment Project", "Nextjs", "Sanity", "Drizzle"],
       "description": "An ecommerce store built with latest tech-stack.",
       "link": {
         "label": "github.com",
@@ -785,12 +730,7 @@
     },
     {
       "title": "Ecommerce Store 2.0",
-      "techStack": [
-        "Assignment Project",
-        "Nextjs",
-        "Shopify",
-        "Typescript"
-      ],
+      "techStack": ["Assignment Project", "Nextjs", "Shopify", "Typescript"],
       "description": "An ecommerce store built with Shopify as a backend and Nextjs as a frontend to manage products and orders.",
       "link": {
         "label": "github.com",
@@ -799,11 +739,7 @@
     },
     {
       "title": "Nouman School",
-      "techStack": [
-        "Side Project",
-        "HTML",
-        "JavaScript"
-      ],
+      "techStack": ["Side Project", "HTML", "JavaScript"],
       "description": "A school website for Noman School, built with HTML, CSS, and JavaScript to showcase the school's achievements and events.",
       "link": {
         "label": "github.com",
@@ -812,11 +748,7 @@
     },
     {
       "title": "Sindh School",
-      "techStack": [
-        "Side Project",
-        "HTML",
-        "JavaScript"
-      ],
+      "techStack": ["Side Project", "HTML", "JavaScript"],
       "description": "A school website for SCM School, built with HTML, SCSS, and JavaScript to showcase the school's achievements and events.",
       "link": {
         "label": "github.com",
@@ -825,12 +757,7 @@
     },
     {
       "title": "Create Blast Dapp",
-      "techStack": [
-        "Hackathon Project",
-        "Npm Package",
-        "Nextjs",
-        "Hardhat"
-      ],
+      "techStack": ["Hackathon Project", "Npm Package", "Nextjs", "Hardhat"],
       "description": "A full-stack starter template featuring Next & Hardhat, designed for building Dapps on Blast L2 Chain.",
       "link": {
         "label": "github.com",
@@ -854,10 +781,7 @@
     },
     {
       "title": "Financial Analyst AI",
-      "techStack": [
-        "Assignment Project",
-        "Python"
-      ],
+      "techStack": ["Assignment Project", "Python"],
       "description": "Built a financial analyst AI using OpenAI assistant and financialmodelingprep APIs.",
       "link": {
         "label": "github.com",
@@ -866,11 +790,7 @@
     },
     {
       "title": "Optimism AI",
-      "techStack": [
-        "Hackathon Project",
-        "Blockchain",
-        "AI"
-      ],
+      "techStack": ["Hackathon Project", "Blockchain", "AI"],
       "description": "An AI assistant for the Optimism blockchain, providing real-time insights and analytics to enhance user experience.",
       "link": {
         "label": "op-ai.xyz",
@@ -879,11 +799,7 @@
     },
     {
       "title": "AI Quiz App",
-      "techStack": [
-        "Side Project",
-        "AI",
-        "Quizzes"
-      ],
+      "techStack": ["Side Project", "AI", "Quizzes"],
       "description": "A quiz app to test your prompt engineering, AI, and large language model skills by taking this simple 50-question quiz.",
       "link": {
         "label": "github.com",
@@ -892,11 +808,7 @@
     },
     {
       "title": "Blockchain Quiz App",
-      "techStack": [
-        "Side Project",
-        "Blockchain",
-        "Quizzes"
-      ],
+      "techStack": ["Side Project", "Blockchain", "Quizzes"],
       "description": "A quiz app to test your blockchain technology skills by taking this simple 50-question quiz.",
       "link": {
         "label": "github.com",
@@ -905,11 +817,7 @@
     },
     {
       "title": "Figma Clone",
-      "techStack": [
-        "Clone Project",
-        "Nextjs",
-        "TypeScript"
-      ],
+      "techStack": ["Clone Project", "Nextjs", "TypeScript"],
       "description": "A Figma Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       "link": {
         "label": "github.com",
@@ -918,11 +826,7 @@
     },
     {
       "title": "Threads Clone",
-      "techStack": [
-        "Clone Project",
-        "Nextjs",
-        "TypeScript"
-      ],
+      "techStack": ["Clone Project", "Nextjs", "TypeScript"],
       "description": "A Threads Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
       "link": {
         "label": "github.com",
