@@ -1,8 +1,14 @@
 import { NextResponse } from "next/server";
-import { RESUME_DATA } from "@/data/resume-data.tsx";
+import { getResumeData } from "@/lib/data";
 
 export const runtime = 'edge';
 
+/**
+ * API Route to fetch resume data
+ * This endpoint provides the resume data in JSON format
+ * Runs on the Edge Runtime for optimal performance
+ */
 export async function GET() {
-  return NextResponse.json(RESUME_DATA);
+  const data = await getResumeData();
+  return NextResponse.json(data);
 }
