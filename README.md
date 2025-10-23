@@ -5,7 +5,7 @@ A clean, print-friendly portfolio website with a minimalist design. Built with m
 ## Features
 
 - **Quick Setup**: Get started in minutes with a [single config file](./src/data/resume-data.json)
-- **Modern Tech Stack**: Next.js 15, React, TypeScript, Shadcn/UI, and TailwindCSS
+- **Modern Tech Stack**: Next.js 16, React 19, TypeScript 5, Shadcn/UI, and TailwindCSS
 - **Auto-Generated Layout**: No manual adjustments needed
 - **Responsive Design**: Optimized for all devices
 - **Fast Performance**: Uses Next.js best practices

@@ -18,7 +18,10 @@ interface PortfolioWrapperProps {
  * Client-side wrapper component that handles view switching and animations
  * This is the only client component at the top level, keeping server rendering benefits
  */
-export function PortfolioWrapper({ data, detailedView }: PortfolioWrapperProps) {
+export function PortfolioWrapper({
+  data,
+  detailedView,
+}: PortfolioWrapperProps) {
   // State to track the current view mode
   const [viewMode, setViewMode] = useState<ViewMode>("initial");
   // State to handle smooth transitions
@@ -49,10 +52,10 @@ export function PortfolioWrapper({ data, detailedView }: PortfolioWrapperProps) 
         {/* Content overlay */}
         <div className="absolute inset-0 z-10 flex min-h-screen flex-col items-center justify-center px-4 py-8">
           <div className="mb-8 text-center">
-            <h1 className="mb-6 text-3xl font-bold text-white sm:text-4xl drop-shadow-lg">
+            <h1 className="mb-6 text-3xl font-bold text-white drop-shadow-lg sm:text-4xl">
               Select mode
             </h1>
-            <p className="text-sm text-gray-300 sm:text-base drop-shadow-md">
+            <p className="text-sm text-gray-300 drop-shadow-md sm:text-base">
               Choose a view mode to continue
             </p>
           </div>
@@ -69,12 +72,20 @@ export function PortfolioWrapper({ data, detailedView }: PortfolioWrapperProps) 
   // Simplified view
   if (viewMode === "simple") {
     return (
-      <div className={`smooth-transition ${isTransitioning ? "fade-out" : "fade-in"}`}>
+      <div
+        className={`smooth-transition ${isTransitioning ? "fade-out" : "fade-in"}`}
+      >
         <SimpleView data={data} />
-        <div className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8">
+        <div
+          key="simple-view-switch"
+          className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8"
+        >
           <ViewSwitch currentView={viewMode} onChange={handleViewModeChange} />
         </div>
-        <div className="fixed bottom-6 right-4 z-50 sm:right-6">
+        <div
+          key="simple-chatbot"
+          className="fixed bottom-6 right-4 z-50 sm:right-6"
+        >
           <FlowiseChatbot />
         </div>
       </div>
@@ -84,19 +95,27 @@ export function PortfolioWrapper({ data, detailedView }: PortfolioWrapperProps) 
   // Developer view - display JSON data
   if (viewMode === "developer") {
     return (
-      <div className={`smooth-transition ${isTransitioning ? "fade-out" : "fade-in"}`}>
+      <div
+        className={`smooth-transition ${isTransitioning ? "fade-out" : "fade-in"}`}
+      >
         <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-2 sm:p-4 md:p-6 lg:p-8 print:p-12">
-          <div className="mx-auto w-full max-w-6xl space-y-3 sm:space-y-4 text-white pt-2 sm:pt-4">
+          <div className="mx-auto w-full max-w-6xl space-y-3 pt-2 text-white sm:space-y-4 sm:pt-4">
             {/* JSON Display Component */}
             <JsonDisplay data={data} title="Portfolio API Data" />
           </div>
         </main>
 
         {/* Fixed elements */}
-        <div className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8">
+        <div
+          key="developer-view-switch"
+          className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8"
+        >
           <ViewSwitch currentView={viewMode} onChange={handleViewModeChange} />
         </div>
-        <div className="fixed bottom-6 right-4 z-50 sm:right-6">
+        <div
+          key="developer-chatbot"
+          className="fixed bottom-6 right-4 z-50 sm:right-6"
+        >
           <FlowiseChatbot />
         </div>
       </div>
@@ -105,14 +124,19 @@ export function PortfolioWrapper({ data, detailedView }: PortfolioWrapperProps) 
 
   // Full/Detailed view (original content) - Server-rendered
   return (
-    <div className={`smooth-transition ${isTransitioning ? "fade-out" : "fade-in"}`}>
+    <div
+      className={`smooth-transition ${isTransitioning ? "fade-out" : "fade-in"}`}
+    >
       {detailedView}
 
-      <div>
+      <div key="chatbot-container">
         <FlowiseChatbot />
       </div>
 
-      <div className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8">
+      <div
+        key="view-switch-container"
+        className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8"
+      >
         <ViewSwitch currentView={viewMode} onChange={handleViewModeChange} />
       </div>
     </div>

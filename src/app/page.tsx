@@ -14,9 +14,6 @@ export default async function Page() {
 
   // Return the client wrapper with server-rendered detailed view
   return (
-    <PortfolioWrapper
-      data={data}
-      detailedView={<DetailedView data={data} />}
-    />
+    <PortfolioWrapper data={data} detailedView={<DetailedView data={data} />} />
   );
 }
