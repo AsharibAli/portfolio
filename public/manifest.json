@@ -1,0 +1,48 @@
+{
+  "name": "Asharib Ali - AI & Blockchain Developer Portfolio",
+  "short_name": "Asharib Ali",
+  "description": "CTO at EduHub, AI & Blockchain Developer, and Lead Teacher at GIAIC. Teaching 1,500+ students Cloud Native & Agentic AI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/og.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["technology", "education", "portfolio"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "View Portfolio",
+      "short_name": "Portfolio",
+      "description": "View Asharib Ali's full portfolio",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/og.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Get Profile Data",
+      "short_name": "API",
+      "description": "Access portfolio data via API",
+      "url": "/api/profile",
+      "icons": [
+        {
+          "src": "/og.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
