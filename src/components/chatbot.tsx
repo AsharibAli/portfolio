@@ -31,8 +31,8 @@ const AsharibAssistant = () => {
                   },
                 },
                 tooltip: {
-                  showTooltip: true,
-                  tooltipMessage: "Try my Assistant",
+                  showTooltip: false,
+                  tooltipMessage: "Try my Assitant",
                   tooltipBackgroundColor: "white",
                   tooltipTextColor: "black",
                   tooltipFontSize: 16,

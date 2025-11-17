@@ -50,7 +50,7 @@ export function PortfolioWrapper({
         <ShaderAnimation />
 
         {/* Content overlay */}
-        <div className="absolute inset-0 z-10 flex min-h-screen flex-col items-center justify-center px-4 py-8">
+        <div className="absolute inset-0 z-10 flex min-h-screen flex-col items-center justify-center px-4">
           <div className="mb-8 text-center">
             <h1 className="mb-6 text-3xl font-bold text-white drop-shadow-lg sm:text-4xl">
               Select mode
@@ -101,7 +101,7 @@ export function PortfolioWrapper({
         <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-2 sm:p-4 md:p-6 lg:p-8 print:p-12">
           <div className="mx-auto w-full max-w-6xl space-y-3 pt-2 text-white sm:space-y-4 sm:pt-4">
             {/* JSON Display Component */}
-            <JsonDisplay data={data} title="Portfolio API Data" />
+            <JsonDisplay data={data} title="My Portfolio API Data" />
           </div>
         </main>
 

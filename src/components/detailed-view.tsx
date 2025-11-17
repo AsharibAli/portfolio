@@ -49,29 +49,29 @@ export function DetailedView({ data: rawData }: DetailedViewProps) {
                 {data.location}
               </a>
             </p>
-            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
+            <div className="flex max-w-[140px] flex-wrap gap-1 pt-1 font-mono text-sm text-muted-foreground sm:max-w-none print:hidden">
               {data.contact.email ? (
                 <Button
-                  className="h-6 w-6 sm:h-8 sm:w-8"
+                  className="h-7 w-7 sm:h-8 sm:w-8"
                   variant="outline"
                   size="icon"
                   asChild
                 >
                   <a href={`mailto:${data.contact.email}`}>
-                    <MailIcon className="h-3 w-3 sm:h-4 sm:w-4" />
+                    <MailIcon className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
                   </a>
                 </Button>
               ) : null}
               {data.contact.social.map((social) => (
                 <Button
                   key={social.name}
-                  className="h-6 w-6 sm:h-8 sm:w-8"
+                  className="h-7 w-7 sm:h-8 sm:w-8"
                   variant="outline"
                   size="icon"
                   asChild
                 >
                   <a href={social.url} target="_blank">
-                    <social.icon className="h-3 w-3 sm:h-4 sm:w-4" />
+                    <social.icon className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
                   </a>
                 </Button>
               ))}
@@ -79,15 +79,13 @@ export function DetailedView({ data: rawData }: DetailedViewProps) {
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex print:text-[12px]">
               {data.contact.email ? (
                 <a href={`mailto:${data.contact.email}`}>
-                  <span className="underline">
-                    {data.contact.email}
-                  </span>
+                  <span className="underline">{data.contact.email}</span>
                 </a>
               ) : null}
             </div>
           </div>
 
-          <Avatar className="h-20 w-20 flex-shrink-0 rounded-xl border-2 border-gray-800 sm:h-28 sm:w-28 md:h-32 md:w-32">
+          <Avatar className="h-32 w-32 flex-shrink-0 rounded-xl border-2 border-gray-800 sm:h-28 sm:w-28 md:h-32 md:w-32">
             <AvatarImage
               alt={data.name}
               src={data.avatarUrl}
