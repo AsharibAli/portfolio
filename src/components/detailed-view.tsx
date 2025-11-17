@@ -31,47 +31,47 @@ export function DetailedView({ data: rawData }: DetailedViewProps) {
   return (
     <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-4 sm:p-6 md:p-16 print:p-12">
       <section className="mx-auto w-full max-w-3xl space-y-10 rounded-2xl bg-black text-white print:bg-white print:text-black">
-        <div className="flex items-center justify-between gap-8 rounded-xl border border-gray-800 p-4">
-          <div className="flex-1 space-y-2.5">
-            <h1 className="text-3xl font-bold tracking-tight">
+        <div className="flex items-center justify-between gap-3 rounded-xl border border-gray-800 p-3 sm:gap-6 sm:p-4 md:gap-8">
+          <div className="flex-1 space-y-1.5 sm:space-y-2.5">
+            <h1 className="text-xl font-bold tracking-tight sm:text-2xl md:text-3xl">
               {data.name}
             </h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
+            <p className="max-w-md text-pretty font-mono text-xs text-muted-foreground sm:text-sm print:text-[12px]">
               {data.about}
             </p>
-            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+            <p className="max-w-md items-center text-pretty font-mono text-[10px] text-muted-foreground sm:text-xs">
               <a
-                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                className="inline-flex gap-x-1 align-baseline leading-none hover:underline sm:gap-x-1.5"
                 href={data.locationLink}
                 target="_blank"
               >
-                <GlobeIcon className="h-3 w-3" />
+                <GlobeIcon className="h-2.5 w-2.5 sm:h-3 sm:w-3" />
                 {data.location}
               </a>
             </p>
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               {data.contact.email ? (
                 <Button
-                  className="h-8 w-8"
+                  className="h-6 w-6 sm:h-8 sm:w-8"
                   variant="outline"
                   size="icon"
                   asChild
                 >
                   <a href={`mailto:${data.contact.email}`}>
-                    <MailIcon className="h-4 w-4" />
+                    <MailIcon className="h-3 w-3 sm:h-4 sm:w-4" />
                   </a>
                 </Button>
               ) : null}
               {data.contact.social.map((social) => (
                 <Button
                   key={social.name}
-                  className="h-8 w-8"
+                  className="h-6 w-6 sm:h-8 sm:w-8"
                   variant="outline"
                   size="icon"
                   asChild
                 >
                   <a href={social.url} target="_blank">
-                    <social.icon className="h-4 w-4" />
+                    <social.icon className="h-3 w-3 sm:h-4 sm:w-4" />
                   </a>
                 </Button>
               ))}
@@ -87,7 +87,7 @@ export function DetailedView({ data: rawData }: DetailedViewProps) {
             </div>
           </div>
 
-          <Avatar className="hidden h-32 w-32 rounded-xl border-2 border-gray-800 md:block">
+          <Avatar className="h-20 w-20 flex-shrink-0 rounded-xl border-2 border-gray-800 sm:h-28 sm:w-28 md:h-32 md:w-32">
             <AvatarImage
               alt={data.name}
               src={data.avatarUrl}
