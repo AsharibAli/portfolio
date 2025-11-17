@@ -1,18 +1,18 @@
 "use client";
 
-import React, { useMemo } from "react";
-import { Button } from "@/components/ui/button";
-import { MailIcon, GlobeIcon } from "lucide-react";
+import React from "react";
+import { GlobeIcon } from "lucide-react";
+
 import { type ResumeData } from "@/lib/data";
-import { addIconsToResumeData } from "@/lib/icons-mapper";
+import { useResumeDataWithIcons } from "@/hooks/use-resume-data-with-icons";
+import { ContactActions } from "@/components/contact-actions";
 
 interface SimpleViewProps {
   data: ResumeData;
 }
 
 export function SimpleView({ data: rawData }: SimpleViewProps) {
-  // Add icons to the data on the client side
-  const data = useMemo(() => addIconsToResumeData(rawData), [rawData]);
+  const data = useResumeDataWithIcons(rawData);
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black px-4 text-white sm:px-6">
       <div className="max-w-[90%] text-center sm:max-w-md">
@@ -35,36 +35,11 @@ export function SimpleView({ data: rawData }: SimpleViewProps) {
           </a>
         </p>
 
-        <div className="animate-fade-in-delayed-more mx-auto flex justify-center gap-1.5 sm:gap-2 sm:max-w-none">
-          {/* Email button */}
-          {data.contact.email && (
-            <Button
-              className="h-8 w-8 sm:h-8 sm:w-8"
-              variant="outline"
-              size="icon"
-              asChild
-            >
-              <a href={`mailto:${data.contact.email}`} aria-label="Email">
-                <MailIcon className="h-4 w-4 sm:h-4 sm:w-4" />
-              </a>
-            </Button>
-          )}
-
-          {/* Social media buttons */}
-          {data.contact.social.map((social) => (
-            <Button
-              key={social.name}
-              className="h-8 w-8 sm:h-8 sm:w-8"
-              variant="outline"
-              size="icon"
-              asChild
-            >
-              <a href={social.url} target="_blank" aria-label={social.name}>
-                <social.icon className="h-4 w-4 sm:h-4 sm:w-4" />
-              </a>
-            </Button>
-          ))}
-        </div>
+        <ContactActions
+          contact={data.contact}
+          size="md"
+          className="animate-fade-in-delayed-more mx-auto justify-center gap-1.5 sm:max-w-none sm:gap-2"
+        />
       </div>
     </div>
   );

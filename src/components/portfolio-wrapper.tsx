@@ -1,13 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { ViewSwitch, ViewMode } from "@/components/view-switch";
-import FlowiseChatbot from "@/components/chatbot";
+import { type ReactNode } from "react";
+
+import { ViewMode, ViewSwitch } from "@/components/view-switch";
 import { ShaderAnimation } from "@/components/ui/shader-animation";
 import { SimpleView } from "@/components/simplified-view";
 import { JsonDisplay } from "@/components/json-display";
 import { type ResumeData } from "@/lib/data";
-import { ReactNode } from "react";
+import { ViewControlsOverlay } from "@/components/view-controls-overlay";
+import { AnimatedView } from "@/components/animated-view";
 
 interface PortfolioWrapperProps {
   data: ResumeData;
@@ -62,83 +64,43 @@ export function PortfolioWrapper({
           <ViewSwitch
             currentView="simple"
             onChange={handleViewModeChange}
-            size="large"
+            size="default"
           />
         </div>
       </div>
     );
   }
 
+  const renderWithAnimation = (
+    content: ReactNode,
+    overlayProps?: { wrapChatbot?: boolean },
+  ) => (
+    <AnimatedView isTransitioning={isTransitioning}>
+      {content}
+      <ViewControlsOverlay
+        viewMode={viewMode}
+        onChange={handleViewModeChange}
+        wrapChatbot={overlayProps?.wrapChatbot}
+      />
+    </AnimatedView>
+  );
+
   // Simplified view
   if (viewMode === "simple") {
-    return (
-      <div
-        className={`smooth-transition ${isTransitioning ? "fade-out" : "fade-in"}`}
-      >
-        <SimpleView data={data} />
-        <div
-          key="simple-view-switch"
-          className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8"
-        >
-          <ViewSwitch currentView={viewMode} onChange={handleViewModeChange} />
-        </div>
-        <div
-          key="simple-chatbot"
-          className="fixed bottom-6 right-4 z-50 sm:right-6"
-        >
-          <FlowiseChatbot />
-        </div>
-      </div>
-    );
+    return renderWithAnimation(<SimpleView data={data} />);
   }
 
   // Developer view - display JSON data
   if (viewMode === "developer") {
-    return (
-      <div
-        className={`smooth-transition ${isTransitioning ? "fade-out" : "fade-in"}`}
-      >
-        <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-2 sm:p-4 md:p-6 lg:p-8 print:p-12">
-          <div className="mx-auto w-full max-w-6xl space-y-3 pt-2 text-white sm:space-y-4 sm:pt-4">
-            {/* JSON Display Component */}
-            <JsonDisplay data={data} title="My Portfolio API Data" />
-          </div>
-        </main>
-
-        {/* Fixed elements */}
-        <div
-          key="developer-view-switch"
-          className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8"
-        >
-          <ViewSwitch currentView={viewMode} onChange={handleViewModeChange} />
+    return renderWithAnimation(
+      <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-2 sm:p-4 md:p-6 lg:p-8 print:p-12">
+        <div className="mx-auto w-full max-w-6xl space-y-3 pt-2 text-white sm:space-y-4 sm:pt-4">
+          <JsonDisplay data={data} title="My Portfolio API Data" />
         </div>
-        <div
-          key="developer-chatbot"
-          className="fixed bottom-6 right-4 z-50 sm:right-6"
-        >
-          <FlowiseChatbot />
-        </div>
-      </div>
+      </main>,
     );
   }
 
   // Full/Detailed view (original content) - Server-rendered
-  return (
-    <div
-      className={`smooth-transition ${isTransitioning ? "fade-out" : "fade-in"}`}
-    >
-      {detailedView}
-
-      <div key="chatbot-container">
-        <FlowiseChatbot />
-      </div>
-
-      <div
-        key="view-switch-container"
-        className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8"
-      >
-        <ViewSwitch currentView={viewMode} onChange={handleViewModeChange} />
-      </div>
-    </div>
-  );
+  return renderWithAnimation(detailedView, { wrapChatbot: false });
 }

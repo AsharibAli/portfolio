@@ -375,19 +375,23 @@
       "description": "I am teaching Agentic AI to 1500+ students (on-site) and managing the 30k+ GIAIC Discord community to help students learn and grow in tech.",
       "bulletPoints": [
         {
-          "text": "Lead instructor for 1,500+ students learning Agentic AI, in Q1, Q2, and Q3",
+          "text": "Lead instructor for 1,500+ students learning latest tech-stacks, in Q1, Q2, Q3, and Q4",
           "links": [
             {
-              "name": "Q1 TypeScript",
+              "name": "Q1 TypeScript (Programming Fundamentals)",
               "url": "https://www.linkedin.com/posts/asharibali_ai-quiz-programming-activity-7204203223904116736-Z5a2?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA"
             },
             {
-              "name": "Q2 React/Next.js",
+              "name": "Q2 React/Next.js (Full-Stack Development)",
               "url": "https://www.linkedin.com/posts/asharibali_little-glimpse-i-had-the-pleasure-of-activity-7239249368883576834-gysQ?utm_source=share&utm_medium=member_desktop"
             },
             {
-              "name": "Q3 Python",
+              "name": "Q3 Python (OOPs & Advanced Concepts)",
               "url": "https://www.linkedin.com/posts/asharibali_first-class-of-giaic-q3-monday-2-5-activity-7300118847204818944-EWhl?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA"
+            },
+            {
+              "name": "Q4 Agentic AI (Prompt & Context Engineering, MCP, and more)",
+              "url": "https://www.linkedin.com/posts/asharibali_alhamdulillah-the-first-class-of-quarter-activity-7386401818840330241-J4Ah?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA"
             }
           ]
         },
@@ -409,7 +413,7 @@
           ]
         },
         {
-          "text": "Organized large-scale coding challenges",
+          "text": "Organized large-scale coding challenges like (100-days-of-code, 30-days-of-30projects, ramadan-coding-nights)",
           "links": [
             {
               "name": "100 Days of Code (5k+ participants)",
@@ -426,14 +430,14 @@
           ]
         },
         {
-          "text": "Organized class-level coding challenges",
+          "text": "Organized class-level coding challenges like (one-dollar-challenge & startup-challenge)",
           "links": [
             {
-              "name": "One Dollar Challenge",
+              "name": "One Dollar Challenge (1k+ participants)",
               "url": "https://www.linkedin.com/posts/asharibali_introducing-1-challenge-i-want-my-monday-activity-7325552476349206528-XtpE"
             },
             {
-              "name": "Startup Challenge",
+              "name": "Startup Challenge (1k+ participants)",
               "url": "https://www.linkedin.com/posts/asharibali_introducing-startup-challenge-reward-1000-activity-7345499971971874816-khuT"
             }
           ]
@@ -473,27 +477,10 @@
           "text": "Published 100+ articles on blockchain technology"
         },
         {
+          "text": "Designed UI/UX of the website, managed domain, hosting, and CMS"
+        },
+        {
           "text": "Grew website traffic through SEO optimization"
-        }
-      ]
-    },
-    {
-      "company": "IVSpace",
-      "link": "https://www.ivspace.io/",
-      "badges": ["Remote", "Part-Time"],
-      "title": "Community Administrator",
-      "start": "2022 Jan",
-      "end": "2022 June",
-      "description": "I led IVSpace community social handles, helping members and growing engagement through moderation and community-building activities.",
-      "bulletPoints": [
-        {
-          "text": "Led 5k+ member community on Discord and Telegram"
-        },
-        {
-          "text": "Grew active members by 40% through engagement activities"
-        },
-        {
-          "text": "Set up and enforced community rules and guidelines"
         }
       ]
     }
