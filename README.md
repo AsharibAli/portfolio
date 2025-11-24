@@ -1,4 +1,4 @@
-# **Asharib** Portfolio
+# My Portfolio Website
 
 A clean, print-friendly portfolio website with a minimalist design. Built with modern technologies for optimal performance across all devices.
 
