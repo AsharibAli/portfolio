@@ -54,17 +54,8 @@ export function WorkExperienceSection({ work }: WorkExperienceSectionProps) {
                     <ArrowRightIcon className="h-3 w-3 flex-shrink-0 text-gray-500" />
                     <span className="flex items-center gap-x-1">
                       {point.text}
-                      {point.link ? (
-                        <a
-                          href={point.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center hover:text-blue-500"
-                        >
-                          <ExternalLinkIcon className="ml-1 h-3 w-3" />
-                        </a>
-                      ) : null}
-                      {point.links && point.links.length > 0 ? (
+
+                      {"links" in point && point.links && point.links.length > 0 ? (
                         <span className="ml-1 flex items-center space-x-1">
                           {point.links.map((link, linkIndex) => (
                             <a
