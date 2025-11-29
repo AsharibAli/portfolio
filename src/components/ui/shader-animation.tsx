@@ -31,6 +31,11 @@ export function ShaderAnimation() {
 
     const container = containerRef.current
 
+    // WebGL support check
+    const canvasTest = document.createElement("canvas")
+    const glTest = canvasTest.getContext("webgl") || canvasTest.getContext("experimental-webgl")
+    if (!glTest) return // silently stop if WebGL not supported
+
     // Vertex shader: Positions vertices in 3D space
     // This simple shader just passes through the position unchanged
     const vertexShader = `
@@ -80,7 +85,7 @@ export function ShaderAnimation() {
       time: { type: "f", value: 1.0 },
       resolution: { type: "v2", value: new THREE.Vector2() },
     }
-
+    
     // Create material with our custom shaders
     const material = new THREE.ShaderMaterial({
       uniforms: uniforms,
@@ -93,7 +98,13 @@ export function ShaderAnimation() {
     scene.add(mesh)
 
     // Create WebGL renderer with anti-aliasing for smooth edges
-    const renderer = new THREE.WebGLRenderer({ antialias: true })
+    let renderer: THREE.WebGLRenderer
+    try {
+      renderer = new THREE.WebGLRenderer({ antialias: true })
+    } catch (err) {
+      return // stop silently if renderer cannot be created
+    }
+
     renderer.setPixelRatio(window.devicePixelRatio)
 
     // Add the renderer's canvas to our container
@@ -111,7 +122,7 @@ export function ShaderAnimation() {
     // Initial size setup
     onWindowResize()
     window.addEventListener("resize", onWindowResize, false)
-
+    
     // Animation loop - runs on every frame
     const animate = () => {
       const animationId = requestAnimationFrame(animate)
@@ -127,7 +138,7 @@ export function ShaderAnimation() {
         sceneRef.current.animationId = animationId
       }
     }
-
+ 
     // Store references for cleanup
     sceneRef.current = {
       camera,
@@ -172,4 +183,3 @@ export function ShaderAnimation() {
     />
   )
 }
-
