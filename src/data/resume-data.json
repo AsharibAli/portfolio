@@ -43,7 +43,7 @@
   "education": [
     {
       "school": "Virtual University",
-      "degree": "Associate Degree in Computer Science",
+      "degree": "BS (Computer Science)",
       "start": "2024",
       "end": "Present"
     },
@@ -445,6 +445,75 @@
       ]
     },
     {
+      "company": "IJT",
+      "link": "https://jamiat.org.pk/",
+      "badges": ["Remote", "Volunteer"],
+      "title": "Lead Developer",
+      "start": "June 2025",
+      "end": "Present",
+      "description": "I'm leading the orchestration and management of IJT (Islami Jamiat-e-Talba Pakistan) official projects, from development to deployment (end-to-end) based on the project requirements.",
+      "bulletPoints": [
+        {
+          "text": "Engineered JAMIAT website and dashboard",
+          "links": [
+            {
+              "name": "Jamiat Website",
+              "url": "https://jamiat.org.pk/"
+            }
+          ]
+        },
+        {
+          "text": "Architected NEXT website and dashboard",
+          "links": [
+            {
+              "name": "NEXT IJT Website",
+              "url": "https://nextijt.com/"
+            }
+          ]
+        },
+        {
+          "text": "Built SAMA website and dashboard",
+          "links": [
+            {
+              "name": "SAMA IJT Website",
+              "url": "https://samaijt.com/"
+            }
+          ]
+        },
+        {
+          "text": "Constructed SAFE website and dashboard",
+          "links": [
+            {
+              "name": "SAFE Foundation Website",
+              "url": "https://safefoundation.xyz/"
+            }
+          ]
+        },
+        {
+          "text": "Developed HAMQADAM platform and dashboard",
+          "links": [
+            {
+              "name": "Hamqadam Magazine Website",
+              "url": "https://hamqadam.com.pk/"
+            }
+          ]
+        },
+        {
+          "text": "100k+ monthly visits on my work",
+          "links": [
+            {
+              "name": "100k+ monthly visits on my work",
+              "url": "https://www.linkedin.com/posts/asharibali_100k-monthly-visits-on-my-work-do-you-activity-7402577497395073024-r617?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA"
+            },
+            {
+              "name": "See all the work on official organization github",
+              "url": "https://github.com/itdeptjamiat/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "company": "Tameer-E-Millat",
       "link": "https://x.com/0xAsharib/status/1712050364823048485",
       "badges": ["Onsite", "Contract"],
@@ -454,7 +523,7 @@
       "description": "I led a 3-month Introductory-Level course covering web technologies, fundamentals, and modern tech trends (Blockchain & AI).",
       "bulletPoints": [
         {
-          "text": "Designed and delivered comprehensive curriculum for 50+ students"
+          "text": "Designed and delivered comprehensive curriculum for multiple students"
         },
         {
           "text": "Achieved 90% student satisfaction rate through hands-on learning approach"
