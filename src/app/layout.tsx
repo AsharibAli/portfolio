@@ -7,16 +7,16 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
   title: {
-    default: "Asharib Ali | AI & Blockchain Developer, Tech Educator",
+    default: "Asharib Ali | AI & Cloud-Native Developer, Tech Educator",
     template: "%s | Asharib Ali",
   },
   description:
-    "Asharib Ali - CTO at EduHub, AI & Blockchain Developer, and Lead Teacher at GIAIC. Teaching 1,500+ students Cloud Native & Agentic AI. 3+ years of tech experience with 100+ projects, 7 hackathon wins, and managing 30k+ tech community.",
+    "Asharib Ali - CTO at EduHub, AI & Cloud-Native Developer, and Lead Teacher at GIAIC. Teaching 1,500+ students Cloud Native & Agentic AI. 3+ years of tech experience with 100+ projects, 7 hackathon wins, and managing 30k+ tech community.",
 
   openGraph: {
-    title: "Asharib Ali | AI & Blockchain Developer, Tech Educator",
+    title: "Asharib Ali | AI & Cloud-Native Developer, Tech Educator",
     description:
-      "CTO at EduHub building Vibe Tooling for EduChain. Teaching 1,500+ students Agentic AI at GIAIC. 3+ years experience in AI, Blockchain & Full-Stack Development. 7x Hackathon Winner.",
+      "CTO at EduHub building Vibe Tooling for EduChain. Teaching 1,500+ students Agentic AI at GIAIC. 3+ years experience in AI, Blockchain, Cloud-Native & Full-Stack Development. 7x Hackathon Winner.",
     url: "https://asharib.xyz",
     siteName: "Asharib Ali Portfolio",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Asharib Ali - AI & Blockchain Developer Portfolio",
+        alt: "Asharib Ali - AI & Cloud-Native Developer Portfolio",
         type: "image/png",
       },
     ],
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Asharib Ali | AI & Blockchain Developer, Tech Educator",
+    title: "Asharib Ali | AI & Cloud-Native Developer, Tech Educator",
     description:
-      "CTO at EduHub building Vibe Tooling for EduChain. Teaching 1,500+ students Agentic AI at GIAIC. 3+ years experience in AI, Blockchain & Full-Stack Development. 7x Hackathon Winner.",
+      "CTO at EduHub building Vibe Tooling for EduChain. Teaching 1,500+ students Agentic AI at GIAIC. 3+ years experience in AI, Blockchain, Cloud-Native & Full-Stack Development. 7x Hackathon Winner.",
     images: ["/og.png"],
     creator: "@0xAsharib",
     site: "@0xAsharib",
@@ -115,7 +115,7 @@ export const metadata: Metadata = {
   other: {
     "pinterest-media": "/og.png",
     "pinterest-description":
-      "CTO at EduHub building Vibe Tooling for EduChain. Teaching 1,500+ students Agentic AI at GIAIC. 3+ years experience in AI, Blockchain & Full-Stack Development.",
+      "CTO at EduHub building Vibe Tooling for EduChain. Teaching 1,500+ students Agentic AI at GIAIC. 3+ years experience in AI, Blockchain, Cloud-Native & Full-Stack Development.",
 
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "black-translucent",
@@ -182,7 +182,7 @@ export default function RootLayout({
       "Next.js",
     ],
     description:
-      "CTO at EduHub, AI & Blockchain Developer, and Lead Teacher at GIAIC. Teaching 1,500+ students Cloud Native & Agentic AI with 3+ years of tech experience.",
+      "CTO at EduHub, AI & Cloud-Native Developer, and Lead Teacher at GIAIC. Teaching 1,500+ students Cloud Native & Agentic AI with 3+ years of tech experience.",
     address: {
       "@type": "PostalAddress",
       addressCountry: "Pakistan",
