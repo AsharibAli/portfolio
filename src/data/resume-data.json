@@ -4,7 +4,7 @@
   "location": "Based in Pakistan 🇵🇰",
   "locationLink": "https://www.google.com/maps/place/nawabshah",
   "about": "I build and teach AI & cloud-native systems",
-  "summary": "I build AI & cloud-native systems and teach others to do the same. Currently instructing 1,500+ students (on-site) in Cloud Native + Agentic AI while managing a 30k+ tech community at GIAIC, Also Founder & CTO of EduHub (Building Vibe Tooling for EduChain).",
+  "summary": "I build AI & cloud-native systems and teach others to do the same. Currently instructing 1,500+ students (on-site) in Cloud Native + Agentic AI while managing a 30k+ tech community at GIAIC, Also Founder & CTO of EduHub (Building Vibe Tooling for EduChain), and co-founder & CTO of Safock (An AI Automations Company).",
   "avatarUrl": "https://avatars.githubusercontent.com/u/102221198?v=4",
   "personalWebsiteUrl": "https://asharib.xyz",
   "contact": {
@@ -301,6 +301,26 @@
   ],
   "work": [
     {
+      "company": "Safock",
+      "link": "https://safock.com/",
+      "badges": ["Remote", "Full-Time"],
+      "title": "Chief Technology Officer",
+      "start": "2025 July",
+      "end": "Present",
+      "description": "I've been working as a Co-Founder & CTO at Safock, building AI Automations for companies.",
+      "bulletPoints": [
+        {
+          "text": "Worked with a few enterprise companies to design their ai-native systems.",
+          "links": [
+            {
+              "name": "Safock Website",
+              "url": "https://safock.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "company": "EduHub",
       "link": "https://eduhub.dev/",
       "badges": ["Remote", "Full-Time"],
@@ -413,7 +433,7 @@
           ]
         },
         {
-          "text": "Organized large-scale coding challenges like (100-days-of-code, 30-days-of-30projects, ramadan-coding-nights)",
+          "text": "Organized large-scale coding challenges like (100-days-of-code, 30-days-of-30projects, ramadan-coding-nights, ramdan-prompting-nights)",
           "links": [
             {
               "name": "100 Days of Code (5k+ participants)",
@@ -423,10 +443,14 @@
               "name": "30 Days of 30 Projects (3k+ participants)",
               "url": "https://github.com/AsharibAli/30days-of-30projects"
             },
-            {
-              "name": "Ramadan Coding Nights (2k+ participants)",
-              "url": "https://github.com/AsharibAli/ramadan-coding-nights"
-            }
+              {
+                "name": "Ramadan Coding Nights (2k+ participants)",
+                "url": "https://github.com/AsharibAli/ramadan-coding-nights"
+              },
+              {
+                "name": "Ramadan Prompting Nights (300+ participants)",
+                "url": "https://github.com/AsharibAli/ramadan-prompting-nights"
+              }
           ]
         },
         {
