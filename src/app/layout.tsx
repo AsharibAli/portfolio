@@ -215,12 +215,9 @@ export default function RootLayout({
         <Script id="theme-init" strategy="beforeInteractive">
           {`(() => {
             const savedTheme = localStorage.getItem("theme-preference");
-            const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
             const nextTheme = savedTheme === "light" || savedTheme === "dark"
               ? savedTheme
-              : prefersDark
-                ? "dark"
-                : "light";
+              : "dark";
             document.documentElement.setAttribute("data-theme", nextTheme);
           })();`}
         </Script>

@@ -10,15 +10,8 @@ type Theme = "light" | "dark";
 
 const THEME_STORAGE_KEY = "theme-preference";
 
-function getSystemTheme(): Theme {
-  if (typeof window === "undefined") {
-    return "light";
-  }
-  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-}
-
 export function ThemeToggle({ className }: { className?: string }) {
-  const [theme, setTheme] = useState<Theme>("light");
+  const [theme, setTheme] = useState<Theme>("dark");
   const [mounted, setMounted] = useState(false);
 
   const icon = useMemo(() => {
@@ -31,7 +24,7 @@ export function ThemeToggle({ className }: { className?: string }) {
   useEffect(() => {
     const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
     const currentTheme: Theme =
-      savedTheme === "light" || savedTheme === "dark" ? savedTheme : getSystemTheme();
+      savedTheme === "light" || savedTheme === "dark" ? savedTheme : "dark";
     document.documentElement.setAttribute("data-theme", currentTheme);
     setTheme(currentTheme);
     setMounted(true);
