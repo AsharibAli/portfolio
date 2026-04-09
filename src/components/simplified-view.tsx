@@ -14,22 +14,23 @@ interface SimpleViewProps {
 export function SimpleView({ data: rawData }: SimpleViewProps) {
   const data = useResumeDataWithIcons(rawData);
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-black px-4 text-white sm:px-6">
-      <div className="max-w-[90%] text-center sm:max-w-md">
-        <h1 className="animate-fade-in mb-4 text-4xl font-bold text-white sm:text-5xl">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-background px-4 sm:px-6">
+      <div className="card surface-panel max-w-[92%] p-6 text-center sm:max-w-lg sm:p-10">
+        <h1 className="animate-fade-in mb-4 text-4xl font-semibold text-foreground sm:text-5xl">
           {data.name}
         </h1>
 
-        <p className="animate-fade-in-delayed mb-6 text-base text-gray-400 sm:text-lg">
+        <p className="animate-fade-in-delayed mx-auto mb-6 text-base text-muted-foreground sm:text-lg">
           {data.about}
         </p>
 
-        <p className="animate-fade-in-delayed mb-8 flex items-center justify-center text-xs text-gray-500">
+        <p className="animate-fade-in-delayed mb-8 flex items-center justify-center text-xs text-muted-foreground">
           <GlobeIcon className="mr-1 h-3 w-3" />
           <a
-            className="hover:text-gray-400 hover:underline"
+            className="link-hover underline-offset-4 hover:underline"
             href={data.locationLink}
             target="_blank"
+            rel="noopener noreferrer"
           >
             {data.location}
           </a>
