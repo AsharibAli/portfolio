@@ -8,9 +8,9 @@ interface AboutSectionProps {
 
 export function AboutSection({ summary }: AboutSectionProps) {
   return (
-    <Section>
-      <h2 className="text-xl font-bold">About</h2>
-      <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
+    <Section className="card surface-panel p-5 sm:p-6">
+      <h2 className="text-2xl font-semibold">About</h2>
+      <p className="text-sm leading-relaxed text-muted-foreground sm:text-base print:text-[12px]">
         {summary}
       </p>
     </Section>
