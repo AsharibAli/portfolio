@@ -4,7 +4,7 @@
   "location": "Based in Pakistan 🇵🇰",
   "locationLink": "https://www.google.com/maps/place/nawabshah",
   "about": "I build and teach AI & cloud-native systems",
-  "summary": "I build AI & cloud-native systems and teach others to do the same. Currently instructing 1,500+ students (on-site) in Cloud Native + Agentic AI while managing a 30k+ tech community at GIAIC, Also Founder & CTO of EduHub (Building Vibe Tooling for EduChain), and co-founder & CTO of Safock (An AI Automations Company).",
+  "summary": "I build AI and cloud-native systems, then turn that experience into practical teaching. I currently teach 1,500+ on-site students in Cloud Native and Agentic AI, support a 30k+ tech community at GIAIC, and serve as Founder & CTO at EduHub and Co-Founder & CTO at Safock.",
   "avatarUrl": "https://avatars.githubusercontent.com/u/102221198?v=4",
   "personalWebsiteUrl": "https://asharib.xyz",
   "contact": {
@@ -310,7 +310,7 @@
       "description": "I've been working as a Co-Founder & CTO at Safock, building AI Automations for companies.",
       "bulletPoints": [
         {
-          "text": "Worked with a few enterprise companies to design their ai-native systems.",
+          "text": "Worked with enterprise teams to design AI-native systems.",
           "links": [
             {
               "name": "Safock Website",
@@ -339,7 +339,7 @@
           ]
         },
         {
-          "text": "150k+ visitors & distrusted $50k+ in rewards.",
+          "text": "150k+ visitors and distributed $50k+ in rewards.",
           "links": [
             {
               "name": "More details",
@@ -433,7 +433,7 @@
           ]
         },
         {
-          "text": "Organized large-scale coding challenges like (100-days-of-code, 30-days-of-30projects, ramadan-coding-nights, ramdan-prompting-nights)",
+          "text": "Organized large-scale coding challenges such as 100-days-of-code, 30-days-of-30projects, ramadan-coding-nights, and ramadan-prompting-nights.",
           "links": [
             {
               "name": "100 Days of Code (5k+ participants)",
