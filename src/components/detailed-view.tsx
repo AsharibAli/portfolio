@@ -23,8 +23,8 @@ interface DetailedViewProps {
 export function DetailedView({ data: rawData }: DetailedViewProps) {
   const data = useResumeDataWithIcons(rawData);
   return (
-    <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-4 sm:p-6 md:p-16 print:p-12">
-      <section className="mx-auto w-full max-w-3xl space-y-10 rounded-2xl bg-black text-white print:bg-white print:text-black">
+    <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-background p-4 sm:p-6 md:p-12 print:p-12">
+      <section className="mx-auto w-full max-w-4xl space-y-8 rounded-3xl bg-transparent text-foreground md:space-y-10 print:bg-white print:text-black">
         <ProfileHero data={data} />
         <AboutSection summary={data.summary} />
         <KeyHighlightsSection highlights={data.keyHighlights} />
