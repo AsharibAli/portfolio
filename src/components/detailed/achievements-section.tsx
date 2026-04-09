@@ -13,12 +13,12 @@ interface AchievementsSectionProps {
 export function AchievementsSection({ achievements }: AchievementsSectionProps) {
   return (
     <Section>
-      <h2 className="text-xl font-bold">Achievements & Honourable Mentions</h2>
+      <h2 className="text-2xl font-semibold">Achievements & Recognition</h2>
       {achievements.map((achievement) => (
-        <Card key={achievement.title}>
+        <Card key={achievement.title} className="p-5 sm:p-6">
           <CardHeader>
-            <div className="flex items-center justify-between gap-x-2 text-base">
-              <h3 className="flex items-center gap-x-2 font-semibold leading-none">
+            <div className="flex items-start justify-between gap-x-2 text-base">
+              <h3 className="flex items-center gap-x-2 font-semibold leading-snug">
                 {achievement.title}
                 {achievement.reference.map((ref) => (
                   <a
@@ -26,7 +26,8 @@ export function AchievementsSection({ achievements }: AchievementsSectionProps) 
                     href={ref.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center transition-colors duration-200 hover:text-blue-400"
+                    className="inline-flex items-center text-muted-foreground transition-colors duration-200 hover:text-foreground"
+                    aria-label={`Open reference for ${achievement.title}`}
                   >
                     <ExternalLinkIcon className="h-4 w-4" />
                   </a>
