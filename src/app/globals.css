@@ -319,3 +319,11 @@
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+.intro-shader-veil {
+  background: hsl(var(--background) / 0.72);
+}
+
+:root[data-theme="dark"] .intro-shader-veil {
+  background: hsl(var(--background) / 0.35);
+}

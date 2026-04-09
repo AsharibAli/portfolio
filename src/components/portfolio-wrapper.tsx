@@ -51,8 +51,8 @@ export function PortfolioWrapper({
       <div className="relative min-h-screen overflow-hidden">
         {/* Animated shader background */}
         <ShaderAnimation />
-        {/* Use the same background token as other sections for color consistency */}
-        <div className="absolute inset-0 z-[5] bg-background" />
+        {/* Theme-aware veil: solid in light mode, translucent in dark mode */}
+        <div className="intro-shader-veil absolute inset-0 z-[5]" />
 
         <div className="fixed right-4 top-6 z-20 sm:right-6 sm:top-8">
           <ThemeToggle />
