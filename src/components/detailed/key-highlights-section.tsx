@@ -11,14 +11,18 @@ interface KeyHighlightsSectionProps {
 export function KeyHighlightsSection({ highlights }: KeyHighlightsSectionProps) {
   return (
     <Section className="print-force-new-page scroll-mb-16">
-      <h2 className="text-xl font-bold">Key Highlights</h2>
-      <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-4 print:grid-cols-4 print:gap-2">
+      <h2 className="text-2xl font-semibold">Highlights</h2>
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-4 print:grid-cols-4 print:gap-2">
         {highlights.map((point) => (
-          <Card key={point.title} className="flex flex-col items-start gap-2 p-4">
-            <div className="text-2xl">{point.icon}</div>
+          <Card key={point.title} className="flex min-h-40 flex-col items-start gap-3 p-4">
+            <div className="text-2xl" aria-hidden>
+              {point.icon}
+            </div>
             <div>
               <h3 className="font-semibold">{point.title}</h3>
-              <p className="text-sm text-muted-foreground">{point.description}</p>
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                {point.description}
+              </p>
             </div>
           </Card>
         ))}
