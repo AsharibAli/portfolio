@@ -41,7 +41,7 @@ export function ContactActions({
   const sizing = buttonSizeMap[size];
 
   return (
-    <div className={cn("flex flex-wrap gap-1 font-mono text-sm text-muted-foreground", className)}>
+    <div className={cn("flex flex-wrap gap-1.5 text-sm text-muted-foreground", className)}>
       {contact.email ? (
         <Button className={cn(sizing.button, buttonClassName)} variant="outline" size="icon" asChild>
           <a href={`mailto:${contact.email}`} aria-label="Email">
@@ -58,7 +58,12 @@ export function ContactActions({
           size="icon"
           asChild
         >
-          <a href={social.url} target="_blank" aria-label={social.name}>
+          <a
+            href={social.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Open ${social.name}`}
+          >
             <social.icon className={cn(sizing.icon, iconClassName)} />
           </a>
         </Button>
