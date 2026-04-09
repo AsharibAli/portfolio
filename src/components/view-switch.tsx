@@ -8,14 +8,14 @@ import { Button } from "@/components/ui/button";
 export type ViewMode = "initial" | "simple" | "detailed" | "developer";
 
 const VIEW_OPTIONS: Array<{ label: string; value: ViewMode }> = [
-  { label: "Simple", value: "simple" },
-  { label: "Detailed", value: "detailed" },
-  { label: "Developer", value: "developer" },
+  { label: "Quick", value: "simple" },
+  { label: "Full", value: "detailed" },
+  { label: "API", value: "developer" },
 ];
 
 const SIZE_STYLES = {
-  default: "h-8 w-20 text-xs sm:h-9 sm:w-24 sm:text-sm",
-  large: "h-12 w-28 text-sm sm:h-14 sm:w-32 sm:text-base",
+  default: "h-9 min-w-[4.9rem] px-3.5 text-sm sm:h-10 sm:min-w-[5.6rem]",
+  large: "h-12 min-w-[7rem] px-5 text-base sm:h-14 sm:min-w-[8rem]",
 };
 
 interface ViewSwitchProps {
@@ -31,20 +31,27 @@ export function ViewSwitch({
 }: ViewSwitchProps) {
   return (
     <div className="flex flex-col items-center">
-      <div className="inline-flex items-center gap-1 rounded-lg border border-gray-800 bg-black p-1">
+      <div
+        role="tablist"
+        aria-label="Portfolio view mode"
+        className="surface-panel inline-flex items-center gap-1 rounded-full p-1 shadow-sm"
+      >
         {VIEW_OPTIONS.map((option) => (
           <Button
             key={option.value}
             variant="outline"
+            role="tab"
+            tabIndex={currentView === option.value ? 0 : -1}
+            aria-selected={currentView === option.value}
+            aria-label={`Switch to ${option.label} view`}
             className={cn(
-              "border-0 font-medium transition-colors",
+              "rounded-full border border-transparent font-medium tracking-wide transition-all duration-200",
               SIZE_STYLES[size],
               currentView === option.value
-                ? "bg-gray-800 text-white"
-                : "bg-transparent text-gray-400 hover:bg-gray-800/50 hover:text-white",
+                ? "bg-primary text-primary-foreground shadow-sm"
+                : "bg-transparent text-muted-foreground hover:border-border hover:bg-accent/60 hover:text-foreground",
             )}
             onClick={() => onChange(option.value)}
-            aria-pressed={currentView === option.value}
           >
             {option.label}
           </Button>
