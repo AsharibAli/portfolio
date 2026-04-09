@@ -10,11 +10,11 @@ interface SkillsSectionProps {
 
 export function SkillsSection({ skills }: SkillsSectionProps) {
   return (
-    <Section>
-      <h2 className="text-xl font-bold">Skills</h2>
-      <div className="flex flex-wrap gap-1">
+    <Section className="surface-panel p-5 sm:p-6">
+      <h2 className="text-2xl font-semibold">Skills</h2>
+      <div className="flex flex-wrap gap-2">
         {skills.map((skill) => (
-          <Badge className="print:text-[10px]" key={skill}>
+          <Badge className="print:text-[10px]" variant="secondary" key={skill}>
             {skill}
           </Badge>
         ))}
