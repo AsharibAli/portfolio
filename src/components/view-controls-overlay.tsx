@@ -2,6 +2,7 @@
 
 import { ViewSwitch, type ViewMode } from "@/components/view-switch";
 import FlowiseChatbot from "@/components/chatbot";
+import { ThemeToggle } from "@/components/theme-toggle";
 import { cn } from "@/lib/utils";
 
 interface ViewControlsOverlayProps {
@@ -25,6 +26,10 @@ export function ViewControlsOverlay({
 }: ViewControlsOverlayProps) {
   return (
     <>
+      <div className="fixed right-4 top-6 z-50 sm:right-6 sm:top-8">
+        <ThemeToggle />
+      </div>
+
       <div
         className={cn(
           "fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8",
