@@ -39,7 +39,8 @@ export const CommandMenu = ({ links }: Props) => {
         onClick={() => setOpen((open) => !open)}
         variant="outline"
         size="icon"
-        className="fixed bottom-4 right-4 z-50 flex rounded-full shadow-2xl print:hidden"
+        className="fixed bottom-4 right-4 z-50 flex rounded-full shadow-lg print:hidden"
+        aria-label="Open quick actions menu"
       >
         <CommandIcon className="h-5 w-5 sm:h-6 sm:w-6" />
       </Button>
@@ -48,8 +49,8 @@ export const CommandMenu = ({ links }: Props) => {
         onOpenChange={setOpen}
         modal={true}
       >
-        <CommandInput className="bg-[#111111] text-white" placeholder="Type a command or search..." />
-        <CommandList className="bg-[#111111] text-white">
+        <CommandInput placeholder="Search links or actions..." />
+        <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
           <CommandGroup heading="Actions">
             <CommandItem
@@ -58,7 +59,7 @@ export const CommandMenu = ({ links }: Props) => {
                 window.print();
               }}
             >
-              <span>Print</span>
+              <span>Print profile</span>
             </CommandItem>
           </CommandGroup>
           <CommandGroup heading="Links">
