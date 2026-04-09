@@ -53,19 +53,21 @@ export function PortfolioWrapper({
 
         {/* Content overlay */}
         <div className="absolute inset-0 z-10 flex min-h-screen flex-col items-center justify-center px-4">
-          <div className="mb-8 text-center">
-            <h1 className="mb-6 text-3xl font-bold text-white drop-shadow-lg sm:text-4xl">
-              Select mode
+          <div className="flex max-w-xl flex-col items-center space-y-6 text-center">
+            <h1 className="text-3xl font-semibold text-foreground sm:text-4xl">
+              Select your mode
             </h1>
-            <p className="text-sm text-gray-300 drop-shadow-md sm:text-base">
+            <p className="mx-auto max-w-[26ch] text-center text-sm text-muted-foreground sm:text-base">
               Choose a view mode to continue
             </p>
+            <div className="flex justify-center">
+              <ViewSwitch
+                currentView="simple"
+                onChange={handleViewModeChange}
+                size="default"
+              />
+            </div>
           </div>
-          <ViewSwitch
-            currentView="simple"
-            onChange={handleViewModeChange}
-            size="default"
-          />
         </div>
       </div>
     );
@@ -93,9 +95,9 @@ export function PortfolioWrapper({
   // Developer view - display JSON data
   if (viewMode === "developer") {
     return renderWithAnimation(
-      <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-black p-2 sm:p-4 md:p-6 lg:p-8 print:p-12">
-        <div className="mx-auto w-full max-w-6xl space-y-3 pt-2 text-white sm:space-y-4 sm:pt-4">
-          <JsonDisplay data={data} title="My Portfolio API Data" />
+      <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-background p-2 sm:p-4 md:p-6 lg:p-8 print:p-12">
+        <div className="mx-auto w-full max-w-6xl space-y-3 pt-2 text-foreground sm:space-y-4 sm:pt-4">
+          <JsonDisplay data={data} title="Portfolio API Data" />
         </div>
       </main>,
     );
