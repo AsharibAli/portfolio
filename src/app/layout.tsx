@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Plus_Jakarta_Sans, Newsreader } from "next/font/google";
 
 import "./globals.css";
 import React from "react";
@@ -133,9 +133,24 @@ export const metadata: Metadata = {
   },
 };
 
-const inter = Inter({
+export const viewport: Viewport = {
+  colorScheme: "light dark",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f7f3ef" },
+    { media: "(prefers-color-scheme: dark)", color: "#171311" },
+  ],
+};
+
+const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
   display: "swap",
+  variable: "--font-sans",
+});
+
+const newsreader = Newsreader({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-serif",
 });
 
 export default function RootLayout({
@@ -191,8 +206,24 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={inter.className}>
+    <html
+      lang="en"
+      className={`${plusJakartaSans.variable} ${newsreader.variable}`}
+      suppressHydrationWarning
+    >
       <head>
+        <Script id="theme-init" strategy="beforeInteractive">
+          {`(() => {
+            const savedTheme = localStorage.getItem("theme-preference");
+            const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            const nextTheme = savedTheme === "light" || savedTheme === "dark"
+              ? savedTheme
+              : prefersDark
+                ? "dark"
+                : "light";
+            document.documentElement.setAttribute("data-theme", nextTheme);
+          })();`}
+        </Script>
         <Script
           id="json-ld"
           type="application/ld+json"
@@ -213,7 +244,7 @@ export default function RootLayout({
   gtag('config', 'G-8CXGRC7T09');
   `}
       </Script>
-      <body>{children}</body>
+      <body className="min-h-screen antialiased">{children}</body>
     </html>
   );
 }
