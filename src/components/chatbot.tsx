@@ -32,7 +32,7 @@ const AsharibAssistant = () => {
                 },
                 tooltip: {
                   showTooltip: false,
-                  tooltipMessage: "Try my Assitant",
+                  tooltipMessage: "Ask my assistant",
                   tooltipBackgroundColor: "white",
                   tooltipTextColor: "black",
                   tooltipFontSize: 16,
@@ -41,16 +41,16 @@ const AsharibAssistant = () => {
                   showTitle: true,
                   title: "🤖 Asharib Assistant 👈",
                   welcomeMessage:
-                    "Hello! I am Asharib Assistant, here to help you with any questions you have about Asharib Ali. What can I assist you with today?",
+                    "Hi, I'm Asharib's assistant. Ask me about projects, experience, achievements, or ways to connect.",
                   errorMessage:
-                    "Unable to retrieve data from the server. Please try again later.",
-                  backgroundColor: "#ffffff",
+                    "We could not load the chat right now. Please try again in a moment.",
+                  backgroundColor: "#f7f3ef",
                   height: 600,
                   width: 400,
                   fontSize: 16,
                   poweredByTextColor: "#000000",
                   botMessage: {
-                    backgroundColor: "#f7f8ff",
+                    backgroundColor: "#efebe6",
                     textColor: "#000000",
                     showAvatar: true,
                     avatarSrc:
