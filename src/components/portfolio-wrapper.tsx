@@ -10,6 +10,7 @@ import { JsonDisplay } from "@/components/json-display";
 import { type ResumeData } from "@/lib/data";
 import { ViewControlsOverlay } from "@/components/view-controls-overlay";
 import { AnimatedView } from "@/components/animated-view";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 interface PortfolioWrapperProps {
   data: ResumeData;
@@ -50,6 +51,12 @@ export function PortfolioWrapper({
       <div className="relative min-h-screen overflow-hidden">
         {/* Animated shader background */}
         <ShaderAnimation />
+        {/* Use the same background token as other sections for color consistency */}
+        <div className="absolute inset-0 z-[5] bg-background" />
+
+        <div className="fixed right-4 top-6 z-20 sm:right-6 sm:top-8">
+          <ThemeToggle />
+        </div>
 
         {/* Content overlay */}
         <div className="absolute inset-0 z-10 flex min-h-screen flex-col items-center justify-center px-4">
@@ -57,7 +64,7 @@ export function PortfolioWrapper({
             <h1 className="text-3xl font-semibold text-foreground sm:text-4xl">
               Select your mode
             </h1>
-            <p className="mx-auto max-w-[26ch] text-center text-sm text-muted-foreground sm:text-base">
+            <p className="mx-auto max-w-[26ch] text-center text-sm text-[hsl(var(--foreground)/0.75)] sm:text-base">
               Choose a view mode to continue
             </p>
             <div className="flex justify-center">
