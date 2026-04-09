@@ -671,6 +671,96 @@
       }
     },
     {
+      "title": "Startup Challenge",
+      "techStack": ["GIAIC", "Startup", "Challenge"],
+      "description": "Build Your Dream Startup Win $1000 in Rewards - GIAIC Sir Asharib Class Exclusive",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/startup-challenge"
+      }
+    },
+    {
+      "title": "Ramadan Prompting Nights",
+      "techStack": ["GIAIC", "Prompting Engineering", "LLM"],
+      "description": "A scenario-based prompting competition exclusively for GIAIC students.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/ramadan-prompting-nights"
+      }
+    },
+    {
+      "title": "WhatsApp Me",
+      "techStack": ["Claude Code", "Messaging", "Whatsapp"],
+      "description": "Minimal plugin that lets Claude Code message you on the Whatsapp.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/whatsapp-me"
+      }
+    },
+    {
+      "title": "Pretext Skills",
+      "techStack": ["Dom-Free", "Library", "Text"],
+      "description": "AI Agents skill for Pretext — the fastest DOM-free multiline text measurement & layout library.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/pretext-skills"
+      }
+    },
+    {
+      "title": "TaskAI",
+      "techStack": ["Task Management", "AI", "LLM"],
+      "description": "A production-ready, event-driven, AI-powered task management platform featuring conversational AI (CUI) and traditional graphical UI (GUI) interfaces.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/taskai"
+      }
+    },
+    {
+      "title": "5 Levels of Todo App",
+      "techStack": ["Todo App", "AI", "LLM"],
+      "description": "From simple to advance level production-grade todo applications",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/Hackathon-II"
+      }
+    },
+    {
+      "title": "Robotics Textbook",
+      "techStack": ["Physical AI", "Textbook", "Humanoid Robotics"],
+      "description": "An interactive technical textbook for learning Physical AI and Humanoid Robotics.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/Physical-AI-Humanoid-Robotics-Textbook"
+      }
+    },
+    {
+      "title": "AI Terms",
+      "techStack": ["Terminology", "AI", "LLM"],
+      "description": "A collection of AI terms and their definitions, Everyone Should Know.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/ai-terms"
+      }
+    },
+    {
+      "title": "AI Agents War",
+      "techStack": ["LLM", "Benchmark", "AI Agents"],
+      "description": "A verifiable benchmark system for LLMs in a fun way.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/ai-agents-war"
+      }
+    },
+    {
+      "title": "Agentic AI Projects",
+      "techStack": ["Personal", "Agentic AI", "Projects"],
+      "description": "Agentic AI Projects build with Python, Streamlit, UV, Litellm, CrewAI, LangGraph, FastAPI, OpenRouter, and OpenAI Agents SDK",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AsharibAli/agentic-ai-projects"
+      }
+    },
+    {
       "title": "100 Days of Blockchain",
       "techStack": ["Revision", "Blockchain", "Solidity"],
       "description": "Daily practice with Solidity and smart contract development using modern blockchain tools to improve my skills.",
