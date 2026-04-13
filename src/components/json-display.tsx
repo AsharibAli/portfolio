@@ -58,14 +58,16 @@ export function JsonDisplay({ data, title = "API Data" }: JsonDisplayProps) {
       <Card className="p-0">
         <CardHeader className="mb-0 px-3 py-2 sm:px-4 sm:py-2.5 md:px-6 md:py-3">
           <div className="flex min-h-[3.5rem] flex-col justify-center gap-2 sm:flex-row sm:items-center sm:justify-between">
-            <h2 className="leading-none text-lg font-semibold sm:text-xl md:text-2xl">{title}</h2>
-            <div className="flex gap-2">
+            <h2 className="text-center leading-none text-lg font-semibold sm:text-left sm:text-xl md:text-2xl">
+              {title}
+            </h2>
+            <div className="grid w-full grid-cols-1 gap-2 sm:flex sm:w-auto sm:flex-wrap sm:justify-end">
               {/* Copy JSON button */}
               <Button
                 onClick={copyToClipboard}
                 variant="outline"
                 size="sm"
-                className="flex items-center gap-1 px-2 py-1 text-xs md:gap-2 md:px-4 md:py-2 md:text-sm"
+                className="flex w-full items-center justify-center gap-1.5 px-3 py-2 text-xs sm:w-auto md:gap-2 md:px-4 md:text-sm"
               >
                 {copied ? (
                   <>
@@ -85,7 +87,7 @@ export function JsonDisplay({ data, title = "API Data" }: JsonDisplayProps) {
                 onClick={openApiRoute}
                 variant="outline"
                 size="sm"
-                className="flex items-center gap-1 px-2 py-1 text-xs md:gap-2 md:px-4 md:py-2 md:text-sm"
+                className="flex w-full items-center justify-center gap-1.5 px-3 py-2 text-xs sm:w-auto md:gap-2 md:px-4 md:text-sm"
               >
                 <ExternalLinkIcon className="h-3 w-3 md:h-4 md:w-4" />
                 <span>API Route</span>
@@ -96,7 +98,7 @@ export function JsonDisplay({ data, title = "API Data" }: JsonDisplayProps) {
                 onClick={downloadJson}
                 variant="outline"
                 size="sm"
-                className="flex items-center gap-1 px-2 py-1 text-xs md:gap-2 md:px-4 md:py-2 md:text-sm"
+                className="flex w-full items-center justify-center gap-1.5 px-3 py-2 text-xs sm:w-auto md:gap-2 md:px-4 md:text-sm"
               >
                 <DownloadIcon className="h-3 w-3 md:h-4 md:w-4" />
                 <span>Download JSON</span>
@@ -109,8 +111,8 @@ export function JsonDisplay({ data, title = "API Data" }: JsonDisplayProps) {
       {/* JSON display area */}
       <Card className="p-0">
         <CardContent className="p-0">
-          <div className="max-h-[65vh] sm:max-h-[75vh] overflow-auto scrollbar-hide">
-            <pre className="p-3 font-mono text-xs leading-relaxed text-muted-foreground sm:p-4 sm:text-sm md:p-6">
+          <div className="max-h-[60dvh] overflow-auto sm:max-h-[75vh]">
+            <pre className="p-3 font-mono text-[13px] leading-relaxed text-foreground sm:p-4 sm:text-sm md:p-6">
               <code className="language-json">{jsonString}</code>
             </pre>
           </div>

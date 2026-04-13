@@ -54,14 +54,14 @@ export function PortfolioWrapper({
         {/* Theme-aware veil: solid in light mode, translucent in dark mode */}
         <div className="intro-shader-veil absolute inset-0 z-[5]" />
 
-        <div className="fixed right-4 top-6 z-20 sm:right-6 sm:top-8">
+        <div className="fixed right-3 top-[max(0.75rem,env(safe-area-inset-top))] z-20 sm:right-6 sm:top-[max(2rem,env(safe-area-inset-top))]">
           <ThemeToggle />
         </div>
 
         {/* Content overlay */}
-        <div className="absolute inset-0 z-10 flex min-h-screen flex-col items-center justify-center px-4">
-          <div className="flex max-w-xl flex-col items-center space-y-6 text-center">
-            <h1 className="text-3xl font-semibold text-foreground sm:text-4xl">
+        <div className="absolute inset-0 z-10 flex min-h-screen flex-col items-center justify-center px-4 py-8">
+          <div className="flex max-w-xl flex-col items-center space-y-5 text-center sm:space-y-6">
+            <h1 className="text-2xl font-semibold text-foreground sm:text-4xl">
               Select your mode
             </h1>
             <p className="mx-auto max-w-[26ch] text-center text-sm text-[hsl(var(--foreground)/0.75)] sm:text-base">
@@ -102,7 +102,7 @@ export function PortfolioWrapper({
   // Developer view - display JSON data
   if (viewMode === "developer") {
     return renderWithAnimation(
-      <main className="container relative mx-auto min-h-screen scroll-my-12 overflow-auto bg-background p-2 sm:p-4 md:p-6 lg:p-8 print:p-12">
+      <main className="container relative mx-auto min-h-[100dvh] scroll-my-12 bg-background px-2 pb-[calc(8.5rem+env(safe-area-inset-bottom))] pt-[max(0.75rem,env(safe-area-inset-top))] sm:p-4 sm:pb-24 md:p-6 lg:p-8 print:p-12">
         <div className="mx-auto w-full max-w-6xl space-y-3 pt-2 text-foreground sm:space-y-4 sm:pt-4">
           <JsonDisplay data={data} title="Portfolio API Data" />
         </div>

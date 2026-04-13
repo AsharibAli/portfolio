@@ -150,9 +150,14 @@
 
   @media (pointer: coarse) {
     button,
-    [role="button"],
-    a {
+    [role="button"] {
       min-height: 44px;
+      min-width: 44px;
+    }
+
+    a[aria-label] {
+      min-height: 44px;
+      min-width: 44px;
     }
   }
 

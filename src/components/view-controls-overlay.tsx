@@ -24,15 +24,25 @@ export function ViewControlsOverlay({
   className,
   chatbotClassName,
 }: ViewControlsOverlayProps) {
+  const isContentDenseMobileView =
+    viewMode === "detailed" || viewMode === "developer";
+
   return (
     <>
-      <div className="fixed right-4 top-6 z-50 sm:right-6 sm:top-8">
+      <div
+        className={cn(
+          "fixed z-50 sm:right-6 sm:top-[max(2rem,env(safe-area-inset-top))]",
+          isContentDenseMobileView
+            ? "right-4 top-[max(1rem,env(safe-area-inset-top))]"
+            : "right-3 top-[max(0.75rem,env(safe-area-inset-top))]",
+        )}
+      >
         <ThemeToggle />
       </div>
 
       <div
         className={cn(
-          "fixed bottom-6 left-1/2 z-50 -translate-x-1/2 transform sm:bottom-8",
+          "fixed bottom-[max(1rem,env(safe-area-inset-bottom))] left-1/2 z-50 w-full max-w-[calc(100%-1.25rem)] -translate-x-1/2 transform px-1 sm:bottom-[max(2rem,env(safe-area-inset-bottom))] sm:max-w-none sm:px-0",
           className,
         )}
       >

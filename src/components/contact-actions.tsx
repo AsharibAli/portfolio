@@ -8,12 +8,12 @@ import { Button } from "@/components/ui/button";
 
 const buttonSizeMap = {
   sm: {
-    button: "h-7 w-7 sm:h-8 sm:w-8",
-    icon: "h-3.5 w-3.5 sm:h-4 sm:w-4",
+    button: "h-11 w-11 sm:h-8 sm:w-8",
+    icon: "h-4 w-4 sm:h-4 sm:w-4",
   },
   md: {
-    button: "h-8 w-8 sm:h-9 sm:w-9",
-    icon: "h-4 w-4 sm:h-5 sm:w-5",
+    button: "h-11 w-11 sm:h-9 sm:w-9",
+    icon: "h-5 w-5 sm:h-5 sm:w-5",
   },
 } as const;
 

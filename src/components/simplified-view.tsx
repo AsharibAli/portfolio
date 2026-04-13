@@ -14,18 +14,18 @@ interface SimpleViewProps {
 export function SimpleView({ data: rawData }: SimpleViewProps) {
   const data = useResumeDataWithIcons(rawData);
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-background px-4 sm:px-6">
-      <div className="card surface-panel max-w-[92%] p-6 text-center sm:max-w-lg sm:p-10">
-        <h1 className="animate-fade-in mb-4 text-4xl font-semibold text-foreground sm:text-5xl">
+    <div className="flex min-h-[100dvh] flex-col items-center justify-center bg-background px-4 pb-[calc(8rem+env(safe-area-inset-bottom))] pt-[max(1.25rem,env(safe-area-inset-top))] sm:px-6 sm:pb-16 sm:pt-8">
+      <div className="card surface-panel w-full max-w-lg p-5 text-center sm:p-10">
+        <h1 className="animate-fade-in mb-3 break-words text-3xl font-semibold text-foreground sm:mb-4 sm:text-5xl">
           {data.name}
         </h1>
 
-        <p className="animate-fade-in-delayed mx-auto mb-6 text-base text-muted-foreground sm:text-lg">
+        <p className="animate-fade-in-delayed mx-auto mb-5 break-words text-sm text-muted-foreground sm:mb-6 sm:text-lg">
           {data.about}
         </p>
 
-        <p className="animate-fade-in-delayed mb-8 flex items-center justify-center text-xs text-muted-foreground">
-          <GlobeIcon className="mr-1 h-3 w-3" />
+        <p className="animate-fade-in-delayed mb-6 flex items-center justify-center text-sm text-muted-foreground sm:mb-8">
+          <GlobeIcon className="mr-1.5 h-4 w-4" />
           <a
             className="link-hover underline-offset-4 hover:underline"
             href={data.locationLink}
@@ -39,7 +39,7 @@ export function SimpleView({ data: rawData }: SimpleViewProps) {
         <ContactActions
           contact={data.contact}
           size="md"
-          className="animate-fade-in-delayed-more mx-auto justify-center gap-1.5 sm:max-w-none sm:gap-2"
+          className="animate-fade-in-delayed-more mx-auto justify-center gap-2 sm:max-w-none"
         />
       </div>
     </div>

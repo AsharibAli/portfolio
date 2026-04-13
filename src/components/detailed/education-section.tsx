@@ -15,8 +15,8 @@ export function EducationSection({ education }: EducationSectionProps) {
       {education.map((school) => (
         <Card key={school.school} className="p-5 sm:p-6">
           <CardHeader>
-            <div className="flex items-center justify-between gap-x-2 text-base">
-              <h3 className="font-semibold leading-none">{school.school}</h3>
+            <div className="flex flex-col items-start gap-y-1 text-base sm:flex-row sm:items-center sm:justify-between sm:gap-x-2">
+              <h3 className="font-semibold leading-snug">{school.school}</h3>
               <div className="text-sm tabular-nums text-muted-foreground">
                 {school.start} - {school.end}
               </div>

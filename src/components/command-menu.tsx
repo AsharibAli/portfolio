@@ -39,7 +39,7 @@ export const CommandMenu = ({ links }: Props) => {
         onClick={() => setOpen((open) => !open)}
         variant="outline"
         size="icon"
-        className="fixed bottom-4 right-4 z-50 flex rounded-full shadow-lg print:hidden"
+        className="fixed bottom-[max(1rem,env(safe-area-inset-bottom))] left-3 z-50 flex rounded-full shadow-lg print:hidden sm:bottom-4 sm:left-auto sm:right-4"
         aria-label="Open quick actions menu"
       >
         <CommandIcon className="h-5 w-5 sm:h-6 sm:w-6" />

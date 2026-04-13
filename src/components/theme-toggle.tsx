@@ -43,7 +43,7 @@ export function ThemeToggle({ className }: { className?: string }) {
       variant="outline"
       size="icon"
       onClick={handleToggle}
-      className={cn("h-9 w-9 rounded-full", className)}
+      className={cn("h-11 w-11 rounded-full sm:h-9 sm:w-9", className)}
       aria-label={
         mounted
           ? theme === "dark"

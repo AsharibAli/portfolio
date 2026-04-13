@@ -14,7 +14,7 @@ const VIEW_OPTIONS: Array<{ label: string; value: ViewMode }> = [
 ];
 
 const SIZE_STYLES = {
-  default: "h-9 min-w-[4.9rem] px-3.5 text-sm sm:h-10 sm:min-w-[5.6rem]",
+  default: "h-11 min-w-[4.25rem] px-3 text-sm sm:h-10 sm:min-w-[5.3rem] sm:px-3.5",
   large: "h-12 min-w-[7rem] px-5 text-base sm:h-14 sm:min-w-[8rem]",
 };
 
@@ -29,16 +29,57 @@ export function ViewSwitch({
   onChange,
   size = "default",
 }: ViewSwitchProps) {
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
+    const target = event.target as HTMLElement;
+    if (target.getAttribute("role") !== "tab") {
+      return;
+    }
+
+    const tabs = Array.from(
+      event.currentTarget.querySelectorAll<HTMLElement>('[role="tab"]'),
+    );
+    const activeIndex = tabs.indexOf(target);
+
+    if (activeIndex < 0) {
+      return;
+    }
+
+    const focusTabAt = (index: number) => {
+      const safeIndex = (index + tabs.length) % tabs.length;
+      const tab = tabs[safeIndex];
+      const nextView = tab.dataset.view as ViewMode;
+
+      tab.focus();
+      onChange(nextView);
+    };
+
+    if (event.key === "ArrowRight") {
+      event.preventDefault();
+      focusTabAt(activeIndex + 1);
+    } else if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      focusTabAt(activeIndex - 1);
+    } else if (event.key === "Home") {
+      event.preventDefault();
+      focusTabAt(0);
+    } else if (event.key === "End") {
+      event.preventDefault();
+      focusTabAt(tabs.length - 1);
+    }
+  };
+
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex w-full flex-col items-center">
       <div
         role="tablist"
         aria-label="Portfolio view mode"
-        className="surface-panel inline-flex items-center gap-1 rounded-full p-1 shadow-sm"
+        onKeyDown={handleKeyDown}
+        className="surface-panel inline-flex max-w-full items-center gap-1 overflow-x-auto rounded-full p-1 shadow-sm"
       >
         {VIEW_OPTIONS.map((option) => (
           <Button
             key={option.value}
+            data-view={option.value}
             variant="outline"
             role="tab"
             tabIndex={currentView === option.value ? 0 : -1}

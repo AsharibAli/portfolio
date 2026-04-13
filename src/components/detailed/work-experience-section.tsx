@@ -18,13 +18,13 @@ export function WorkExperienceSection({ work }: WorkExperienceSectionProps) {
       {work.map((item) => (
         <Card key={item.company} className="p-5 sm:p-6">
           <CardHeader>
-            <div className="flex items-center justify-between gap-x-2 text-base">
-              <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+            <div className="flex flex-col items-start gap-y-2 text-base sm:flex-row sm:items-start sm:justify-between sm:gap-x-2">
+              <h3 className="inline-flex min-w-0 flex-wrap items-center gap-x-1 gap-y-1 font-semibold leading-snug">
                 <a className="link-hover hover:underline" href={item.link}>
                   {item.company}
                 </a>
 
-                <span className="inline-flex gap-x-1">
+                <span className="inline-flex flex-wrap gap-1">
                   {item.badges.map((badge) => (
                     <Badge
                       variant="secondary"
@@ -50,20 +50,23 @@ export function WorkExperienceSection({ work }: WorkExperienceSectionProps) {
             {item.bulletPoints && item.bulletPoints.length > 0 ? (
               <ul className="mt-3 space-y-2 text-sm text-muted-foreground print:text-[10px]">
                 {item.bulletPoints.map((point, index) => (
-                  <li key={`${item.company}-${index}`} className="flex items-start gap-x-2">
-                    <ArrowRightIcon className="mt-1 h-3 w-3 flex-shrink-0 text-muted-foreground" />
-                    <span className="flex items-center gap-x-1">
+                  <li
+                    key={`${item.company}-${index}`}
+                    className="flex items-center gap-x-2 leading-relaxed"
+                  >
+                    <ArrowRightIcon className="h-3 w-3 flex-shrink-0 text-muted-foreground" />
+                    <span className="min-w-0 leading-relaxed">
                       {point.text}
 
                       {"links" in point && point.links && point.links.length > 0 ? (
-                        <span className="ml-1 flex items-center space-x-1">
+                        <span className="inline-flex items-center gap-0 whitespace-nowrap align-middle [&>a+a]:-ml-0.5 sm:ml-0.5 sm:[&>a+a]:-ml-0.5">
                           {point.links.map((link, linkIndex) => (
                             <a
                               key={`${point.text}-${linkIndex}`}
                               href={link.url}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="inline-flex items-center hover:text-foreground"
+                              className="inline-flex h-5 w-5 items-center justify-center rounded-full text-muted-foreground transition-colors duration-200 hover:bg-accent/50 hover:text-foreground sm:h-7 sm:w-7"
                               title={link.name}
                             >
                               <ExternalLinkIcon className="h-3 w-3" />

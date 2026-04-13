@@ -17,10 +17,10 @@ export function ProfileHero({ data }: ProfileHeroProps) {
   return (
     <div className="card surface-panel flex flex-col-reverse gap-6 p-4 sm:p-5 md:flex-row md:items-center md:justify-between md:gap-8 md:p-7">
       <div className="flex-1 space-y-2.5">
-        <h1 className="text-3xl font-semibold sm:text-4xl md:text-5xl">
+        <h1 className="break-words text-3xl font-semibold sm:text-4xl md:text-5xl">
           {data.name}
         </h1>
-        <p className="max-w-2xl text-sm text-muted-foreground sm:text-base print:text-[12px]">
+        <p className="max-w-2xl break-words text-sm text-muted-foreground sm:text-base print:text-[12px]">
           {data.about}
         </p>
         <p className="max-w-md items-center text-xs text-muted-foreground sm:text-sm">
@@ -37,7 +37,7 @@ export function ProfileHero({ data }: ProfileHeroProps) {
 
         <ContactActions
           contact={data.contact}
-          className="max-w-[240px] gap-2 pt-2 sm:max-w-none print:hidden"
+          className="max-w-[320px] gap-2 pt-2 sm:max-w-none print:hidden"
         />
 
         <div className="hidden flex-col gap-x-1 text-sm text-muted-foreground print:flex print:text-[12px]">
