@@ -11,12 +11,12 @@ export const metadata: Metadata = {
     template: "%s | Asharib Ali",
   },
   description:
-    "Asharib Ali - CTO at EduHub, AI & Cloud-Native Developer, and Lead Teacher at GIAIC. Teaching 1,500+ students Cloud Native & Agentic AI. 3+ years of tech experience with 100+ projects, 7 hackathon wins, and managing 30k+ tech community.",
+    "I build AI and cloud-native systems, then turn that experience into practical teaching. I currently teach 1,500+ on-site students in Cloud Native and Agentic AI, support a 30k+ tech community at GIAIC, and serve as Founder & CTO at EduHub and Co-Founder & CTO at Safock.",
 
   openGraph: {
     title: "Asharib Ali | AI & Cloud-Native Developer, Tech Educator",
     description:
-      "CTO at EduHub building Vibe Tooling for EduChain. Teaching 1,500+ students Agentic AI at GIAIC. 3+ years experience in AI, Blockchain, Cloud-Native & Full-Stack Development. 7x Hackathon Winner.",
+      "I build AI and cloud-native systems, then turn that experience into practical teaching. I currently teach 1,500+ on-site students in Cloud Native and Agentic AI, support a 30k+ tech community at GIAIC, and serve as Founder & CTO at EduHub and Co-Founder & CTO at Safock.",
     url: "https://asharib.xyz",
     siteName: "Asharib Ali Portfolio",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Asharib Ali - AI & Cloud-Native Developer Portfolio",
+        alt: "Asharib Ali - AI & Cloud-Native Developer, Tech Educator",
         type: "image/png",
       },
     ],
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Asharib Ali | AI & Cloud-Native Developer, Tech Educator",
     description:
-      "CTO at EduHub building Vibe Tooling for EduChain. Teaching 1,500+ students Agentic AI at GIAIC. 3+ years experience in AI, Blockchain, Cloud-Native & Full-Stack Development. 7x Hackathon Winner.",
+      "I build AI and cloud-native systems, then turn that experience into practical teaching. I currently teach 1,500+ on-site students in Cloud Native and Agentic AI, support a 30k+ tech community at GIAIC, and serve as Founder & CTO at EduHub and Co-Founder & CTO at Safock.",
     images: ["/og.png"],
     creator: "@0xAsharib",
     site: "@0xAsharib",
@@ -115,7 +115,7 @@ export const metadata: Metadata = {
   other: {
     "pinterest-media": "/og.png",
     "pinterest-description":
-      "CTO at EduHub building Vibe Tooling for EduChain. Teaching 1,500+ students Agentic AI at GIAIC. 3+ years experience in AI, Blockchain, Cloud-Native & Full-Stack Development.",
+      "I build AI and cloud-native systems, then turn that experience into practical teaching. I currently teach 1,500+ on-site students in Cloud Native and Agentic AI, support a 30k+ tech community at GIAIC, and serve as Founder & CTO at EduHub and Co-Founder & CTO at Safock.",
 
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "black-translucent",
@@ -128,7 +128,7 @@ export const metadata: Metadata = {
     "msapplication-navbutton-color": "#000000",
 
     "mobile-web-app-capable": "yes",
-    "application-name": "Asharib Ali Portfolio",
+    "application-name": "Asharib Ali - AI & Cloud-Native Developer, Tech Educator",
     "format-detection": "telephone=no",
   },
 };
@@ -171,15 +171,20 @@ export default function RootLayout({
       "https://asharibali.medium.com/",
       "https://www.youtube.com/@0xAsharib",
     ],
-    jobTitle: "Chief Technology Officer",
+    jobTitle: "Founder & CTO at EduHub, Co-Founder & CTO at Safock",
     worksFor: {
-      "@type": "Organization",
+      "@type": "Company",
       name: "EduHub",
       url: "https://eduhub.dev/",
     },
+    worksFor2: {
+      "@type": "Company",
+      name: "Safock",
+      url: "https://safock.com/",
+    },
     alumniOf: [
       {
-        "@type": "EducationalOrganization",
+        "@type": "Educational Organization",
         name: "PIAIC",
       },
     ],
@@ -197,7 +202,7 @@ export default function RootLayout({
       "Next.js",
     ],
     description:
-      "CTO at EduHub, AI & Cloud-Native Developer, and Lead Teacher at GIAIC. Teaching 1,500+ students Cloud Native & Agentic AI with 3+ years of tech experience.",
+      "I build AI and cloud-native systems, then turn that experience into practical teaching. I currently teach 1,500+ on-site students in Cloud Native and Agentic AI, support a 30k+ tech community at GIAIC, and serve as Founder & CTO at EduHub and Co-Founder & CTO at Safock.",
     address: {
       "@type": "PostalAddress",
       addressCountry: "Pakistan",
