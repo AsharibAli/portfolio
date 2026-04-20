@@ -4,7 +4,6 @@ import { useState } from "react";
 import { type ReactNode } from "react";
 
 import { ViewMode, ViewSwitch } from "@/components/view-switch";
-import { ShaderAnimation } from "@/components/ui/shader-animation";
 import { SimpleView } from "@/components/simplified-view";
 import { JsonDisplay } from "@/components/json-display";
 import { type ResumeData } from "@/lib/data";
@@ -45,15 +44,10 @@ export function PortfolioWrapper({
     }, 200); // Smooth transition matching CSS timing
   };
 
-  // Initial view - just the switch button centered with shader animation background
+  // Initial view - just the switch button centered
   if (viewMode === "initial") {
     return (
-      <div className="relative min-h-screen overflow-hidden">
-        {/* Animated shader background */}
-        <ShaderAnimation />
-        {/* Theme-aware veil: solid in light mode, translucent in dark mode */}
-        <div className="intro-shader-veil absolute inset-0 z-[5]" />
-
+      <div className="relative min-h-screen overflow-hidden bg-background">
         <div className="fixed right-3 top-[max(0.75rem,env(safe-area-inset-top))] z-20 sm:right-6 sm:top-[max(2rem,env(safe-area-inset-top))]">
           <ThemeToggle />
         </div>
