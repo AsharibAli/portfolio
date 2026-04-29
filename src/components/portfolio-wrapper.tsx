@@ -1,15 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { type ReactNode } from "react";
 
-import { ViewMode, ViewSwitch } from "@/components/view-switch";
+import { ViewMode } from "@/components/view-switch";
 import { SimpleView } from "@/components/simplified-view";
 import { JsonDisplay } from "@/components/json-display";
 import { type ResumeData } from "@/lib/data";
 import { ViewControlsOverlay } from "@/components/view-controls-overlay";
 import { AnimatedView } from "@/components/animated-view";
-import { ThemeToggle } from "@/components/theme-toggle";
+import { trackEvent } from "@/lib/utils";
+
+const DEFAULT_VIEW: ViewMode = "detailed";
 
 interface PortfolioWrapperProps {
   data: ResumeData;
@@ -24,55 +26,25 @@ export function PortfolioWrapper({
   data,
   detailedView,
 }: PortfolioWrapperProps) {
-  // State to track the current view mode
-  const [viewMode, setViewMode] = useState<ViewMode>("initial");
-  // State to handle smooth transitions
+  const [viewMode, setViewMode] = useState<ViewMode>(DEFAULT_VIEW);
   const [isTransitioning, setIsTransitioning] = useState(false);
 
-  // Function to handle view mode change with smooth animation
+  useEffect(() => {
+    trackEvent("view_landing", { view: DEFAULT_VIEW });
+  }, []);
+
   const handleViewModeChange = (mode: ViewMode) => {
-    // If same mode is selected, do nothing
     if (mode === viewMode) return;
 
-    // Start smooth transition
+    trackEvent("view_select", { from: viewMode, to: mode });
+
     setIsTransitioning(true);
 
-    // Quick transition - change content after fade out
     setTimeout(() => {
       setViewMode(mode);
       setIsTransitioning(false);
-    }, 200); // Smooth transition matching CSS timing
+    }, 200);
   };
-
-  // Initial view - just the switch button centered
-  if (viewMode === "initial") {
-    return (
-      <div className="relative min-h-screen overflow-hidden bg-background">
-        <div className="fixed right-3 top-[max(0.75rem,env(safe-area-inset-top))] z-20 sm:right-6 sm:top-[max(2rem,env(safe-area-inset-top))]">
-          <ThemeToggle />
-        </div>
-
-        {/* Content overlay */}
-        <div className="absolute inset-0 z-10 flex min-h-screen flex-col items-center justify-center px-4 py-8">
-          <div className="flex max-w-xl flex-col items-center space-y-5 text-center sm:space-y-6">
-            <h1 className="text-2xl font-semibold text-foreground sm:text-4xl">
-              Select your mode
-            </h1>
-            <p className="mx-auto max-w-[26ch] text-center text-sm text-[hsl(var(--foreground)/0.75)] sm:text-base">
-              Choose a view mode to continue
-            </p>
-            <div className="flex justify-center">
-              <ViewSwitch
-                currentView="simple"
-                onChange={handleViewModeChange}
-                size="default"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
 
   const renderWithAnimation = (
     content: ReactNode,

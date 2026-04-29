@@ -5,7 +5,7 @@ import * as React from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
-export type ViewMode = "initial" | "simple" | "detailed" | "developer";
+export type ViewMode = "simple" | "detailed" | "developer";
 
 const VIEW_OPTIONS: Array<{ label: string; value: ViewMode }> = [
   { label: "Quick", value: "simple" },
