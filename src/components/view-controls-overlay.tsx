@@ -44,7 +44,10 @@ function ModePickerButton({ viewMode, onChange }: ModePickerButtonProps) {
           <LayoutGridIcon className="h-4 w-4" />
         </Button>
       </DialogTrigger>
-      <DialogContent className="surface-panel max-w-[20rem] sm:max-w-sm">
+      <DialogContent
+        className="surface-panel max-w-[20rem] sm:max-w-sm"
+        overlayClassName="bg-background/95 backdrop-blur-sm"
+      >
         <DialogHeader>
           <DialogTitle className="text-center text-2xl font-semibold">
             Select Mode
