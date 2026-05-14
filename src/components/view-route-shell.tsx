@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, type ReactNode } from "react";
+import { useEffect, useTransition, type ReactNode } from "react";
 import { usePathname, useRouter } from "next/navigation";
 
 import { AnimatedView } from "@/components/animated-view";
@@ -33,25 +33,31 @@ export function ViewRouteShell({
   const pathname = usePathname();
   const viewMode = PATH_TO_VIEW[pathname] ?? "detailed";
 
-  const [isTransitioning, setIsTransitioning] = useState(false);
+  const [isPending, startTransition] = useTransition();
 
   useEffect(() => {
     trackEvent("view_landing", { view: viewMode });
   }, [viewMode]);
+
+  // Warm the router cache for the other view routes so switching is instant.
+  useEffect(() => {
+    Object.values(VIEW_TO_PATH).forEach((path) => {
+      if (path !== pathname) router.prefetch(path);
+    });
+  }, [router, pathname]);
 
   const handleViewModeChange = (mode: ViewMode) => {
     if (mode === viewMode) return;
 
     trackEvent("view_select", { from: viewMode, to: mode });
 
-    setIsTransitioning(true);
-    setTimeout(() => {
+    startTransition(() => {
       router.push(VIEW_TO_PATH[mode]);
-    }, 200);
+    });
   };
 
   return (
-    <AnimatedView isTransitioning={isTransitioning}>
+    <AnimatedView isTransitioning={isPending}>
       {children}
       <ViewControlsOverlay
         viewMode={viewMode}
