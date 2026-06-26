@@ -6,6 +6,7 @@ import {
   TelegramIcon,
   FacebookIcon,
   YoutubeIcon,
+  WhatsAppIcon,
 } from "@/components/icons";
 import { type ResumeData } from "@/lib/data";
 
@@ -13,6 +14,7 @@ import { type ResumeData } from "@/lib/data";
  * Map of social platform names to their icon components
  */
 const iconMap = {
+  WhatsApp: WhatsAppIcon,
   Telegram: TelegramIcon,
   LinkedIn: LinkedInIcon,
   X: XIcon,

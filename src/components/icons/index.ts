@@ -6,6 +6,7 @@ import { TelegramIcon } from "./TelegramIcon";
 import { InstagramIcon } from "./InstagramIcon";
 import { FacebookIcon } from "./FacebookIcon";
 import { YoutubeIcon } from "./YoutubeIcon";
+import { WhatsAppIcon } from "./WhatsAppIcon";
 import ArrowIcon from "./ArrowIcon";
 
 export {
@@ -17,5 +18,6 @@ export {
   TelegramIcon,
   InstagramIcon,
   FacebookIcon,
+  WhatsAppIcon,
   ArrowIcon,
 };
