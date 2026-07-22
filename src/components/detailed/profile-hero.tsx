@@ -1,10 +1,8 @@
 "use client";
 
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-} from "@/components/ui/avatar";
+import Image from "next/image";
+
+import avatarImage from "@/assets/avatar.jpg";
 import { ContactActions } from "@/components/contact-actions";
 import { type ResumeDataWithIcons } from "@/lib/icons-mapper";
 import { GlobeIcon } from "lucide-react";
@@ -49,10 +47,14 @@ export function ProfileHero({ data }: ProfileHeroProps) {
         </div>
       </div>
 
-      <Avatar className="h-24 w-24 flex-shrink-0 rounded-2xl border border-border sm:h-28 sm:w-28 md:h-32 md:w-32">
-        <AvatarImage alt={data.name} src={data.avatarUrl} className="rounded-xl" />
-        <AvatarFallback>{data.initials}</AvatarFallback>
-      </Avatar>
+      <Image
+        alt={data.name}
+        src={avatarImage}
+        priority
+        sizes="(min-width: 768px) 128px, (min-width: 640px) 112px, 96px"
+        className="h-24 w-24 flex-shrink-0 rounded-2xl border border-border object-cover sm:h-28 sm:w-28 md:h-32 md:w-32"
+      />
+
     </div>
   );
 }

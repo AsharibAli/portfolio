@@ -258,6 +258,25 @@
   animation: fadeInUp var(--duration-slow) var(--ease-out-quart) forwards;
 }
 
+/* Transform-only entrance for LCP candidates: the element must stay
+   painted from the first frame, so opacity never drops below 1. */
+@keyframes riseIn {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-rise-in {
+  animation: riseIn var(--duration-slow) var(--ease-out-quart);
+}
+
+.animate-rise-in-delayed {
+  animation: riseIn var(--duration-slow) var(--ease-out-quart) 0.2s;
+}
+
 .animate-fade-in-delayed {
   opacity: 0;
   animation: fadeInUp var(--duration-slow) var(--ease-out-quart) forwards;

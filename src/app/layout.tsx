@@ -5,6 +5,8 @@ import "./globals.css";
 import React from "react";
 import Script from "next/script";
 
+const SITE_URL = "https://www.asharib.xyz";
+
 export const metadata: Metadata = {
   title: {
     default: "Asharib Ali | AI & Cloud-Native Developer, Tech Educator",
@@ -17,13 +19,13 @@ export const metadata: Metadata = {
     title: "Asharib Ali | AI & Cloud-Native Developer, Tech Educator",
     description:
       "I build AI and cloud-native systems, then turn that experience into practical teaching. I currently teach 1,500+ on-site students in Cloud Native and Agentic AI, support a 30k+ tech community at GIAIC, and serve as Founder & CTO at EduHub and Co-Founder & CTO at Safock.",
-    url: "https://asharib.xyz",
+    url: SITE_URL,
     siteName: "Asharib Ali Portfolio",
     images: [
       {
         url: "/og.png",
-        width: 1200,
-        height: 630,
+        width: 1500,
+        height: 500,
         alt: "Asharib Ali - AI & Cloud-Native Developer, Tech Educator",
         type: "image/png",
       },
@@ -43,25 +45,15 @@ export const metadata: Metadata = {
     site: "@0xAsharib",
   },
 
-  metadataBase: new URL("https://asharib.xyz"),
+  metadataBase: new URL(SITE_URL),
   alternates: {
-    canonical: "https://asharib.xyz",
+    canonical: "/",
     types: {
       "application/json": "/api/profile",
     },
   },
 
   manifest: "/manifest.json",
-
-  icons: {
-    icon: "/og.png",
-    shortcut: "/og.png",
-    apple: "/og.png",
-    other: {
-      rel: "apple-touch-icon-precomposed",
-      url: "/og.png",
-    },
-  },
 
   keywords: [
     "Asharib Ali",
@@ -89,7 +81,7 @@ export const metadata: Metadata = {
     "PIAIC",
     "Panaverse",
   ],
-  authors: [{ name: "Asharib Ali", url: "https://asharib.xyz" }],
+  authors: [{ name: "Asharib Ali", url: SITE_URL }],
   creator: "Asharib Ali",
   publisher: "Asharib Ali",
   category: "Technology",
@@ -121,11 +113,8 @@ export const metadata: Metadata = {
     "apple-mobile-web-app-status-bar-style": "black-translucent",
     "apple-mobile-web-app-title": "Asharib Ali",
 
-    "msapplication-TileColor": "#000000",
-    "msapplication-TileImage": "/og.png",
-
-    "theme-color": "#000000",
-    "msapplication-navbutton-color": "#000000",
+    "msapplication-TileColor": "#171311",
+    "msapplication-navbutton-color": "#171311",
 
     "mobile-web-app-capable": "yes",
     "application-name": "Asharib Ali - AI & Cloud-Native Developer, Tech Educator",
@@ -143,7 +132,9 @@ export const viewport: Viewport = {
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  display: "swap",
+  // "optional" prevents the late font swap from re-triggering LCP on slow
+  // connections; the metric-matched fallback keeps CLS at 0 either way.
+  display: "optional",
   variable: "--font-sans",
 });
 
@@ -162,7 +153,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Asharib Ali",
-    url: "https://asharib.xyz",
+    url: SITE_URL,
     image: "https://avatars.githubusercontent.com/u/102221198?v=4",
     sameAs: [
       "https://github.com/AsharibAli",
@@ -172,19 +163,21 @@ export default function RootLayout({
       "https://www.youtube.com/@0xAsharib",
     ],
     jobTitle: "Founder & CTO at EduHub, Co-Founder & CTO at Safock",
-    worksFor: {
-      "@type": "Company",
-      name: "EduHub",
-      url: "https://eduhub.dev/",
-    },
-    worksFor2: {
-      "@type": "Company",
-      name: "Safock",
-      url: "https://safock.com/",
-    },
+    worksFor: [
+      {
+        "@type": "Organization",
+        name: "EduHub",
+        url: "https://eduhub.dev/",
+      },
+      {
+        "@type": "Organization",
+        name: "Safock",
+        url: "https://safock.com/",
+      },
+    ],
     alumniOf: [
       {
-        "@type": "Educational Organization",
+        "@type": "EducationalOrganization",
         name: "PIAIC",
       },
     ],
@@ -217,36 +210,37 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        <Script id="theme-init" strategy="beforeInteractive">
-          {`(() => {
-            const savedTheme = localStorage.getItem("theme-preference");
-            const nextTheme = savedTheme === "light" || savedTheme === "dark"
-              ? savedTheme
-              : "dark";
-            document.documentElement.setAttribute("data-theme", nextTheme);
-          })();`}
-        </Script>
-        <Script
-          id="json-ld"
+        {/* Runs before first paint so the saved theme applies without a flash.
+            Must stay a plain inline <script>: next/script does not emit
+            beforeInteractive inline scripts into the static HTML. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(() => {
+  try {
+    const savedTheme = localStorage.getItem("theme-preference");
+    const nextTheme = savedTheme === "light" || savedTheme === "dark" ? savedTheme : "dark";
+    document.documentElement.setAttribute("data-theme", nextTheme);
+  } catch (e) {}
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function gtag() { window.dataLayer.push(arguments); };
+  window.gtag("js", new Date());
+  window.gtag("config", "G-8CXGRC7T09");
+})();`,
+          }}
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-          strategy="beforeInteractive"
         />
       </head>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-8CXGRC7T09"
-      ></Script>
-      <Script id="google-analytics">
-        {`
-   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8CXGRC7T09');
-  `}
-      </Script>
-      <body className="min-h-screen antialiased">{children}</body>
+      <body className="min-h-screen antialiased">
+        {children}
+        {/* gtag commands queue in dataLayer (stub above) until this loads. */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-8CXGRC7T09"
+          strategy="lazyOnload"
+        />
+      </body>
     </html>
   );
 }

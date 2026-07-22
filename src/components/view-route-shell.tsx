@@ -40,10 +40,21 @@ export function ViewRouteShell({
   }, [viewMode]);
 
   // Warm the router cache for the other view routes so switching is instant.
+  // Deferred to idle time so the prefetches never compete with the
+  // initial-load network window.
   useEffect(() => {
-    Object.values(VIEW_TO_PATH).forEach((path) => {
-      if (path !== pathname) router.prefetch(path);
-    });
+    const prefetchAll = () => {
+      Object.values(VIEW_TO_PATH).forEach((path) => {
+        if (path !== pathname) router.prefetch(path);
+      });
+    };
+
+    if (typeof window.requestIdleCallback === "function") {
+      const id = window.requestIdleCallback(prefetchAll, { timeout: 5000 });
+      return () => window.cancelIdleCallback(id);
+    }
+    const id = window.setTimeout(prefetchAll, 2500);
+    return () => window.clearTimeout(id);
   }, [router, pathname]);
 
   const handleViewModeChange = (mode: ViewMode) => {

@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint src --ext .ts,.tsx"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.4",
@@ -32,7 +32,7 @@
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
     "autoprefixer": "^10.0.1",
-    "eslint": "^8",
+    "eslint": "^9.39.5",
     "eslint-config-next": "16.0.0",
     "postcss": "^8",
     "prettier": "^3.1.1",

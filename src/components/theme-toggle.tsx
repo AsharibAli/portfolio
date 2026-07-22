@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useSyncExternalStore } from "react";
 import { MoonStarIcon, SunMediumIcon } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -10,9 +10,32 @@ type Theme = "light" | "dark";
 
 const THEME_STORAGE_KEY = "theme-preference";
 
+// The inline script in the root layout sets data-theme before first paint,
+// so the attribute is the single source of truth for the current theme.
+function subscribeToTheme(onChange: () => void) {
+  const observer = new MutationObserver(onChange);
+  observer.observe(document.documentElement, {
+    attributeFilter: ["data-theme"],
+  });
+  return () => observer.disconnect();
+}
+
+function readTheme(): Theme {
+  return document.documentElement.getAttribute("data-theme") === "light"
+    ? "light"
+    : "dark";
+}
+
+function readServerTheme(): Theme {
+  return "dark";
+}
+
 export function ThemeToggle({ className }: { className?: string }) {
-  const [theme, setTheme] = useState<Theme>("dark");
-  const [mounted, setMounted] = useState(false);
+  const theme = useSyncExternalStore(
+    subscribeToTheme,
+    readTheme,
+    readServerTheme,
+  );
 
   const icon = useMemo(() => {
     if (theme === "dark") {
@@ -21,21 +44,14 @@ export function ThemeToggle({ className }: { className?: string }) {
     return <MoonStarIcon className="h-4 w-4" />;
   }, [theme]);
 
-  useEffect(() => {
-    const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
-    const currentTheme: Theme =
-      savedTheme === "light" || savedTheme === "dark" ? savedTheme : "dark";
-    document.documentElement.setAttribute("data-theme", currentTheme);
-    setTheme(currentTheme);
-    setMounted(true);
-  }, []);
-
   const handleToggle = () => {
     const nextTheme: Theme = theme === "dark" ? "light" : "dark";
-    setTheme(nextTheme);
     document.documentElement.setAttribute("data-theme", nextTheme);
     localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
   };
+
+  const label =
+    theme === "dark" ? "Switch to light theme" : "Switch to dark theme";
 
   return (
     <Button
@@ -44,16 +60,8 @@ export function ThemeToggle({ className }: { className?: string }) {
       size="icon"
       onClick={handleToggle}
       className={cn("h-11 w-11 rounded-full sm:h-9 sm:w-9", className)}
-      aria-label={
-        mounted
-          ? theme === "dark"
-            ? "Switch to light theme"
-            : "Switch to dark theme"
-          : "Toggle theme"
-      }
-      title={
-        mounted ? (theme === "dark" ? "Switch to light theme" : "Switch to dark theme") : undefined
-      }
+      aria-label={label}
+      title={label}
     >
       {icon}
     </Button>

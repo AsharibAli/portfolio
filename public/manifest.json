@@ -1,18 +1,24 @@
 {
-  "name": "Asharib Ali - AI & Blockchain Developer Portfolio",
+  "name": "Asharib Ali - AI & Cloud-Native Developer, Tech Educator",
   "short_name": "Asharib Ali",
-  "description": "CTO at EduHub, AI & Blockchain Developer, and Lead Teacher at GIAIC. Teaching 1,500+ students Cloud Native & Agentic AI.",
+  "description": "I build AI and cloud-native systems, then turn that experience into practical teaching. Founder & CTO at EduHub, Co-Founder & CTO at Safock, teaching 1,500+ students Cloud Native & Agentic AI at GIAIC.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "background_color": "#171311",
+  "theme_color": "#171311",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/og.png",
-      "sizes": "1200x630",
+      "src": "/icon-192.png",
+      "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "categories": ["technology", "education", "portfolio"],
@@ -27,19 +33,19 @@
       "url": "/",
       "icons": [
         {
-          "src": "/og.png",
+          "src": "/icon-192.png",
           "sizes": "192x192"
         }
       ]
     },
     {
-      "name": "Get Profile Data",
-      "short_name": "API",
-      "description": "Access portfolio data via API",
-      "url": "/api/profile",
+      "name": "Quick View",
+      "short_name": "Quick",
+      "description": "A quick, scannable overview",
+      "url": "/quick",
       "icons": [
         {
-          "src": "/og.png",
+          "src": "/icon-192.png",
           "sizes": "192x192"
         }
       ]

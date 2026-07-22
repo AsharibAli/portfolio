@@ -59,14 +59,14 @@ export function WorkExperienceSection({ work }: WorkExperienceSectionProps) {
                       {point.text}
 
                       {"links" in point && point.links && point.links.length > 0 ? (
-                        <span className="inline-flex items-center gap-0 whitespace-nowrap align-middle [&>a+a]:-ml-0.5 sm:ml-0.5 sm:[&>a+a]:-ml-0.5">
+                        <span className="inline-flex items-center gap-0.5 whitespace-nowrap align-middle sm:ml-0.5">
                           {point.links.map((link, linkIndex) => (
                             <a
                               key={`${point.text}-${linkIndex}`}
                               href={link.url}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="inline-flex h-5 w-5 items-center justify-center rounded-full text-muted-foreground transition-colors duration-200 hover:bg-accent/50 hover:text-foreground sm:h-7 sm:w-7"
+                              className="inline-flex h-6 w-6 items-center justify-center rounded-full text-muted-foreground transition-colors duration-200 hover:bg-accent/50 hover:text-foreground sm:h-7 sm:w-7"
                               title={link.name}
                             >
                               <ExternalLinkIcon className="h-3 w-3" />

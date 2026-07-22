@@ -5,6 +5,7 @@ import {
   MediumIcon,
   TelegramIcon,
   FacebookIcon,
+  InstagramIcon,
   YoutubeIcon,
   WhatsAppIcon,
 } from "@/components/icons";
@@ -22,6 +23,7 @@ const iconMap = {
   GitHub: GitHubIcon,
   Youtube: YoutubeIcon,
   Facebook: FacebookIcon,
+  Instagram: InstagramIcon,
 } as const;
 
 /**

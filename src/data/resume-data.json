@@ -41,6 +41,10 @@
       {
         "name": "Facebook",
         "url": "https://www.facebook.com/0xAsharib"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/0xasharib/"
       }
     ]
   },
@@ -160,7 +164,7 @@
       "reference": [
         {
           "name": "👉 Reference",
-          "url": "http://masa.ai/"
+          "url": "https://masa.ai/"
         }
       ]
     },

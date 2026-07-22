@@ -16,11 +16,11 @@ export function SimpleView({ data: rawData }: SimpleViewProps) {
   return (
     <div className="flex min-h-[100dvh] flex-col items-center justify-center bg-background px-4 pb-[calc(8rem+env(safe-area-inset-bottom))] pt-[max(1.25rem,env(safe-area-inset-top))] sm:px-6 sm:pb-16 sm:pt-8">
       <div className="card surface-panel w-full max-w-lg p-5 text-center sm:p-10">
-        <h1 className="animate-fade-in mb-3 break-words text-3xl font-semibold text-foreground sm:mb-4 sm:text-5xl">
+        <h1 className="animate-rise-in mb-3 break-words text-3xl font-semibold text-foreground sm:mb-4 sm:text-5xl">
           {data.name}
         </h1>
 
-        <p className="animate-fade-in-delayed mx-auto mb-5 break-words text-sm text-muted-foreground sm:mb-6 sm:text-lg">
+        <p className="animate-rise-in-delayed mx-auto mb-5 break-words text-sm text-muted-foreground sm:mb-6 sm:text-lg">
           {data.about}
         </p>
 

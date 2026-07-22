@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { CopyIcon, CheckIcon, DownloadIcon, ExternalLinkIcon } from "lucide-react";
@@ -13,14 +13,9 @@ interface JsonDisplayProps {
 export function JsonDisplay({ data, title = "API Data" }: JsonDisplayProps) {
   // State to track copy status
   const [copied, setCopied] = useState(false);
-  // State to store formatted JSON string
-  const [jsonString, setJsonString] = useState("");
-
-  // Format JSON data on component mount
-  useEffect(() => {
-    const formatted = JSON.stringify(data, null, 2);
-    setJsonString(formatted);
-  }, [data]);
+  // Computed during render so the JSON is part of the server HTML
+  // instead of popping in after hydration.
+  const jsonString = useMemo(() => JSON.stringify(data, null, 2), [data]);
 
   // Function to copy JSON to clipboard
   const copyToClipboard = async () => {
