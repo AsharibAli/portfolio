@@ -62,7 +62,7 @@
       "end": "2026"
     },
     {
-      "school": "Goverment Boys Degree College",
+      "school": "Government Boys Degree College",
       "degree": "Intermediate in Medical Science",
       "start": "2020",
       "end": "2022"
@@ -689,7 +689,7 @@
     },
     {
       "title": "Ramadan Prompting Nights",
-      "techStack": ["GIAIC", "Prompting Engineering", "LLM"],
+      "techStack": ["GIAIC", "Prompt Engineering", "LLM"],
       "description": "A scenario-based prompting competition exclusively for GIAIC students.",
       "link": {
         "label": "github.com",
@@ -779,7 +779,7 @@
     },
     {
       "title": "100 Days of Prompting",
-      "techStack": ["Prompting Engineering", "AI", "LLM"],
+      "techStack": ["Prompt Engineering", "AI", "LLM"],
       "description": "Daily practice in PE techniques to master AI interactions and build effective prompts for various use cases.",
       "link": {
         "label": "github.com",
@@ -848,7 +848,7 @@
         "React",
         "Next.js",
         "Solidity",
-        "Harhat"
+        "Hardhat"
       ],
       "description": "A Web3 platform implementing Talk-2-Earn and Engage-2-Earn concepts for decentralized social interaction.",
       "link": {

@@ -4,4 +4,5 @@
 
 ## Live Profile Data
 
-- [Complete Profile API (JSON)](https://asharib.xyz/api/profile): Real-time comprehensive data including contact information, education, achievements, work experience, skills, projects, key highlights, and general information about me.
+- [Complete Profile (Markdown)](https://asharib.xyz/api/profile.md): LLM-friendly Markdown version of my complete profile — contact information, education, achievements, work experience, skills, projects, and key highlights. Prefer this endpoint.
+- [Complete Profile API (JSON)](https://asharib.xyz/api/profile): The same comprehensive data in structured JSON format.
